@@ -1,0 +1,1240 @@
+Match_ID,Batting_Team,Opposition,Inn_Num,Final_Del,Final_Total,Half_Total,Half_Del,Half_Ball,Full_50?,Season,Date,Venue
+226391,Sri Lanka,New Zealand,1,49.6,255,128,26.4,160,Y,2005-2006,2006-01-03,Jade Stadium
+226392,New Zealand,Sri Lanka,1,49.6,224,112,22.1,133,Y,2005-2006,2006-01-06,Westpac Stadium
+226375,Australia,South Africa,1,49.6,228,114,29.4,178,Y,2005-2006,2006-01-15,"Brisbane Cricket Ground, Woolloongabba"
+226383,Sri Lanka,South Africa,1,49.6,282,141,22.2,134,Y,2005-2006,2006-01-17,"Brisbane Cricket Ground, Woolloongabba"
+226380,Sri Lanka,Australia,1,49.6,309,155,24.5,149,Y,2005-2006,2006-01-22,Sydney Cricket Ground
+226380,Australia,Sri Lanka,2,49.6,258,129,29.1,175,Y,2005-2006,2006-01-22,Sydney Cricket Ground
+226384,South Africa,Sri Lanka,1,49.6,263,132,35.3,213,Y,2005-2006,2006-01-24,Adelaide Oval
+226384,Sri Lanka,South Africa,2,49.6,254,127,28.4,172,Y,2005-2006,2006-01-24,Adelaide Oval
+226381,Sri Lanka,Australia,1,49.6,218,109,27.5,167,Y,2005-2006,2006-01-26,Adelaide Oval
+226382,Sri Lanka,Australia,1,49.6,233,117,30.3,183,Y,2005-2006,2006-01-29,Western Australia Cricket Association Ground
+226377,Australia,South Africa,1,49.6,281,141,29.3,177,Y,2005-2006,2006-02-03,Docklands Stadium
+226377,South Africa,Australia,2,49.6,201,101,26.6,162,Y,2005-2006,2006-02-03,Docklands Stadium
+226378,Australia,South Africa,1,49.6,344,172,22.2,134,Y,2005-2006,2006-02-05,Sydney Cricket Ground
+226378,South Africa,Australia,2,49.6,287,144,26.6,162,Y,2005-2006,2006-02-05,Sydney Cricket Ground
+226386,Sri Lanka,South Africa,1,49.6,257,129,27.5,167,Y,2005-2006,2006-02-07,Bellerive Oval
+236358,Sri Lanka,Australia,1,49.7,274,137,31.3,189,Y,2005-2006,2006-02-10,Adelaide Oval
+236595,Australia,Sri Lanka,1,49.6,368,184,31.5,191,Y,2005-2006,2006-02-12,Sydney Cricket Ground
+236809,Pakistan,India,1,49.7,288,144,30.1,181,Y,2005-2006,2006-02-13,Gaddafi Stadium
+236963,Sri Lanka,Australia,1,49.6,266,133,29.5,179,Y,2005-2006,2006-02-14,"Brisbane Cricket Ground, Woolloongabba"
+237568,New Zealand,West Indies,1,49.6,288,144,26.5,161,Y,2005-2006,2006-02-18,Westpac Stadium
+237571,Pakistan,India,1,49.6,286,143,28.5,173,Y,2005-2006,2006-02-19,National Stadium
+238176,West Indies,New Zealand,1,49.6,200,100,32.6,198,Y,2005-2006,2006-02-22,Queenstown Events Centre
+238170,Sri Lanka,Bangladesh,1,49.6,309,155,34.2,206,Y,2005-2006,2006-02-25,Chittagong Divisional Stadium
+238170,Bangladesh,Sri Lanka,2,49.6,231,116,27.4,166,Y,2005-2006,2006-02-25,Chittagong Divisional Stadium
+238177,New Zealand,West Indies,1,49.6,276,138,32.2,194,Y,2005-2006,2006-02-25,Jade Stadium
+238178,New Zealand,West Indies,1,49.6,324,162,29.1,175,Y,2005-2006,2006-03-01,McLean Park
+238178,West Indies,New Zealand,2,49.6,233,117,26.2,158,Y,2005-2006,2006-03-01,McLean Park
+238197,South Africa,Australia,1,49.7,289,145,30.6,186,Y,2005-2006,2006-03-03,Newlands
+238198,Australia,South Africa,1,49.7,254,127,31.4,190,Y,2005-2006,2006-03-05,St George's Park
+238199,South Africa,Australia,1,49.6,246,123,28.4,172,Y,2005-2006,2006-03-10,Kingsmead
+238200,Australia,South Africa,1,49.8,434,217,30.4,184,Y,2005-2006,2006-03-12,New Wanderers Stadium
+238213,Pakistan,Sri Lanka,1,49.6,201,101,29.6,180,Y,2005-2006,2006-03-17,R Premadasa Stadium
+238190,India,England,1,49.6,294,147,29.4,178,Y,2005-2006,2006-04-03,"Nehru Stadium, Fatorda"
+238194,England,India,1,49.6,288,144,24.5,149,Y,2005-2006,2006-04-15,Maharani Usharaje Trust Cricket Ground
+244510,India,Pakistan,1,49.6,197,99,28.4,172,Y,2005-2006,2006-04-18,Sheikh Zayed Stadium
+244511,India,Pakistan,1,49.6,269,135,24.6,150,Y,2005-2006,2006-04-19,Sheikh Zayed Stadium
+238174,Australia,Bangladesh,1,49.6,250,125,30.5,185,Y,2005-2006,2006-04-26,Narayanganj Osmani Stadium
+239907,Zimbabwe,West Indies,1,49.6,151,76,28.6,174,Y,2006,2006-04-29,"Antigua Recreation Ground, St John's"
+239908,West Indies,Zimbabwe,1,49.6,242,121,30.4,184,Y,2006,2006-04-30,"Antigua Recreation Ground, St John's"
+239912,West Indies,Zimbabwe,1,49.6,263,132,26.4,160,Y,2006,2006-05-13,"Queen's Park Oval, Port of Spain"
+239913,West Indies,Zimbabwe,1,49.6,266,133,32.1,193,Y,2006,2006-05-14,"Queen's Park Oval, Port of Spain"
+239916,West Indies,India,1,49.6,198,99,33.3,201,Y,2006,2006-05-20,"Sabina Park, Kingston"
+239917,India,West Indies,1,49.6,245,123,20.6,126,Y,2006,2006-05-23,"Warner Park, Basseterre"
+239918,India,West Indies,1,49.6,217,109,26.5,161,Y,2006,2006-05-26,"Queen's Park Oval, Port of Spain"
+239919,West Indies,India,1,49.6,255,128,31.5,191,Y,2006,2006-05-28,"Queen's Park Oval, Port of Spain"
+225171,England,Ireland,1,49.7,301,151,26.4,160,Y,2006,2006-06-13,"Civil Service Cricket Club, Stormont"
+225171,Ireland,England,2,49.6,263,132,27.8,170,Y,2006,2006-06-13,"Civil Service Cricket Club, Stormont"
+225250,Sri Lanka,England,1,49.8,257,129,22.2,134,Y,2006,2006-06-17,Lord's
+225250,England,Sri Lanka,2,49.7,237,119,28.4,172,Y,2006,2006-06-17,Lord's
+225251,Sri Lanka,England,1,49.8,319,160,25.7,157,Y,2006,2006-06-20,Kennington Oval
+225252,England,Sri Lanka,1,49.6,261,131,30.5,185,Y,2006,2006-06-24,Riverside Ground
+225253,Sri Lanka,England,1,49.7,318,159,24.3,147,Y,2006,2006-06-28,Old Trafford
+225254,England,Sri Lanka,1,49.6,321,161,28.4,172,Y,2006,2006-07-01,Headingley
+225247,England,Pakistan,1,49.6,271,136,27.2,164,Y,2006,2006-09-05,The Rose Bowl
+225248,Pakistan,England,1,49.6,235,118,31.2,188,Y,2006,2006-09-08,Trent Bridge
+225249,Pakistan,England,1,49.6,154,77,25.5,155,Y,2006,2006-09-10,Edgbaston
+256607,India,West Indies,1,49.6,309,155,27.1,163,Y,2006-2007,2006-09-14,Kinrara Academy Oval
+255961,Zimbabwe,South Africa,1,49.6,201,101,25.3,153,Y,2006-2007,2006-09-15,Goodyear Park
+256610,Australia,West Indies,1,49.6,272,136,32.1,193,Y,2006-2007,2006-09-18,Kinrara Academy Oval
+257470,South Africa,Zimbabwe,1,49.6,418,209,29.2,176,Y,2006-2007,2006-09-20,Sedgars Park
+257470,Zimbabwe,South Africa,2,49.6,247,124,31.3,189,Y,2006-2007,2006-09-20,Sedgars Park
+256615,Australia,West Indies,1,49.6,240,120,34.3,207,Y,2006-2007,2006-09-24,Kinrara Academy Oval
+249739,Sri Lanka,Bangladesh,1,49.6,302,151,27.2,164,Y,2006-2007,2006-10-07,"Punjab Cricket Association Stadium, Mohali"
+249739,Bangladesh,Sri Lanka,2,49.6,265,133,26.4,160,Y,2006-2007,2006-10-07,"Punjab Cricket Association Stadium, Mohali"
+249741,Sri Lanka,Zimbabwe,1,49.6,285,143,30.3,183,Y,2006-2007,2006-10-10,"Sardar Patel Stadium, Motera"
+249743,Bangladesh,Zimbabwe,1,49.6,231,116,31.6,192,Y,2006-2007,2006-10-13,Sawai Mansingh Stadium
+249748,West Indies,Australia,1,49.6,234,117,30.4,184,Y,2006-2007,2006-10-18,Brabourne Stadium
+249748,Australia,West Indies,2,49.6,224,112,27.2,164,Y,2006-2007,2006-10-18,Brabourne Stadium
+249751,South Africa,Sri Lanka,1,49.6,219,110,31.1,187,Y,2006-2007,2006-10-24,"Sardar Patel Stadium, Motera"
+249752,New Zealand,Pakistan,1,49.6,274,137,33.3,201,Y,2006-2007,2006-10-25,"Punjab Cricket Association Stadium, Mohali"
+249753,India,West Indies,1,49.6,223,112,26.5,161,Y,2006-2007,2006-10-26,"Sardar Patel Stadium, Motera"
+249754,South Africa,Pakistan,1,49.7,213,107,29.6,180,Y,2006-2007,2006-10-27,"Punjab Cricket Association Stadium, Mohali"
+249755,West Indies,England,1,49.6,272,136,28.3,171,Y,2006-2007,2006-10-28,"Sardar Patel Stadium, Motera"
+249756,India,Australia,1,49.6,249,125,27.2,164,Y,2006-2007,2006-10-29,"Punjab Cricket Association Stadium, Mohali"
+249757,Australia,New Zealand,1,49.6,240,120,28.5,173,Y,2006-2007,2006-11-01,"Punjab Cricket Association Stadium, Mohali"
+249758,South Africa,West Indies,1,49.7,258,129,30.3,183,Y,2006-2007,2006-11-02,Sawai Mansingh Stadium
+249211,South Africa,India,1,49.6,248,124,29.2,176,Y,2006-2007,2006-11-22,Kingsmead
+249212,South Africa,India,1,49.6,274,137,36.3,219,Y,2006-2007,2006-11-26,Newlands
+259384,Bermuda,Canada,1,49.6,235,118,27.2,164,Y,2006-2007,2006-11-27,Sedgars Park
+249213,South Africa,India,1,49.6,243,122,26.6,162,Y,2006-2007,2006-11-29,St George's Park
+259390,Bermuda,Canada,1,49.6,178,89,28.2,170,Y,2006-2007,2006-11-30,Willowmoore Park
+259391,Canada,Netherlands,1,49.6,223,112,32.3,195,Y,2006-2007,2006-12-01,Willowmoore Park
+249214,India,South Africa,1,49.6,200,100,29.6,180,Y,2006-2007,2006-12-03,SuperSport Park
+264068,Zimbabwe,Bangladesh,1,49.6,217,109,28.6,174,Y,2006-2007,2006-12-03,Shaheed Chandu Stadium
+264071,Zimbabwe,Bangladesh,1,49.6,193,97,26.3,159,Y,2006-2007,2006-12-09,Shere Bangla National Stadium
+257772,West Indies,Pakistan,1,49.7,238,119,29.4,178,Y,2006-2007,2006-12-16,National Stadium
+251489,New Zealand,Sri Lanka,1,49.6,285,143,24.4,148,Y,2006-2007,2006-12-28,McLean Park
+251492,Sri Lanka,New Zealand,1,49.6,262,131,27.1,163,Y,2006-2007,2007-01-06,Eden Park
+249232,England,Australia,1,49.6,242,121,29.2,176,Y,2006-2007,2007-01-12,Melbourne Cricket Ground
+249228,Australia,New Zealand,1,49.7,289,145,27.2,164,Y,2006-2007,2007-01-14,Bellerive Oval
+249236,New Zealand,England,1,49.6,205,103,25.5,155,Y,2006-2007,2007-01-16,Bellerive Oval
+249237,New Zealand,England,1,49.7,210,105,33.3,201,Y,2006-2007,2007-01-23,Adelaide Oval
+249230,Australia,New Zealand,1,49.6,343,172,32.3,195,Y,2006-2007,2007-01-28,Western Australia Cricket Association Ground
+249230,New Zealand,Australia,2,49.6,335,168,30.5,185,Y,2006-2007,2007-01-28,Western Australia Cricket Association Ground
+249238,New Zealand,England,1,49.7,318,159,28.6,174,Y,2006-2007,2007-01-30,Western Australia Cricket Association Ground
+249238,England,New Zealand,2,49.7,260,130,26.2,158,Y,2006-2007,2007-01-30,Western Australia Cricket Association Ground
+267709,India,West Indies,1,49.7,341,171,30.4,184,Y,2006-2007,2007-01-31,Indian Petrochemicals Corporation Limited Sports Complex Ground
+249235,England,Australia,1,49.6,292,146,29.1,175,Y,2006-2007,2007-02-02,Sydney Cricket Ground
+249231,New Zealand,Australia,1,49.7,290,145,28.1,169,Y,2006-2007,2007-02-04,Melbourne Cricket Ground
+250668,South Africa,Pakistan,1,49.8,392,196,30.3,183,Y,2006-2007,2007-02-04,SuperSport Park
+267389,Scotland,Kenya,1,49.7,254,127,27.3,165,Y,2006-2007,2007-02-04,Gymkhana Club Ground
+267391,Kenya,Canada,1,49.6,250,125,28.2,170,Y,2006-2007,2007-02-05,Jaffery Sports Club Ground
+249239,England,New Zealand,1,49.6,270,135,28.1,169,Y,2006-2007,2007-02-06,"Brisbane Cricket Ground, Woolloongabba"
+249239,New Zealand,England,2,49.6,256,128,26.2,158,Y,2006-2007,2007-02-06,"Brisbane Cricket Ground, Woolloongabba"
+250669,Pakistan,South Africa,1,49.6,351,176,28.5,173,Y,2006-2007,2007-02-07,Kingsmead
+250670,Pakistan,South Africa,1,49.6,245,123,32.5,197,Y,2006-2007,2007-02-09,St George's Park
+249241,England,Australia,1,49.6,246,123,26.5,161,Y,2006-2007,2007-02-11,Sydney Cricket Ground
+267712,Sri Lanka,India,1,49.6,257,129,27.3,165,Y,2006-2007,2007-02-11,Madhavrao Scindia Cricket Ground
+267712,India,Sri Lanka,2,49.6,252,126,22.3,135,Y,2006-2007,2007-02-11,Madhavrao Scindia Cricket Ground
+267715,Sri Lanka,India,1,49.6,230,115,30.1,181,Y,2006-2007,2007-02-14,"Nehru Stadium, Fatorda"
+251495,Australia,New Zealand,1,49.6,336,168,32.1,193,Y,2006-2007,2007-02-18,Eden Park
+251496,Australia,New Zealand,1,49.6,346,173,33.1,199,Y,2006-2007,2007-02-20,Seddon Park
+247457,West Indies,Pakistan,1,49.6,241,121,32.6,198,Y,2006-2007,2007-03-13,"Sabina Park, Kingston"
+247458,Australia,Scotland,1,49.6,334,167,30.3,183,Y,2006-2007,2007-03-14,"Warner Park, Basseterre"
+247460,Sri Lanka,Bermuda,1,49.6,321,161,29.6,180,Y,2006-2007,2007-03-15,"Queen's Park Oval, Port of Spain"
+247461,Ireland,Zimbabwe,1,49.6,221,111,29.1,175,Y,2006-2007,2007-03-15,"Sabina Park, Kingston"
+247461,Zimbabwe,Ireland,2,49.6,221,111,25.2,152,Y,2006-2007,2007-03-15,"Sabina Park, Kingston"
+247463,England,New Zealand,1,49.6,209,105,28.3,171,Y,2006-2007,2007-03-16,"Beausejour Stadium, Gros Islet"
+247466,Australia,Netherlands,1,49.6,358,179,32.6,198,Y,2006-2007,2007-03-18,"Warner Park, Basseterre"
+247467,England,Canada,1,49.6,279,140,30.1,181,Y,2006-2007,2007-03-18,"Beausejour Stadium, Gros Islet"
+247467,Canada,England,2,49.6,228,114,26.6,162,Y,2006-2007,2007-03-18,"Beausejour Stadium, Gros Islet"
+247468,India,Bermuda,1,49.6,413,207,29.6,180,Y,2006-2007,2007-03-19,"Queen's Park Oval, Port of Spain"
+247469,Zimbabwe,West Indies,1,49.6,202,101,29.1,175,Y,2006-2007,2007-03-19,"Sabina Park, Kingston"
+247470,Scotland,South Africa,1,49.6,186,93,32.6,198,Y,2006-2007,2007-03-20,"Warner Park, Basseterre"
+247471,New Zealand,Kenya,1,49.6,331,166,30.1,181,Y,2006-2007,2007-03-20,"Beausejour Stadium, Gros Islet"
+247472,Sri Lanka,Bangladesh,1,49.6,318,159,29.1,175,Y,2006-2007,2007-03-21,"Queen's Park Oval, Port of Spain"
+247475,New Zealand,Canada,1,49.6,363,182,28.5,173,Y,2006-2007,2007-03-22,"Beausejour Stadium, Gros Islet"
+247476,Sri Lanka,India,1,49.6,254,127,30.4,184,Y,2006-2007,2007-03-23,"Queen's Park Oval, Port of Spain"
+247478,Australia,South Africa,1,49.6,377,189,27.6,168,Y,2006-2007,2007-03-24,"Warner Park, Basseterre"
+247481,Australia,West Indies,1,49.7,322,161,28.4,172,Y,2006-2007,2007-03-27,"Sir Vivian Richards Stadium, North Sound"
+247484,England,Ireland,1,49.6,266,133,31.2,188,Y,2006-2007,2007-03-30,Providence Stadium
+247486,Sri Lanka,West Indies,1,49.6,303,152,29.6,180,Y,2006-2007,2007-04-01,Providence Stadium
+247489,Sri Lanka,England,1,49.8,235,118,27.5,167,Y,2006-2007,2007-04-04,"Sir Vivian Richards Stadium, North Sound"
+247489,England,Sri Lanka,2,49.6,233,117,29.6,180,Y,2006-2007,2007-04-04,"Sir Vivian Richards Stadium, North Sound"
+247490,Bangladesh,South Africa,1,49.6,251,126,32.3,195,Y,2006-2007,2007-04-07,Providence Stadium
+247492,New Zealand,Ireland,1,49.6,263,132,28.6,174,Y,2006-2007,2007-04-09,Providence Stadium
+247493,South Africa,West Indies,1,49.6,356,178,32.6,198,Y,2006-2007,2007-04-10,"National Cricket Stadium, St George's"
+247493,West Indies,South Africa,2,49.7,289,145,25.1,151,Y,2006-2007,2007-04-10,"National Cricket Stadium, St George's"
+247495,New Zealand,Sri Lanka,1,49.7,219,110,29.6,180,Y,2006-2007,2007-04-12,"National Cricket Stadium, St George's"
+247497,South Africa,New Zealand,1,49.6,193,97,31.2,188,Y,2006-2007,2007-04-14,"National Cricket Stadium, St George's"
+247498,Ireland,Bangladesh,1,49.6,243,122,31.5,191,Y,2006-2007,2007-04-15,"Kensington Oval, Bridgetown"
+247502,West Indies,Bangladesh,1,49.6,230,115,34.5,209,Y,2006-2007,2007-04-19,"Kensington Oval, Bridgetown"
+247503,Australia,New Zealand,1,49.6,348,174,27.1,163,Y,2006-2007,2007-04-20,"National Cricket Stadium, St George's"
+247505,Sri Lanka,New Zealand,1,49.7,289,145,33.3,201,Y,2006-2007,2007-04-24,"Sabina Park, Kingston"
+289107,Asia XI,Africa XI,1,49.6,317,159,24.3,147,Y,2007,2007-06-06,M Chinnaswamy Stadium
+289108,Asia XI,Africa XI,1,49.6,337,169,27.2,164,Y,2007,2007-06-09,"MA Chidambaram Stadium, Chepauk"
+289108,Africa XI,Asia XI,2,49.6,306,153,25.1,151,Y,2007,2007-06-09,"MA Chidambaram Stadium, Chepauk"
+289110,Asia XI,Africa XI,1,49.6,331,166,33.6,204,Y,2007,2007-06-10,"MA Chidambaram Stadium, Chepauk"
+289110,Africa XI,Asia XI,2,49.6,318,159,30.4,184,Y,2007,2007-06-10,"MA Chidambaram Stadium, Chepauk"
+293071,Ireland,India,1,49.6,193,97,30.5,185,Y,2007,2007-06-23,"Civil Service Cricket Club, Stormont"
+293076,India,South Africa,1,49.6,242,121,31.6,192,Y,2007,2007-06-26,"Civil Service Cricket Club, Stormont"
+293077,South Africa,India,1,49.6,226,113,29.3,177,Y,2007,2007-06-29,"Civil Service Cricket Club, Stormont"
+258466,West Indies,England,1,49.6,278,139,31.2,188,Y,2007,2007-07-04,Edgbaston
+258467,West Indies,England,1,49.7,289,145,31.1,187,Y,2007,2007-07-07,Trent Bridge
+293481,Sri Lanka,Bangladesh,1,49.6,234,117,30.3,183,Y,2007,2007-07-20,P Saravanamuttu Stadium
+258471,England,India,1,49.6,288,144,29.5,179,Y,2007,2007-08-21,The Rose Bowl
+258471,India,England,2,49.6,184,92,27.2,164,Y,2007,2007-08-21,The Rose Bowl
+300486,Zimbabwe,South Africa,1,49.6,206,103,33.6,204,Y,2007,2007-08-22,Queens Sports Club
+258472,India,England,1,49.6,329,165,27.5,167,Y,2007,2007-08-24,County Ground
+258472,England,India,2,49.6,320,160,25.6,156,Y,2007,2007-08-24,County Ground
+300487,Zimbabwe,South Africa,1,49.6,247,124,30.1,181,Y,2007,2007-08-25,Harare Sports Club
+300488,South Africa,Zimbabwe,1,49.6,323,162,27.2,164,Y,2007,2007-08-26,Harare Sports Club
+300488,Zimbabwe,South Africa,2,49.6,295,148,24.6,150,Y,2007,2007-08-26,Harare Sports Club
+258473,England,India,1,49.6,281,141,30.1,181,Y,2007,2007-08-27,Edgbaston
+258475,India,England,1,49.6,324,162,29.3,177,Y,2007,2007-09-02,Headingley
+258476,England,India,1,49.6,316,158,33.4,202,Y,2007,2007-09-05,Kennington Oval
+297793,Australia,India,1,49.6,307,154,29.4,178,Y,2007-2008,2007-09-29,M Chinnaswamy Stadium
+291217,Sri Lanka,England,1,49.6,269,135,28.2,170,Y,2007-2008,2007-10-01,Rangiri Dambulla International Stadium
+297794,Australia,India,1,49.7,306,153,30.2,182,Y,2007-2008,2007-10-02,Nehru Stadium
+291218,England,Sri Lanka,1,49.6,234,117,31.6,192,Y,2007-2008,2007-10-04,Rangiri Dambulla International Stadium
+297795,Australia,India,1,49.6,290,145,30.5,185,Y,2007-2008,2007-10-05,"Rajiv Gandhi International Stadium, Uppal"
+297796,India,Australia,1,49.6,291,146,31.1,187,Y,2007-2008,2007-10-08,Sector 16 Stadium
+297796,Australia,India,2,49.6,283,142,23.2,140,Y,2007-2008,2007-10-08,Sector 16 Stadium
+291220,Sri Lanka,England,1,49.6,211,106,32.2,194,Y,2007-2008,2007-10-10,R Premadasa Stadium
+297798,Australia,India,1,49.7,317,159,27.3,165,Y,2007-2008,2007-10-14,Vidarbha Cricket Association Ground
+297798,India,Australia,2,49.6,299,150,26.3,159,Y,2007-2008,2007-10-14,Vidarbha Cricket Association Ground
+299006,South Africa,Pakistan,1,49.6,294,147,29.2,176,Y,2007-2008,2007-10-18,Gaddafi Stadium
+299007,Pakistan,South Africa,1,49.7,265,133,27.4,166,Y,2007-2008,2007-10-20,Gaddafi Stadium
+299009,Pakistan,South Africa,1,49.6,230,115,29.1,175,Y,2007-2008,2007-10-26,Multan Cricket Stadium
+313993,Bermuda,Kenya,1,49.6,183,92,35.2,212,Y,2007-2008,2007-10-27,Gymkhana Club Ground
+299010,South Africa,Pakistan,1,49.6,233,117,24.6,150,Y,2007-2008,2007-10-29,Gaddafi Stadium
+297801,Pakistan,India,1,49.6,239,120,32.6,198,Y,2007-2008,2007-11-05,Nehru Stadium
+297802,India,Pakistan,1,49.6,321,161,23.6,144,Y,2007-2008,2007-11-08,"Punjab Cricket Association Stadium, Mohali"
+297803,India,Pakistan,1,49.7,294,147,33.3,201,Y,2007-2008,2007-11-11,Green Park
+297804,Pakistan,India,1,49.6,255,128,28.6,174,Y,2007-2008,2007-11-15,Captain Roop Singh Stadium
+297805,Pakistan,India,1,49.6,306,153,31.3,189,Y,2007-2008,2007-11-18,Sawai Mansingh Stadium
+298796,New Zealand,South Africa,1,49.7,248,124,31.3,189,Y,2007-2008,2007-11-25,Kingsmead
+298796,South Africa,New Zealand,2,49.6,249,125,30.5,185,Y,2007-2008,2007-11-25,Kingsmead
+298797,South Africa,New Zealand,1,49.6,209,105,33.2,200,Y,2007-2008,2007-11-30,St George's Park
+317578,Zimbabwe,West Indies,1,49.6,274,137,30.2,182,Y,2007-2008,2007-11-30,Harare Sports Club
+317578,West Indies,Zimbabwe,2,49.7,244,122,32.2,194,Y,2007-2008,2007-11-30,Harare Sports Club
+298798,New Zealand,South Africa,1,49.6,238,119,31.3,189,Y,2007-2008,2007-12-02,Newlands
+317579,West Indies,Zimbabwe,1,49.6,286,143,28.5,173,Y,2007-2008,2007-12-02,Harare Sports Club
+317581,Zimbabwe,West Indies,1,49.6,232,116,27.1,163,Y,2007-2008,2007-12-07,Queens Sports Club
+291345,New Zealand,Australia,1,49.6,254,127,25.2,152,Y,2007-2008,2007-12-14,Adelaide Oval
+291347,Australia,New Zealand,1,49.6,282,141,29.4,178,Y,2007-2008,2007-12-20,Bellerive Oval
+300427,New Zealand,Bangladesh,1,49.7,335,168,27.6,168,Y,2007-2008,2007-12-28,McLean Park
+325800,Pakistan,Zimbabwe,1,49.7,347,174,28.2,170,Y,2007-2008,2008-01-21,National Stadium
+325800,Zimbabwe,Pakistan,2,49.6,243,122,20.6,126,Y,2007-2008,2008-01-21,National Stadium
+325801,Zimbabwe,Pakistan,1,49.6,238,119,24.3,147,Y,2007-2008,2008-01-24,"Niaz Stadium, Hyderabad"
+298806,South Africa,West Indies,1,49.6,255,128,27.6,168,Y,2007-2008,2008-01-25,Newlands
+298807,West Indies,South Africa,1,49.6,252,126,32.2,194,Y,2007-2008,2008-01-27,St George's Park
+325802,Pakistan,Zimbabwe,1,49.8,272,136,33.1,199,Y,2007-2008,2008-01-27,Multan Cricket Stadium
+325802,Zimbabwe,Pakistan,2,49.7,235,118,28.2,170,Y,2007-2008,2008-01-27,Multan Cricket Stadium
+298808,West Indies,South Africa,1,49.7,263,132,32.1,193,Y,2007-2008,2008-02-01,Kingsmead
+298809,West Indies,South Africa,1,49.6,295,148,24.2,146,Y,2007-2008,2008-02-03,New Wanderers Stadium
+291360,India,Sri Lanka,1,49.6,267,134,34.1,205,Y,2007-2008,2008-02-05,"Brisbane Cricket Ground, Woolloongabba"
+291361,Australia,Sri Lanka,1,49.6,253,127,28.2,170,Y,2007-2008,2008-02-08,Sydney Cricket Ground
+300439,New Zealand,England,1,49.6,234,117,33.3,201,Y,2007-2008,2008-02-15,Eden Park
+291365,Australia,India,1,49.6,203,102,27.6,168,Y,2007-2008,2008-02-17,Adelaide Oval
+291366,Sri Lanka,India,1,49.6,238,119,31.3,189,Y,2007-2008,2008-02-19,Adelaide Oval
+300440,England,New Zealand,1,49.6,340,170,29.4,178,Y,2007-2008,2008-02-20,McLean Park
+300440,New Zealand,England,2,49.6,340,170,26.6,162,Y,2007-2008,2008-02-20,McLean Park
+291367,Australia,Sri Lanka,1,49.6,184,92,31.5,191,Y,2007-2008,2008-02-22,Melbourne Cricket Ground
+300441,England,New Zealand,1,49.6,242,121,31.1,187,Y,2007-2008,2008-02-23,AMI Stadium
+291368,Australia,India,1,49.6,317,159,24.5,149,Y,2007-2008,2008-02-24,Sydney Cricket Ground
+291370,Sri Lanka,Australia,1,49.6,221,111,28.5,173,Y,2007-2008,2008-02-29,Melbourne Cricket Ground
+291371,Australia,India,1,49.6,239,120,22.2,134,Y,2007-2008,2008-03-02,Sydney Cricket Ground
+291372,India,Australia,1,49.6,258,129,25.6,156,Y,2007-2008,2008-03-04,"Brisbane Cricket Ground, Woolloongabba"
+343759,Pakistan,Bangladesh,1,49.6,322,161,31.3,189,Y,2007-2008,2008-04-08,Gaddafi Stadium
+319134,Sri Lanka,West Indies,1,49.6,235,118,33.5,203,Y,2007-2008,2008-04-10,"Queen's Park Oval, Port of Spain"
+319134,West Indies,Sri Lanka,2,49.6,236,118,30.2,182,Y,2007-2008,2008-04-10,"Queen's Park Oval, Port of Spain"
+343761,Pakistan,Bangladesh,1,49.7,308,154,25.3,153,Y,2007-2008,2008-04-13,Gaddafi Stadium
+343761,Bangladesh,Pakistan,2,49.7,285,143,26.1,157,Y,2007-2008,2008-04-13,Gaddafi Stadium
+319136,Sri Lanka,West Indies,1,49.6,257,129,30.1,181,Y,2007-2008,2008-04-15,"Beausejour Stadium, Gros Islet"
+343763,Pakistan,Bangladesh,1,49.6,329,165,29.1,175,Y,2007-2008,2008-04-19,National Stadium
+345469,India,Pakistan,1,49.6,330,165,22.3,135,Y,2008,2008-06-10,Shere Bangla National Stadium
+345470,Bangladesh,India,1,49.6,222,111,30.2,182,Y,2008,2008-06-12,Shere Bangla National Stadium
+345471,Pakistan,India,1,49.6,315,158,31.1,187,Y,2008,2008-06-14,Shere Bangla National Stadium
+296904,England,New Zealand,1,49.9,307,154,34.3,207,Y,2008,2008-06-15,Riverside Ground
+296906,New Zealand,England,1,49.6,182,91,33.1,199,Y,2008,2008-06-21,County Ground
+319143,Australia,West Indies,1,49.6,273,137,29.4,178,Y,2008,2008-06-24,"Arnos Vale Ground, Kingstown"
+335346,Bangladesh,U.A.E.,1,49.6,300,150,29.5,179,Y,2008,2008-06-24,Gaddafi Stadium
+335347,Pakistan,Hong Kong,1,49.6,288,144,24.4,148,Y,2008,2008-06-24,National Stadium
+296907,New Zealand,England,2,49.6,246,123,28.6,174,Y,2008,2008-06-25,Kennington Oval
+335348,Sri Lanka,Bangladesh,1,49.6,357,179,22.4,136,Y,2008,2008-06-25,Gaddafi Stadium
+335348,Bangladesh,Sri Lanka,2,49.6,226,113,24.5,149,Y,2008,2008-06-25,Gaddafi Stadium
+335349,India,Hong Kong,1,49.6,374,187,31.3,189,Y,2008,2008-06-25,National Stadium
+335350,Sri Lanka,U.A.E.,1,49.6,290,145,19.3,117,Y,2008,2008-06-26,Gaddafi Stadium
+335351,Pakistan,India,1,49.6,299,150,30.1,181,Y,2008,2008-06-26,National Stadium
+319144,Australia,West Indies,1,49.7,213,107,32.6,198,Y,2008,2008-06-27,"National Cricket Stadium, St George's"
+296908,New Zealand,England,1,49.6,266,133,33.3,201,Y,2008,2008-06-28,Lord's
+335352,Bangladesh,India,1,49.7,283,142,28.6,174,Y,2008,2008-06-28,National Stadium
+325569,Bermuda,Canada,1,49.6,201,101,28.5,173,Y,2008,2008-06-29,Maple Leaf North-West Ground
+335353,Sri Lanka,Pakistan,1,49.8,302,151,28.5,173,Y,2008,2008-06-29,National Stadium
+335353,Pakistan,Sri Lanka,2,49.6,238,119,28.3,171,Y,2008,2008-06-29,National Stadium
+335354,Sri Lanka,Bangladesh,1,49.6,332,166,23.5,143,Y,2008,2008-06-30,National Stadium
+335355,India,Pakistan,1,49.6,308,154,25.1,151,Y,2008,2008-07-02,National Stadium
+335356,Sri Lanka,India,1,49.6,308,154,28.1,169,Y,2008,2008-07-03,National Stadium
+319146,Australia,West Indies,1,49.6,282,141,30.5,185,Y,2008,2008-07-04,"Warner Park, Basseterre"
+319146,West Indies,Australia,2,49.6,281,141,25.2,152,Y,2008,2008-07-04,"Warner Park, Basseterre"
+319147,Australia,West Indies,1,49.6,341,171,28.6,174,Y,2008,2008-07-06,"Warner Park, Basseterre"
+296914,England,South Africa,1,49.6,275,138,34.5,209,Y,2008,2008-08-22,Headingley
+343734,India,Sri Lanka,1,49.7,237,119,28.6,174,Y,2008,2008-08-24,R Premadasa Stadium
+296916,England,South Africa,1,49.6,296,148,25.3,153,Y,2008,2008-08-29,Kennington Oval
+343736,Sri Lanka,India,1,49.6,227,114,32.4,196,Y,2008,2008-08-29,R Premadasa Stadium
+336201,Australia,Bangladesh,1,49.6,254,127,30.1,181,Y,2008,2008-08-30,Marrara Cricket Ground
+336204,Australia,Bangladesh,1,49.7,198,99,31.1,187,Y,2008,2008-09-06,Marrara Cricket Ground
+325581,Zimbabwe,Ireland,1,49.6,303,152,29.5,179,Y,2008-2009,2008-10-17,Gymkhana Club Ground
+360800,South Africa,Kenya,1,49.8,336,168,29.1,175,Y,2008-2009,2008-10-31,OUTsurance Oval
+350348,South Africa,Bangladesh,1,49.6,283,142,30.2,182,Y,2008-2009,2008-11-07,Senwes Park
+374059,West Indies,Pakistan,1,49.6,294,147,24.1,145,Y,2008-2009,2008-11-12,Sheikh Zayed Stadium
+361043,India,England,1,49.6,387,194,31.3,189,Y,2008-2009,2008-11-14,Madhavrao Scindia Cricket Ground
+361044,India,England,1,49.6,292,146,27.2,164,Y,2008-2009,2008-11-17,Maharani Usharaje Trust Cricket Ground
+361047,England,India,1,49.6,270,135,26.6,162,Y,2008-2009,2008-11-26,Barabati Stadium
+378753,Zimbabwe,Bangladesh,1,49.7,205,103,26.2,158,Y,2008-2009,2009-01-10,Shere Bangla National Stadium
+351684,Australia,South Africa,1,49.7,271,136,27.6,168,Y,2008-2009,2009-01-16,Melbourne Cricket Ground
+351685,Australia,South Africa,1,49.7,249,125,24.2,146,Y,2008-2009,2009-01-18,Bellerive Oval
+351685,South Africa,Australia,2,49.6,244,122,30.1,181,Y,2008-2009,2009-01-18,Bellerive Oval
+385750,Sri Lanka,Pakistan,1,49.6,290,145,27.2,164,Y,2008-2009,2009-01-21,National Stadium
+385751,Sri Lanka,Pakistan,1,49.6,309,155,28.5,173,Y,2008-2009,2009-01-24,Gaddafi Stadium
+386530,Sri Lanka,India,1,49.7,246,123,28.6,174,Y,2008-2009,2009-01-28,Rangiri Dambulla International Stadium
+351688,South Africa,Australia,1,49.6,288,144,30.3,183,Y,2008-2009,2009-01-30,Western Australia Cricket Association Ground
+386531,India,Sri Lanka,1,49.6,256,128,20.6,126,Y,2008-2009,2009-01-31,R Premadasa Stadium
+351689,New Zealand,Australia,2,49.6,182,91,31.3,189,Y,2008-2009,2009-02-01,Western Australia Cricket Association Ground
+386532,India,Sri Lanka,1,49.6,363,182,24.1,145,Y,2008-2009,2009-02-03,R Premadasa Stadium
+386533,India,Sri Lanka,1,49.6,332,166,26.2,158,Y,2008-2009,2009-02-05,R Premadasa Stadium
+351690,Australia,New Zealand,1,49.6,225,113,30.5,185,Y,2008-2009,2009-02-06,Melbourne Cricket Ground
+351691,Australia,New Zealand,1,49.6,301,151,27.2,164,Y,2008-2009,2009-02-08,Sydney Cricket Ground
+386534,Sri Lanka,India,1,49.7,320,160,25.5,155,Y,2008-2009,2009-02-08,R Premadasa Stadium
+351692,New Zealand,Australia,1,49.6,244,122,31.4,190,Y,2008-2009,2009-02-10,Adelaide Oval
+366627,India,New Zealand,1,49.6,392,196,28.3,171,Y,2008-2009,2009-03-08,AMI Stadium
+352665,England,West Indies,1,49.6,270,135,27.2,164,Y,2008-2009,2009-03-20,Providence Stadium
+352666,West Indies,England,1,49.6,264,132,29.6,180,Y,2008-2009,2009-03-22,Providence Stadium
+352668,West Indies,England,1,49.6,239,120,22.5,137,Y,2008-2009,2009-03-29,"Kensington Oval, Bridgetown"
+390204,Scotland,Ireland,1,49.6,232,116,32.4,196,Y,2009,2009-04-01,Willowmoore Park
+350477,Australia,South Africa,1,49.6,286,143,28.5,173,Y,2008-2009,2009-04-03,Kingsmead
+390227,Canada,Scotland,1,49.6,252,126,29.4,178,Y,2009,2009-04-08,Willowmoore Park
+350479,South Africa,Australia,1,49.6,289,145,32.6,198,Y,2008-2009,2009-04-09,Newlands
+350479,Australia,South Africa,2,49.6,264,132,34.2,206,Y,2008-2009,2009-04-09,Newlands
+350480,South Africa,Australia,1,49.6,317,159,31.4,190,Y,2008-2009,2009-04-13,St George's Park
+350481,Australia,South Africa,1,49.6,303,152,25.2,152,Y,2008-2009,2009-04-17,New Wanderers Stadium
+390253,Afghanistan,Scotland,1,49.6,295,148,26.1,157,Y,2009,2009-04-19,Willowmoore Park
+392618,Australia,Pakistan,1,49.6,198,99,27.1,163,Y,2009,2009-04-27,Sheikh Zayed Stadium
+392620,Australia,Pakistan,1,49.7,250,125,24.3,147,Y,2009,2009-05-03,Sheikh Zayed Stadium
+380716,England,West Indies,1,49.7,328,164,29.6,180,Y,2009,2009-05-26,Edgbaston
+377313,India,West Indies,1,49.6,339,170,29.1,175,Y,2009,2009-06-26,"Sabina Park, Kingston"
+401073,Bangladesh,West Indies,1,49.6,246,123,29.2,176,Y,2009,2009-07-26,"Windsor Park, Roseau"
+401074,West Indies,Bangladesh,1,49.6,274,137,33.1,199,Y,2009,2009-07-28,"Windsor Park, Roseau"
+403370,Sri Lanka,Pakistan,1,49.6,232,116,28.2,170,Y,2009,2009-07-30,Rangiri Dambulla International Stadium
+403372,Pakistan,Sri Lanka,1,49.6,288,144,31.5,191,Y,2009,2009-08-03,Rangiri Dambulla International Stadium
+403373,Pakistan,Sri Lanka,1,49.8,321,161,32.1,193,Y,2009,2009-08-07,R Premadasa Stadium
+403374,Pakistan,Sri Lanka,1,49.6,279,140,27.4,166,Y,2009,2009-08-09,R Premadasa Stadium
+410338,Bangladesh,Zimbabwe,1,49.6,320,160,33.3,201,Y,2009,2009-08-11,Queens Sports Club
+410339,Zimbabwe,Bangladesh,1,49.6,323,162,32.1,193,Y,2009,2009-08-14,Queens Sports Club
+410340,Zimbabwe,Bangladesh,1,49.6,312,156,32.2,194,Y,2009,2009-08-16,Queens Sports Club
+383275,England,Ireland,1,49.6,203,102,31.6,192,Y,2009,2009-08-27,"Civil Service Cricket Club, Stormont"
+350043,Australia,England,1,49.6,260,130,29.6,180,Y,2009,2009-09-04,Kennington Oval
+350043,England,Australia,2,49.6,256,128,30.1,181,Y,2009,2009-09-04,Kennington Oval
+350044,Australia,England,1,49.6,249,125,29.4,178,Y,2009,2009-09-06,Lord's
+403380,Sri Lanka,New Zealand,1,49.6,216,108,34.1,205,Y,2009,2009-09-08,R Premadasa Stadium
+350045,England,Australia,1,49.6,228,114,26.4,160,Y,2009,2009-09-09,The Rose Bowl
+403381,Sri Lanka,India,1,49.6,307,154,26.1,157,Y,2009,2009-09-12,R Premadasa Stadium
+403383,India,Sri Lanka,1,49.6,319,160,27.6,168,Y,2009,2009-09-14,R Premadasa Stadium
+350047,England,Australia,1,49.8,299,150,30.2,182,Y,2009,2009-09-15,Trent Bridge
+350048,Australia,England,1,49.6,296,148,28.6,174,Y,2009,2009-09-17,Trent Bridge
+415273,Sri Lanka,South Africa,1,49.6,319,160,26.4,160,Y,2009-2010,2009-09-22,SuperSport Park
+415277,Australia,West Indies,1,49.6,275,138,27.8,170,Y,2009-2010,2009-09-26,New Wanderers Stadium
+415278,Pakistan,India,1,49.6,302,151,32.5,197,Y,2009-2010,2009-09-26,SuperSport Park
+415279,New Zealand,Sri Lanka,1,49.7,315,158,28.3,171,Y,2009-2010,2009-09-27,New Wanderers Stadium
+415280,England,South Africa,1,49.6,323,162,30.6,186,Y,2009-2010,2009-09-27,SuperSport Park
+415280,South Africa,England,2,49.6,301,151,27.5,167,Y,2009-2010,2009-09-27,SuperSport Park
+415283,Pakistan,Australia,1,49.7,205,103,27.6,168,Y,2009-2010,2009-09-30,SuperSport Park
+415283,Australia,Pakistan,2,49.6,206,103,21.5,131,Y,2009-2010,2009-09-30,SuperSport Park
+415286,Pakistan,New Zealand,1,49.6,233,117,29.2,176,Y,2009-2010,2009-10-03,New Wanderers Stadium
+415287,New Zealand,Australia,1,49.6,200,100,27.3,165,Y,2009-2010,2009-10-05,SuperSport Park
+416236,Australia,India,1,49.6,292,146,27.3,165,Y,2009-2010,2009-10-25,Reliance Stadium
+416236,India,Australia,2,49.6,288,144,31.4,190,Y,2009-2010,2009-10-25,Reliance Stadium
+416237,India,Australia,1,49.7,354,177,27.5,167,Y,2009-2010,2009-10-28,"Vidarbha Cricket Association Stadium, Jamtha"
+416238,Australia,India,1,49.7,229,115,28.2,170,Y,2009-2010,2009-10-31,Feroz Shah Kotla
+426720,Pakistan,New Zealand,1,49.6,287,144,33.5,203,Y,2009-2010,2009-11-03,Sheikh Zayed Stadium
+416240,Australia,India,1,49.6,350,175,31.2,188,Y,2009-2010,2009-11-05,"Rajiv Gandhi International Stadium, Uppal"
+422630,Zimbabwe,Bangladesh,1,49.7,221,111,27.1,163,Y,2009-2010,2009-11-05,Zohur Ahmed Chowdhury Stadium
+426721,New Zealand,Pakistan,1,49.6,303,152,25.6,156,Y,2009-2010,2009-11-06,Sheikh Zayed Stadium
+430508,South Africa,Zimbabwe,1,49.6,295,148,27.2,164,Y,2009-2010,2009-11-08,Willowmoore Park
+430508,Zimbabwe,South Africa,2,49.6,250,125,35.1,211,Y,2009-2010,2009-11-08,Willowmoore Park
+430509,South Africa,Zimbabwe,1,49.6,331,166,28.6,174,Y,2009-2010,2009-11-10,SuperSport Park
+387566,South Africa,England,1,49.6,250,125,25.5,155,Y,2009-2010,2009-11-22,SuperSport Park
+387567,South Africa,England,1,49.6,354,177,27.4,166,Y,2009-2010,2009-11-27,Newlands
+430886,India,Sri Lanka,1,49.6,414,207,24.7,151,Y,2009-2010,2009-12-15,Madhavrao Scindia Cricket Ground
+430886,Sri Lanka,India,2,49.6,411,206,26.5,161,Y,2009-2010,2009-12-15,Madhavrao Scindia Cricket Ground
+430887,India,Sri Lanka,1,49.6,301,151,29.6,180,Y,2009-2010,2009-12-18,"Vidarbha Cricket Association Stadium, Jamtha"
+430889,Sri Lanka,India,1,49.6,315,158,29.5,179,Y,2009-2010,2009-12-24,Eden Gardens
+434258,Bangladesh,Sri Lanka,1,49.6,260,130,30.6,186,Y,2009-2010,2010-01-04,Shere Bangla National Stadium
+434259,India,Sri Lanka,1,49.6,279,140,25.3,153,Y,2009-2010,2010-01-05,Shere Bangla National Stadium
+434260,Bangladesh,India,1,49.6,296,148,27.3,165,Y,2009-2010,2010-01-07,Shere Bangla National Stadium
+434261,Bangladesh,Sri Lanka,1,49.6,249,125,26.5,161,Y,2009-2010,2010-01-08,Shere Bangla National Stadium
+434263,Bangladesh,India,1,49.6,247,124,31.3,189,Y,2009-2010,2010-01-11,Shere Bangla National Stadium
+406203,Australia,Pakistan,1,49.6,267,134,28.1,169,Y,2009-2010,2010-01-24,Sydney Cricket Ground
+406204,Australia,Pakistan,1,49.6,286,143,29.6,180,Y,2009-2010,2010-01-26,Adelaide Oval
+406205,Australia,Pakistan,1,49.6,277,139,28.4,172,Y,2009-2010,2010-01-29,Western Australia Cricket Association Ground
+423783,New Zealand,Bangladesh,1,49.6,336,168,31.2,188,Y,2009-2010,2010-02-05,McLean Park
+406192,Australia,West Indies,1,49.6,256,128,25.6,156,Y,2009-2010,2010-02-07,Melbourne Cricket Ground
+423784,Bangladesh,New Zealand,1,49.6,183,92,40.3,243,Y,2009-2010,2010-02-08,University Oval
+423785,Bangladesh,New Zealand,1,49.7,241,121,24.6,150,Y,2009-2010,2010-02-11,AMI Stadium
+406195,Australia,West Indies,1,49.6,324,162,27.6,168,Y,2009-2010,2010-02-14,"Brisbane Cricket Ground, Woolloongabba"
+406195,West Indies,Australia,2,49.7,274,137,28.4,172,Y,2009-2010,2010-02-14,"Brisbane Cricket Ground, Woolloongabba"
+406196,Australia,West Indies,1,49.6,324,162,27.6,168,Y,2009-2010,2010-02-19,Melbourne Cricket Ground
+441827,India,South Africa,1,49.6,298,149,26.4,160,Y,2009-2010,2010-02-21,Sawai Mansingh Stadium
+441827,South Africa,India,2,49.7,297,149,29.5,179,Y,2009-2010,2010-02-21,Sawai Mansingh Stadium
+441828,India,South Africa,1,49.6,401,201,31.1,187,Y,2009-2010,2010-02-24,Captain Roop Singh Stadium
+441829,South Africa,India,1,49.6,365,183,30.5,185,Y,2009-2010,2010-02-27,"Sardar Patel Stadium, Motera"
+426421,Bangladesh,England,1,49.6,260,130,30.4,184,Y,2009-2010,2010-03-02,Shere Bangla National Stadium
+423791,Australia,New Zealand,1,49.6,275,138,24.2,146,Y,2009-2010,2010-03-03,McLean Park
+439140,Zimbabwe,West Indies,1,49.6,254,127,30.3,183,Y,2009-2010,2010-03-04,Providence Stadium
+439140,West Indies,Zimbabwe,2,49.6,252,126,29.2,176,Y,2009-2010,2010-03-04,Providence Stadium
+426422,England,Bangladesh,1,49.6,284,142,33.6,204,Y,2009-2010,2010-03-05,Zohur Ahmed Chowdhury Stadium
+426422,Bangladesh,England,2,49.6,239,120,24.2,146,Y,2009-2010,2010-03-05,Zohur Ahmed Chowdhury Stadium
+423792,Australia,New Zealand,1,49.6,273,137,30.1,181,Y,2009-2010,2010-03-06,Eden Park
+439142,West Indies,Zimbabwe,1,49.8,245,123,33.1,199,Y,2009-2010,2010-03-10,"Arnos Vale Ground, Kingstown"
+423795,New Zealand,Australia,1,49.6,241,121,26.5,161,Y,2009-2010,2010-03-13,Westpac Stadium
+439144,Zimbabwe,West Indies,1,49.6,161,81,29.5,179,Y,2009-2010,2010-03-14,"Arnos Vale Ground, Kingstown"
+439148,South Africa,West Indies,1,49.6,300,150,28.1,169,Y,2010,2010-05-24,"Sir Vivian Richards Stadium, North Sound"
+452146,India,Zimbabwe,1,49.6,285,143,34.2,206,Y,2010,2010-05-28,Queens Sports Club
+439150,West Indies,South Africa,1,49.6,303,152,31.6,192,Y,2010,2010-05-30,"Windsor Park, Roseau"
+439150,South Africa,West Indies,2,49.6,304,152,24.6,150,Y,2010,2010-05-30,"Windsor Park, Roseau"
+452147,Sri Lanka,India,1,49.6,242,121,30.1,181,Y,2010,2010-05-30,Queens Sports Club
+439151,West Indies,South Africa,1,49.6,252,126,31.1,187,Y,2010,2010-06-03,"Queen's Park Oval, Port of Spain"
+452149,India,Zimbabwe,1,49.6,194,97,28.4,172,Y,2010,2010-06-03,Harare Sports Club
+452150,India,Sri Lanka,1,49.6,268,134,26.1,157,Y,2010,2010-06-05,Harare Sports Club
+455231,Sri Lanka,Pakistan,1,49.6,242,121,25.6,156,Y,2010,2010-06-15,Rangiri Dambulla International Stadium
+426384,Australia,Ireland,1,49.6,231,116,30.3,183,Y,2010,2010-06-17,Clontarf Cricket Club Ground
+455233,Sri Lanka,Bangladesh,1,49.6,312,156,26.3,159,Y,2010,2010-06-18,Rangiri Dambulla International Stadium
+455235,Pakistan,Bangladesh,1,49.6,385,193,31.2,188,Y,2010,2010-06-21,Rangiri Dambulla International Stadium
+455235,Bangladesh,Pakistan,2,49.6,246,123,29.6,180,Y,2010,2010-06-21,Rangiri Dambulla International Stadium
+426387,Australia,England,1,49.6,267,134,27.6,168,Y,2010,2010-06-22,The Rose Bowl
+426388,Australia,England,1,49.7,239,120,30.5,185,Y,2010,2010-06-24,Sophia Gardens
+455237,India,Sri Lanka,1,49.7,268,134,24.6,150,Y,2010,2010-06-24,Rangiri Dambulla International Stadium
+426390,Australia,England,1,49.6,290,145,30.2,182,Y,2010,2010-06-30,Kennington Oval
+426391,Australia,England,1,49.6,277,139,37.3,225,Y,2010,2010-07-03,Lord's
+450379,Canada,Ireland,1,49.7,154,77,23.6,144,Y,2010,2010-07-07,VRA Ground
+426403,Bangladesh,England,1,49.6,250,125,23.6,144,Y,2010,2010-07-08,Trent Bridge
+426404,Bangladesh,England,1,49.6,236,118,24.2,146,Y,2010,2010-07-10,County Ground
+426405,England,Bangladesh,1,49.7,347,174,32.4,196,Y,2010,2010-07-12,Edgbaston
+450498,Scotland,Afghanistan,1,49.8,224,112,30.1,181,Y,2010,2010-08-16,Cambusdoon New Ground
+456668,Sri Lanka,India,1,49.6,299,150,27.3,165,Y,2010,2010-08-28,Rangiri Dambulla International Stadium
+426429,Pakistan,England,1,49.6,294,147,28.1,169,Y,2010,2010-09-12,Headingley
+426431,Pakistan,England,1,49.6,265,133,30.1,181,Y,2010,2010-09-20,Lord's
+426432,England,Pakistan,1,49.7,256,128,31.4,190,Y,2010,2010-09-22,The Rose Bowl
+463143,South Africa,Zimbabwe,1,49.6,351,176,27.3,165,Y,2010-2011,2010-10-15,OUTsurance Oval
+463143,Zimbabwe,South Africa,2,49.6,287,144,27.6,168,Y,2010-2011,2010-10-15,OUTsurance Oval
+464529,Australia,India,1,49.6,289,145,33.4,202,Y,2010-2011,2010-10-20,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+463145,South Africa,Zimbabwe,1,49.6,399,200,30.1,181,Y,2010-2011,2010-10-22,Willowmoore Park
+461567,South Africa,Pakistan,1,49.6,286,143,28.2,170,Y,2010-2011,2010-10-31,Sheikh Zayed Stadium
+461568,South Africa,Pakistan,1,49.6,228,114,25.6,156,Y,2010-2011,2010-11-02,Dubai International Cricket Stadium
+461568,Pakistan,South Africa,2,49.7,226,113,30.2,182,Y,2010-2011,2010-11-02,Dubai International Cricket Stadium
+446957,Australia,Sri Lanka,1,49.6,239,120,27.3,165,Y,2010-2011,2010-11-03,Melbourne Cricket Ground
+461569,South Africa,Pakistan,1,49.7,274,137,28.1,169,Y,2010-2011,2010-11-05,Dubai International Cricket Stadium
+461570,South Africa,Pakistan,1,49.6,317,159,26.3,159,Y,2010-2011,2010-11-08,Dubai International Cricket Stadium
+467884,New Zealand,India,1,49.6,258,129,31.5,191,Y,2010-2011,2010-12-01,Sawai Mansingh Stadium
+467885,New Zealand,India,1,49.6,224,112,30.3,183,Y,2010-2011,2010-12-04,Reliance Stadium
+486523,Bangladesh,Zimbabwe,1,49.7,246,123,30.4,184,Y,2010-2011,2010-12-06,Shere Bangla National Stadium
+467886,New Zealand,India,1,49.6,315,158,28.2,170,Y,2010-2011,2010-12-07,M Chinnaswamy Stadium
+486526,Zimbabwe,Bangladesh,1,49.6,188,94,33.5,203,Y,2010-2011,2010-12-12,Zahur Ahmed Chowdhury Stadium
+463150,South Africa,India,1,49.6,289,145,26.4,160,Y,2010-2011,2011-01-12,Kingsmead
+463153,South Africa,India,1,49.6,265,133,26.4,160,Y,2010-2011,2011-01-21,St George's Park
+446965,England,Australia,1,49.6,299,150,24.6,150,Y,2010-2011,2011-01-26,Adelaide Oval
+446965,Australia,England,2,49.6,278,139,28.6,174,Y,2010-2011,2011-01-26,Adelaide Oval
+473925,Pakistan,New Zealand,1,49.6,293,147,35.6,216,Y,2010-2011,2011-01-29,AMI Stadium
+473925,New Zealand,Pakistan,2,49.6,250,125,25.4,154,Y,2010-2011,2011-01-29,AMI Stadium
+464990,West Indies,Sri Lanka,1,49.6,245,123,28.6,174,Y,2010-2011,2011-01-31,Sinhalese Sports Club Ground
+473926,New Zealand,Pakistan,1,49.6,262,131,31.3,189,Y,2010-2011,2011-02-01,McLean Park
+446967,England,Australia,1,49.7,333,167,29.5,179,Y,2010-2011,2011-02-02,Sydney Cricket Ground
+464991,West Indies,Sri Lanka,1,49.6,203,102,26.4,160,Y,2010-2011,2011-02-03,Sinhalese Sports Club Ground
+473927,Pakistan,New Zealand,1,49.6,268,134,29.1,175,Y,2010-2011,2011-02-03,Seddon Park
+473928,New Zealand,Pakistan,1,49.6,311,156,28.6,174,Y,2010-2011,2011-02-05,Eden Park
+446968,Australia,England,1,49.8,279,140,30.4,184,Y,2010-2011,2011-02-06,Western Australia Cricket Association Ground
+464992,Sri Lanka,West Indies,1,49.6,277,139,29.7,181,Y,2010-2011,2011-02-06,Sinhalese Sports Club Ground
+433558,India,Bangladesh,1,49.6,370,185,28.5,173,Y,2010-2011,2011-02-19,Shere Bangla National Stadium
+433558,Bangladesh,India,2,49.6,283,142,25.2,152,Y,2010-2011,2011-02-19,Shere Bangla National Stadium
+433560,Sri Lanka,Canada,1,49.6,332,166,30.1,181,Y,2010-2011,2011-02-20,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+433561,Australia,Zimbabwe,1,49.6,262,131,29.2,176,Y,2010-2011,2011-02-21,"Sardar Patel Stadium, Motera"
+433562,Netherlands,England,1,49.6,292,146,30.4,184,Y,2010-2011,2011-02-22,"Vidarbha Cricket Association Stadium, Jamtha"
+433563,Pakistan,Kenya,1,49.8,317,159,34.1,205,Y,2010-2011,2011-02-23,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+433567,Pakistan,Sri Lanka,1,49.7,277,139,27.3,165,Y,2010-2011,2011-02-26,R Premadasa Stadium
+433567,Sri Lanka,Pakistan,2,49.6,266,133,32.4,196,Y,2010-2011,2011-02-26,R Premadasa Stadium
+433568,India,England,1,49.6,338,169,28.2,170,Y,2010-2011,2011-02-27,M Chinnaswamy Stadium
+433568,England,India,2,49.6,338,169,26.2,158,Y,2010-2011,2011-02-27,M Chinnaswamy Stadium
+433569,West Indies,Netherlands,1,49.6,330,165,30.3,183,Y,2010-2011,2011-02-28,Feroz Shah Kotla
+433570,Zimbabwe,Canada,1,49.6,298,149,25.1,151,Y,2010-2011,2011-02-28,"Vidarbha Cricket Association Stadium, Jamtha"
+433572,England,Ireland,1,49.6,327,164,28.5,173,Y,2010-2011,2011-03-02,M Chinnaswamy Stadium
+433573,South Africa,Netherlands,1,49.6,351,176,33.6,204,Y,2010-2011,2011-03-03,"Punjab Cricket Association Stadium, Mohali"
+433580,Kenya,Canada,1,49.7,198,99,27.6,168,Y,2010-2011,2011-03-07,Feroz Shah Kotla
+433581,New Zealand,Pakistan,1,49.6,302,151,37.1,223,Y,2010-2011,2011-03-08,Pallekele International Cricket Stadium
+433583,Sri Lanka,Zimbabwe,1,49.6,327,164,29.3,177,Y,2010-2011,2011-03-10,Pallekele International Cricket Stadium
+433584,West Indies,Ireland,1,49.6,275,138,33.7,205,Y,2010-2011,2011-03-11,"Punjab Cricket Association Stadium, Mohali"
+433587,New Zealand,Canada,1,49.8,358,179,35.3,213,Y,2010-2011,2011-03-13,Wankhede Stadium
+433587,Canada,New Zealand,2,49.7,261,131,29.2,176,Y,2010-2011,2011-03-13,Wankhede Stadium
+433588,Australia,Kenya,1,49.6,324,162,29.3,177,Y,2010-2011,2011-03-13,M Chinnaswamy Stadium
+433588,Kenya,Australia,2,49.6,264,132,29.2,176,Y,2010-2011,2011-03-13,M Chinnaswamy Stadium
+433591,South Africa,Ireland,1,49.6,272,136,30.6,186,Y,2010-2011,2011-03-15,Eden Gardens
+433594,Sri Lanka,New Zealand,1,49.6,265,133,32.1,193,Y,2010-2011,2011-03-18,Wankhede Stadium
+433595,Netherlands,Ireland,1,49.8,306,153,28.2,170,Y,2010-2011,2011-03-18,Eden Gardens
+433597,South Africa,Bangladesh,1,49.6,284,142,30.1,181,Y,2010-2011,2011-03-19,Shere Bangla National Stadium
+433598,Zimbabwe,Kenya,1,49.6,308,154,30.4,184,Y,2010-2011,2011-03-20,Eden Gardens
+433601,Australia,India,1,49.7,260,130,28.2,170,Y,2010-2011,2011-03-24,"Sardar Patel Stadium, Motera"
+433602,New Zealand,South Africa,1,49.7,221,111,29.1,175,Y,2010-2011,2011-03-25,Shere Bangla National Stadium
+433603,England,Sri Lanka,1,49.6,229,115,30.2,182,Y,2010-2011,2011-03-26,R Premadasa Stadium
+433605,India,Pakistan,1,49.6,260,130,21.6,132,Y,2010-2011,2011-03-30,"Punjab Cricket Association Stadium, Mohali"
+433606,Sri Lanka,India,1,49.6,274,137,30.3,183,Y,2010-2011,2011-04-02,Wankhede Stadium
+503363,Australia,Bangladesh,1,49.6,270,135,27.3,165,Y,2011,2011-04-09,Shere Bangla National Stadium
+503363,Bangladesh,Australia,2,49.6,210,105,27.5,167,Y,2011,2011-04-09,Shere Bangla National Stadium
+503364,Bangladesh,Australia,1,49.6,229,115,32.3,195,Y,2011,2011-04-11,Shere Bangla National Stadium
+503365,Australia,Bangladesh,1,49.6,361,181,26.4,160,Y,2011,2011-04-13,Shere Bangla National Stadium
+503365,Bangladesh,Australia,2,49.6,295,148,23.6,144,Y,2011,2011-04-13,Shere Bangla National Stadium
+489213,West Indies,Pakistan,1,49.6,221,111,32.7,199,Y,2011,2011-04-23,"Beausejour Stadium, Gros Islet"
+489214,West Indies,Pakistan,1,49.6,220,110,24.3,147,Y,2011,2011-04-25,"Beausejour Stadium, Gros Islet"
+489216,Pakistan,West Indies,1,49.6,248,124,29.3,177,Y,2011,2011-05-02,"Kensington Oval, Bridgetown"
+489221,West Indies,India,1,49.6,214,107,31.7,193,Y,2011,2011-06-06,"Queen's Park Oval, Port of Spain"
+489222,West Indies,India,1,49.6,240,120,26.3,159,Y,2011,2011-06-08,"Queen's Park Oval, Port of Spain"
+489223,West Indies,India,1,49.6,225,113,35.1,211,Y,2011,2011-06-11,"Sir Vivian Richards Stadium, North Sound"
+489224,West Indies,India,1,49.6,249,125,31.6,192,Y,2011,2011-06-13,"Sir Vivian Richards Stadium, North Sound"
+504779,Netherlands,Scotland,1,49.6,180,90,35.3,213,Y,2011,2011-06-29,Mannofield Park
+474468,Sri Lanka,England,1,49.6,309,155,31.1,187,Y,2011,2011-07-01,Headingley
+474469,England,Sri Lanka,1,49.6,246,123,28.4,172,Y,2011,2011-07-03,Lord's
+474471,England,Sri Lanka,1,49.7,268,134,21.6,132,Y,2011,2011-07-09,Old Trafford
+516208,Sri Lanka,Australia,1,49.7,286,143,25.6,156,Y,2011,2011-08-16,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+522248,Zimbabwe,Bangladesh,1,49.6,250,125,32.6,198,Y,2011,2011-08-16,Harare Sports Club
+522250,Bangladesh,Zimbabwe,1,49.6,253,127,28.6,174,Y,2011,2011-08-21,Queens Sports Club
+474477,India,England,1,49.6,274,137,28.1,169,Y,2011,2011-09-03,Riverside Ground
+523732,Pakistan,Zimbabwe,1,49.6,247,124,24.3,147,Y,2011,2011-09-08,Queens Sports Club
+523732,Zimbabwe,Pakistan,2,49.6,242,121,29.2,176,Y,2011,2011-09-08,Queens Sports Club
+474479,India,England,1,49.7,234,117,31.2,188,Y,2011,2011-09-09,Kennington Oval
+474480,India,England,1,49.6,280,140,35.6,216,Y,2011,2011-09-11,Lord's
+523733,Zimbabwe,Pakistan,1,49.6,225,113,29.2,176,Y,2011,2011-09-11,Harare Sports Club
+523734,Pakistan,Zimbabwe,1,49.8,270,135,27.4,166,Y,2011,2011-09-14,Harare Sports Club
+523734,Zimbabwe,Pakistan,2,49.6,242,121,28.4,172,Y,2011,2011-09-14,Harare Sports Club
+474481,India,England,1,49.9,304,152,32.6,198,Y,2011,2011-09-16,Sophia Gardens
+523804,Ireland,Canada,1,49.6,328,164,29.3,177,Y,2011,2011-09-19,Clontarf Cricket Club Ground
+523805,Ireland,Canada,1,49.6,249,125,29.1,175,Y,2011,2011-09-20,Clontarf Cricket Club Ground
+531983,West Indies,Bangladesh,1,49.6,298,149,32.4,196,Y,2011-2012,2011-10-13,Shere Bangla National Stadium
+531983,Bangladesh,West Indies,2,49.6,258,129,29.2,176,Y,2011-2012,2011-10-13,Shere Bangla National Stadium
+521218,India,England,1,49.7,300,150,34.6,210,Y,2011-2012,2011-10-14,"Rajiv Gandhi International Stadium, Uppal"
+521220,England,India,1,49.6,298,149,27.1,163,Y,2011-2012,2011-10-20,"Punjab Cricket Association Stadium, Mohali"
+527014,Zimbabwe,New Zealand,1,49.6,231,116,34.1,205,Y,2011-2012,2011-10-20,Harare Sports Club
+527015,Zimbabwe,New Zealand,1,49.6,259,130,30.6,186,Y,2011-2012,2011-10-22,Harare Sports Club
+514026,South Africa,Australia,1,49.6,303,152,29.5,179,Y,2011-2012,2011-10-23,St George's Park
+514026,Australia,South Africa,2,49.6,223,112,26.5,161,Y,2011-2012,2011-10-23,St George's Park
+521222,India,England,1,49.6,271,136,30.1,181,Y,2011-2012,2011-10-25,Eden Gardens
+527016,New Zealand,Zimbabwe,1,49.7,328,164,35.5,215,Y,2011-2012,2011-10-25,Queens Sports Club
+514027,South Africa,Australia,1,49.6,222,111,24.6,150,Y,2011-2012,2011-10-28,Kingsmead
+530428,Sri Lanka,Pakistan,1,49.7,235,118,33.2,200,Y,2011-2012,2011-11-14,Dubai International Cricket Stadium
+530429,Pakistan,Sri Lanka,1,49.6,257,129,26.2,158,Y,2011-2012,2011-11-18,Dubai International Cricket Stadium
+530431,Sri Lanka,Pakistan,1,49.6,218,109,24.5,149,Y,2011-2012,2011-11-23,Sheikh Zayed Stadium
+536929,West Indies,India,1,49.6,211,106,23.5,143,Y,2011-2012,2011-11-29,Barabati Stadium
+536930,West Indies,India,1,49.8,269,135,27.4,166,Y,2011-2012,2011-12-02,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+538070,Pakistan,Bangladesh,1,49.6,262,131,31.5,191,Y,2011-2012,2011-12-03,Shere Bangla National Stadium
+538070,Bangladesh,Pakistan,2,49.6,186,93,33.3,201,Y,2011-2012,2011-12-03,Shere Bangla National Stadium
+536931,West Indies,India,1,49.6,260,130,36.1,217,Y,2011-2012,2011-12-05,"Sardar Patel Stadium, Motera"
+536932,India,West Indies,1,49.6,418,209,27.5,167,Y,2011-2012,2011-12-08,Holkar Cricket Stadium
+536933,India,West Indies,1,49.6,267,134,27.6,168,Y,2011-2012,2011-12-11,"MA Chidambaram Stadium, Chepauk"
+514035,South Africa,Sri Lanka,1,49.6,301,151,27.6,168,Y,2011-2012,2012-01-11,Boland Park
+514036,Sri Lanka,South Africa,1,49.6,236,118,32.5,197,Y,2011-2012,2012-01-14,Buffalo Park
+514037,Sri Lanka,South Africa,1,49.6,266,133,25.2,152,Y,2011-2012,2012-01-17,Chevrolet Park
+514038,South Africa,Sri Lanka,1,49.6,299,150,22.2,134,Y,2011-2012,2012-01-20,De Beers Diamond Oval
+514039,South Africa,Sri Lanka,1,49.6,312,156,33.1,199,Y,2011-2012,2012-01-22,New Wanderers Stadium
+520593,New Zealand,Zimbabwe,1,49.6,372,186,29.5,179,Y,2011-2012,2012-02-06,Cobham Oval (New)
+520593,Zimbabwe,New Zealand,2,49.6,231,116,30.5,185,Y,2011-2012,2012-02-06,Cobham Oval (New)
+518957,Sri Lanka,India,1,49.6,233,117,30.1,181,Y,2011-2012,2012-02-08,Western Australia Cricket Association Ground
+520594,New Zealand,Zimbabwe,1,49.6,373,187,29.1,175,Y,2011-2012,2012-02-09,McLean Park
+518959,Australia,India,1,49.6,269,135,27.4,166,Y,2011-2012,2012-02-12,Adelaide Oval
+531631,England,Pakistan,1,49.7,260,130,28.3,171,Y,2011-2012,2012-02-13,Sheikh Zayed Stadium
+518960,Sri Lanka,India,1,49.6,236,118,26.3,159,Y,2011-2012,2012-02-14,Adelaide Oval
+518960,India,Sri Lanka,2,49.6,236,118,27.3,165,Y,2011-2012,2012-02-14,Adelaide Oval
+531632,England,Pakistan,1,49.6,250,125,28.6,174,Y,2011-2012,2012-02-15,Sheikh Zayed Stadium
+531633,Pakistan,England,1,49.6,222,111,26.3,159,Y,2011-2012,2012-02-18,Dubai International Cricket Stadium
+518962,Australia,India,1,49.6,288,144,32.6,198,Y,2011-2012,2012-02-19,"Brisbane Cricket Ground, Woolloongabba"
+543882,Ireland,Kenya,1,49.7,237,119,31.2,188,Y,2011-2012,2012-02-20,Mombasa Sports Club Ground
+518963,Sri Lanka,India,1,49.8,289,145,31.1,187,Y,2011-2012,2012-02-21,"Brisbane Cricket Ground, Woolloongabba"
+531634,Pakistan,England,1,49.6,237,119,24.6,150,Y,2011-2012,2012-02-21,Dubai International Cricket Stadium
+518964,Australia,Sri Lanka,1,49.6,280,140,32.3,195,Y,2011-2012,2012-02-24,Bellerive Oval
+520600,New Zealand,South Africa,1,49.6,253,127,28.2,170,Y,2011-2012,2012-02-25,Westpac Stadium
+518965,Australia,India,1,49.6,252,126,25.3,153,Y,2011-2012,2012-02-26,Sydney Cricket Ground
+518966,Sri Lanka,India,1,49.6,320,160,32.6,198,Y,2011-2012,2012-02-28,Bellerive Oval
+518967,Sri Lanka,Australia,1,49.6,238,119,24.6,150,Y,2011-2012,2012-03-02,Melbourne Cricket Ground
+518968,Australia,Sri Lanka,1,49.6,321,161,28.6,174,Y,2011-2012,2012-03-04,"Brisbane Cricket Ground, Woolloongabba"
+518969,Australia,Sri Lanka,1,49.6,271,136,31.3,189,Y,2011-2012,2012-03-06,Adelaide Oval
+535794,Pakistan,Bangladesh,1,49.6,262,131,27.2,164,Y,2011-2012,2012-03-11,Shere Bangla National Stadium
+535795,India,Sri Lanka,1,49.7,304,152,31.1,187,Y,2011-2012,2012-03-13,Shere Bangla National Stadium
+535797,India,Bangladesh,1,49.7,289,145,28.4,172,Y,2011-2012,2012-03-16,Shere Bangla National Stadium
+540168,Australia,West Indies,1,49.6,204,102,27.5,167,Y,2011-2012,2012-03-16,"Arnos Vale Ground, Kingstown"
+535798,Pakistan,India,1,49.7,329,165,27.6,168,Y,2011-2012,2012-03-18,Shere Bangla National Stadium
+535800,Pakistan,Bangladesh,1,49.8,236,118,31.1,187,Y,2011-2012,2012-03-22,Shere Bangla National Stadium
+535800,Bangladesh,Pakistan,2,49.6,234,117,32.3,195,Y,2011-2012,2012-03-22,Shere Bangla National Stadium
+540171,West Indies,Australia,1,49.6,294,147,36.6,222,Y,2011-2012,2012-03-23,"Beausejour Stadium, Gros Islet"
+540172,Australia,West Indies,1,49.6,281,141,25.2,152,Y,2011-2012,2012-03-25,"Beausejour Stadium, Gros Islet"
+562440,Sri Lanka,Pakistan,1,49.6,280,140,26.5,161,Y,2012,2012-06-09,Pallekele International Cricket Stadium
+534209,England,West Indies,1,49.6,288,144,27.3,165,Y,2012,2012-06-16,The Rose Bowl
+562442,Sri Lanka,Pakistan,1,49.6,243,122,33.6,204,Y,2012,2012-06-16,R Premadasa Stadium
+562443,Pakistan,Sri Lanka,1,49.6,247,124,26.6,162,Y,2012,2012-06-18,R Premadasa Stadium
+534210,West Indies,England,1,49.6,238,119,32.2,194,Y,2012,2012-06-19,Kennington Oval
+534215,England,Australia,1,49.6,272,136,31.6,192,Y,2012,2012-06-29,Lord's
+534215,Australia,England,2,49.6,257,129,26.1,157,Y,2012,2012-06-29,Lord's
+534216,Australia,England,1,49.6,251,126,30.3,183,Y,2012,2012-07-01,Kennington Oval
+560923,New Zealand,West Indies,1,49.6,190,95,31.1,187,Y,2012,2012-07-05,"Sabina Park, Kingston"
+534218,Australia,England,1,49.6,200,100,32.6,198,Y,2012,2012-07-07,Riverside Ground
+560924,West Indies,New Zealand,1,49.6,315,158,28.2,170,Y,2012,2012-07-07,"Sabina Park, Kingston"
+560925,New Zealand,West Indies,1,49.6,249,125,25.3,153,Y,2012,2012-07-11,"Warner Park, Basseterre"
+560927,West Indies,New Zealand,1,49.6,241,121,32.2,194,Y,2012,2012-07-16,"Warner Park, Basseterre"
+560927,New Zealand,West Indies,2,49.6,221,111,27.1,163,Y,2012,2012-07-16,"Warner Park, Basseterre"
+564781,India,Sri Lanka,1,49.6,314,157,28.3,171,Y,2012,2012-07-21,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+564781,Sri Lanka,India,2,49.6,293,147,31.1,187,Y,2012,2012-07-21,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+564783,Sri Lanka,India,1,49.6,286,143,29.4,178,Y,2012,2012-07-28,R Premadasa Stadium
+564784,Sri Lanka,India,1,49.6,251,126,26.4,160,Y,2012,2012-07-31,R Premadasa Stadium
+564785,India,Sri Lanka,1,49.6,294,147,29.2,176,Y,2012,2012-08-04,Pallekele International Cricket Stadium
+571947,Australia,Afghanistan,1,49.6,272,136,31.2,188,Y,2012,2012-08-25,Sharjah Cricket Association Stadium
+534229,South Africa,England,1,49.6,287,144,30.2,182,Y,2012,2012-08-28,The Rose Bowl
+571146,Australia,Pakistan,1,49.6,248,124,30.5,185,Y,2012,2012-08-31,Sheikh Zayed Stadium
+534231,South Africa,England,1,49.6,220,110,26.1,157,Y,2012,2012-09-02,Lord's
+571147,Pakistan,Australia,1,49.6,244,122,24.1,145,Y,2012,2012-09-03,Sharjah Cricket Stadium
+582188,New Zealand,Sri Lanka,1,49.6,250,125,32.3,195,Y,2012-2013,2012-11-04,Pallekele International Cricket Stadium
+587472,Bangladesh,West Indies,1,49.7,292,146,28.6,174,Y,2012-2013,2012-12-02,Sheikh Abu Naser Stadium
+587474,West Indies,Bangladesh,1,49.8,211,106,34.6,210,Y,2012-2013,2012-12-07,Shere Bangla National Stadium
+589308,India,Pakistan,1,49.6,227,114,36.4,220,Y,2012-2013,2012-12-30,"MA Chidambaram Stadium, Chepauk"
+565812,England,India,1,49.6,325,163,29.3,177,Y,2012-2013,2013-01-11,Saurashtra Cricket Association Stadium
+565812,India,England,2,49.6,316,158,27.6,168,Y,2012-2013,2013-01-11,Saurashtra Cricket Association Stadium
+573014,Australia,Sri Lanka,1,49.7,305,153,29.5,179,Y,2012-2013,2013-01-11,Melbourne Cricket Ground
+565813,India,England,1,49.7,285,143,31.6,192,Y,2012-2013,2013-01-15,Nehru Stadium
+573017,Australia,Sri Lanka,1,49.6,222,111,27.1,163,Y,2012-2013,2013-01-20,Sydney Cricket Ground
+567359,New Zealand,South Africa,1,49.6,279,140,30.2,182,Y,2012-2013,2013-01-22,De Beers Diamond Oval
+565815,England,India,1,49.6,257,129,31.3,189,Y,2012-2013,2013-01-23,"Punjab Cricket Association Stadium, Mohali"
+573018,Australia,Sri Lanka,1,49.6,247,124,33.1,199,Y,2012-2013,2013-01-23,Bellerive Oval
+567360,New Zealand,South Africa,1,49.7,260,130,33.3,201,Y,2012-2013,2013-01-25,Senwes Park
+567360,South Africa,New Zealand,2,49.6,264,132,28.2,170,Y,2012-2013,2013-01-25,Senwes Park
+573023,Australia,West Indies,1,49.6,266,133,33.4,202,Y,2012-2013,2013-02-03,Western Australia Cricket Association Ground
+573024,Australia,West Indies,1,49.6,329,165,30.5,185,Y,2012-2013,2013-02-06,Manuka Oval
+573026,Australia,West Indies,1,49.6,274,137,34.1,205,Y,2012-2013,2013-02-10,Melbourne Cricket Ground
+593983,West Indies,Zimbabwe,1,49.6,337,169,29.1,175,Y,2012-2013,2013-02-22,"National Cricket Stadium, St George's"
+593983,Zimbabwe,West Indies,2,49.6,181,91,23.3,141,Y,2012-2013,2013-02-22,"National Cricket Stadium, St George's"
+593985,Zimbabwe,West Indies,1,49.6,211,106,25.2,152,Y,2012-2013,2013-02-26,"National Cricket Stadium, St George's"
+567368,South Africa,Pakistan,1,49.6,315,158,29.5,179,Y,2012-2013,2013-03-10,Chevrolet Park
+592266,Canada,Kenya,1,49.6,227,114,31.6,192,Y,2012-2013,2013-03-11,ICC Global Cricket Academy
+567370,South Africa,Pakistan,1,49.6,343,172,32.3,195,Y,2012-2013,2013-03-17,New Wanderers Stadium
+567371,South Africa,Pakistan,1,49.6,234,117,26.5,161,Y,2012-2013,2013-03-21,Kingsmead
+602474,Bangladesh,Sri Lanka,1,49.6,259,130,29.2,176,Y,2012-2013,2013-03-23,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+602476,Sri Lanka,Bangladesh,1,49.6,302,151,28.7,175,Y,2012-2013,2013-03-28,Pallekele International Cricket Stadium
+623573,Bangladesh,Zimbabwe,1,49.7,269,135,29.4,178,Y,2013,2013-05-03,Queens Sports Club
+623574,Bangladesh,Zimbabwe,1,49.6,252,126,31.2,188,Y,2013,2013-05-05,Queens Sports Club
+623575,Bangladesh,Zimbabwe,1,49.6,247,124,31.6,192,Y,2013,2013-05-08,Queens Sports Club
+601077,Pakistan,Scotland,1,49.6,231,116,29.4,178,Y,2013,2013-05-17,"Grange Cricket Club Ground, Raeburn Place"
+601613,Ireland,Pakistan,1,49.6,229,115,32.2,194,Y,2013,2013-05-26,Clontarf Cricket Club Ground
+566923,England,New Zealand,1,49.6,227,114,25.6,156,Y,2013,2013-05-31,Lord's
+566924,New Zealand,England,1,49.6,359,180,33.5,203,Y,2013,2013-06-02,The Rose Bowl
+566925,England,New Zealand,1,49.7,287,144,32.4,196,Y,2013,2013-06-05,Trent Bridge
+578614,India,South Africa,1,49.6,331,166,26.3,159,Y,2013,2013-06-06,Sophia Gardens
+578614,South Africa,India,2,49.7,305,153,23.5,143,Y,2013,2013-06-06,Sophia Gardens
+578616,England,Australia,1,49.7,269,135,29.1,175,Y,2013,2013-06-08,Edgbaston
+578616,Australia,England,2,49.7,221,111,29.4,178,Y,2013,2013-06-08,Edgbaston
+578618,South Africa,Pakistan,1,49.6,234,117,27.1,163,Y,2013,2013-06-10,Edgbaston
+578619,West Indies,India,1,49.6,233,117,25.5,155,Y,2013,2013-06-11,Kennington Oval
+578620,Australia,New Zealand,1,49.7,243,122,29.1,175,Y,2013,2013-06-12,Edgbaston
+578621,England,Sri Lanka,1,49.6,293,147,31.3,189,Y,2013,2013-06-13,Kennington Oval
+578625,Sri Lanka,Australia,1,49.6,253,127,30.2,182,Y,2013,2013-06-17,Kennington Oval
+566947,Sri Lanka,India,1,49.6,181,91,29.5,179,Y,2013,2013-06-20,Sophia Gardens
+597924,India,West Indies,1,49.6,229,115,30.1,181,Y,2013,2013-06-30,"Sabina Park, Kingston"
+597925,Sri Lanka,India,1,49.6,348,174,34.4,208,Y,2013,2013-07-02,"Sabina Park, Kingston"
+597926,India,West Indies,1,49.6,311,156,31.5,191,Y,2013,2013-07-05,"Queen's Park Oval, Port of Spain"
+645635,Pakistan,West Indies,1,49.6,224,112,31.4,190,Y,2013,2013-07-14,Providence Stadium
+645637,West Indies,Pakistan,1,49.7,232,116,30.5,185,Y,2013,2013-07-16,Providence Stadium
+645639,Pakistan,West Indies,1,49.7,229,115,35.3,213,Y,2013,2013-07-19,"Beausejour Stadium, Gros Islet"
+645639,West Indies,Pakistan,2,49.6,229,115,33.2,200,Y,2013,2013-07-19,"Beausejour Stadium, Gros Islet"
+635653,Sri Lanka,South Africa,1,49.6,320,160,32.1,193,Y,2013,2013-07-20,R Premadasa Stadium
+643665,Zimbabwe,India,1,49.6,228,114,33.1,199,Y,2013,2013-07-24,Harare Sports Club
+645643,West Indies,Pakistan,1,49.6,242,121,34.4,208,Y,2013,2013-07-24,"Beausejour Stadium, Gros Islet"
+635655,South Africa,Sri Lanka,1,49.6,223,112,31.2,188,Y,2013,2013-07-26,Pallekele International Cricket Stadium
+643667,India,Zimbabwe,1,49.6,294,147,32.3,195,Y,2013,2013-07-26,Harare Sports Club
+643667,Zimbabwe,India,2,49.6,236,118,23.4,142,Y,2013,2013-07-26,Harare Sports Club
+635657,Sri Lanka,South Africa,1,49.7,307,154,31.1,187,Y,2013,2013-07-31,R Premadasa Stadium
+659549,Pakistan,Zimbabwe,1,49.6,244,122,28.2,170,Y,2013,2013-08-27,Harare Sports Club
+659551,Pakistan,Zimbabwe,1,49.6,299,150,34.6,210,Y,2013,2013-08-29,Harare Sports Club
+659553,Pakistan,Zimbabwe,1,49.8,260,130,34.4,208,Y,2013,2013-08-31,Harare Sports Club
+566940,Ireland,England,1,49.6,269,135,29.2,176,Y,2013,2013-09-03,"The Village, Malahide"
+660837,Scotland,Ireland,1,49.6,223,112,26.2,158,Y,2013,2013-09-06,"Civil Service Cricket Club, Stormont"
+566942,Australia,England,1,49.6,315,158,29.6,180,Y,2013,2013-09-08,Old Trafford
+647249,Australia,India,1,49.6,304,152,28.6,174,Y,2013-2014,2013-10-13,Maharashtra Cricket Association Stadium
+647251,Australia,India,1,49.6,359,180,31.4,190,Y,2013-2014,2013-10-16,Sawai Mansingh Stadium
+647253,India,Australia,1,49.6,303,152,30.4,184,Y,2013-2014,2013-10-19,"Punjab Cricket Association Stadium, Mohali"
+647255,Australia,India,1,49.6,295,148,27.5,167,Y,2013-2014,2013-10-23,JSCA International Stadium Complex
+647259,Australia,India,1,49.8,350,175,30.6,186,Y,2013-2014,2013-10-30,"Vidarbha Cricket Association Stadium, Jamtha"
+647261,India,Australia,1,49.6,383,192,32.2,194,Y,2013-2014,2013-11-02,M Chinnaswamy Stadium
+668957,New Zealand,Bangladesh,1,49.6,307,154,32.4,196,Y,2013-2014,2013-11-03,Khan Shaheb Osman Ali Stadium
+649095,South Africa,Pakistan,1,49.6,259,130,26.6,162,Y,2013-2014,2013-11-06,Sheikh Zayed Stadium
+649097,South Africa,Pakistan,1,49.6,266,133,28.5,173,Y,2013-2014,2013-11-08,Sheikh Zayed Stadium
+668961,Sri Lanka,New Zealand,1,49.6,288,144,29.2,176,Y,2013-2014,2013-11-10,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+649099,South Africa,Pakistan,1,49.6,268,134,35.2,212,Y,2013-2014,2013-11-11,Sharjah Cricket Stadium
+676531,India,West Indies,1,49.6,288,144,29.2,176,Y,2013-2014,2013-11-24,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+685731,Pakistan,South Africa,1,49.6,218,109,32.3,195,Y,2013-2014,2013-11-24,Newlands
+676533,West Indies,India,1,49.6,263,132,28.3,171,Y,2013-2014,2013-11-27,Green Park
+648651,South Africa,India,1,49.6,358,179,33.3,201,Y,2013-2014,2013-12-05,New Wanderers Stadium
+648655,South Africa,India,1,49.6,301,151,32.6,198,Y,2013-2014,2013-12-11,SuperSport Park
+657637,Pakistan,Sri Lanka,1,49.6,322,161,30.6,186,Y,2013-2014,2013-12-18,Sharjah Cricket Stadium
+657639,Pakistan,Sri Lanka,1,49.7,284,142,30.3,183,Y,2013-2014,2013-12-20,Dubai International Cricket Stadium
+657641,Pakistan,Sri Lanka,1,49.6,326,163,30.6,186,Y,2013-2014,2013-12-22,Sharjah Cricket Stadium
+661691,New Zealand,West Indies,1,49.6,285,143,30.6,186,Y,2013-2014,2014-01-04,Saxton Oval
+661693,West Indies,New Zealand,1,49.7,363,182,31.4,190,Y,2013-2014,2014-01-08,Seddon Park
+636159,England,Australia,1,49.6,269,135,29.3,177,Y,2013-2014,2014-01-12,Melbourne Cricket Ground
+636160,England,Australia,1,49.6,300,150,32.2,194,Y,2013-2014,2014-01-17,"Brisbane Cricket Ground, Woolloongabba"
+636161,England,Australia,1,49.6,243,122,29.4,178,Y,2013-2014,2014-01-19,Sydney Cricket Ground
+667641,New Zealand,India,1,49.7,292,146,31.6,192,Y,2013-2014,2014-01-19,McLean Park
+696731,Scotland,Canada,1,49.6,341,171,28.3,171,Y,2013-2014,2014-01-23,Hagley Oval
+696733,Netherlands,Kenya,1,49.6,265,133,30.5,185,Y,2013-2014,2014-01-23,Bert Sutcliffe Oval
+636162,England,Australia,1,49.6,316,158,26.2,158,Y,2013-2014,2014-01-24,Western Australia Cricket Association Ground
+667645,New Zealand,India,1,49.6,314,157,28.2,170,Y,2013-2014,2014-01-25,Eden Park
+667645,India,New Zealand,2,49.8,314,157,29.4,178,Y,2013-2014,2014-01-25,Eden Park
+636163,Australia,England,1,49.6,217,109,28.3,171,Y,2013-2014,2014-01-26,Adelaide Oval
+667647,India,New Zealand,1,49.6,278,139,31.6,192,Y,2013-2014,2014-01-28,Seddon Park
+696747,Canada,Netherlands,1,49.6,210,105,23.2,140,Y,2013-2014,2014-01-28,Bay Oval
+696759,Kenya,Scotland,1,49.6,260,130,26.5,161,Y,2013-2014,2014-01-30,Hagley Oval
+667649,New Zealand,India,1,49.6,303,152,31.6,192,Y,2013-2014,2014-01-31,Westpac Stadium
+690357,Sri Lanka,Bangladesh,1,49.6,289,145,30.2,182,Y,2013-2014,2014-02-20,Shere Bangla National Stadium
+690359,Bangladesh,Sri Lanka,1,49.6,240,120,25.5,155,Y,2013-2014,2014-02-22,Shere Bangla National Stadium
+710291,Sri Lanka,Pakistan,1,49.6,296,148,26.2,158,Y,2013-2014,2014-02-25,Khan Shaheb Osman Ali Stadium
+710293,Bangladesh,India,1,49.6,279,140,30.3,183,Y,2013-2014,2014-02-26,Khan Shaheb Osman Ali Stadium
+710295,Pakistan,Afghanistan,1,49.7,248,124,31.2,188,Y,2013-2014,2014-02-27,Khan Shaheb Osman Ali Stadium
+636533,West Indies,England,1,49.6,269,135,37.3,225,Y,2013-2014,2014-02-28,"Sir Vivian Richards Stadium, North Sound"
+636533,England,West Indies,2,49.6,254,127,27.4,166,Y,2013-2014,2014-02-28,"Sir Vivian Richards Stadium, North Sound"
+710297,India,Sri Lanka,1,49.6,264,132,26.5,161,Y,2013-2014,2014-02-28,Khan Shaheb Osman Ali Stadium
+710299,Afghanistan,Bangladesh,1,49.6,254,127,36.5,221,Y,2013-2014,2014-03-01,Khan Shaheb Osman Ali Stadium
+710301,India,Pakistan,1,49.6,245,123,26.5,161,Y,2013-2014,2014-03-02,Shere Bangla National Stadium
+710303,Sri Lanka,Afghanistan,1,49.7,253,127,31.3,189,Y,2013-2014,2014-03-03,Shere Bangla National Stadium
+710305,Bangladesh,Pakistan,1,49.6,326,163,30.6,186,Y,2013-2014,2014-03-04,Shere Bangla National Stadium
+636535,England,West Indies,1,49.7,303,152,30.3,183,Y,2013-2014,2014-03-05,"Sir Vivian Richards Stadium, North Sound"
+710309,Bangladesh,Sri Lanka,1,49.6,204,102,27.4,166,Y,2013-2014,2014-03-06,Shere Bangla National Stadium
+710311,Pakistan,Sri Lanka,1,49.6,260,130,35.3,213,Y,2013-2014,2014-03-08,Shere Bangla National Stadium
+736503,Afghanistan,U.A.E.,1,49.6,302,151,36.4,220,Y,2014,2014-05-02,Kinrara Academy Oval
+706767,Sri Lanka,Ireland,1,49.6,219,110,33.1,199,Y,2014,2014-05-06,Clontarf Cricket Club Ground
+667891,Sri Lanka,England,1,49.6,256,128,30.2,182,Y,2014,2014-05-25,Riverside Ground
+667895,Sri Lanka,England,1,49.7,300,150,28.1,169,Y,2014,2014-05-31,Lord's
+667895,England,Sri Lanka,2,49.6,293,147,33.1,199,Y,2014,2014-05-31,Lord's
+744679,Bangladesh,India,1,49.6,272,136,30.2,182,Y,2014,2014-06-15,Shere Bangla National Stadium
+730083,South Africa,Sri Lanka,1,49.7,304,152,28.3,171,Y,2014,2014-07-06,R Premadasa Stadium
+730087,South Africa,Sri Lanka,1,49.6,339,170,32.1,193,Y,2014,2014-07-12,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+756037,Afghanistan,Zimbabwe,1,49.6,256,128,30.5,185,Y,2014,2014-07-20,Queens Sports Club
+756039,Zimbabwe,Afghanistan,1,49.6,261,131,27.2,164,Y,2014,2014-07-22,Queens Sports Club
+736437,South Africa,Zimbabwe,1,49.6,309,155,32.2,194,Y,2014,2014-08-17,Queens Sports Club
+730287,Bangladesh,West Indies,1,49.6,217,109,25.6,156,Y,2014,2014-08-20,"National Cricket Stadium, St George's"
+730289,West Indies,Bangladesh,1,49.6,247,124,25.7,157,Y,2014,2014-08-22,"National Cricket Stadium, St George's"
+730291,West Indies,Bangladesh,1,49.6,338,169,31.2,188,Y,2014,2014-08-25,"Warner Park, Basseterre"
+730291,Bangladesh,West Indies,2,49.7,247,124,28.2,170,Y,2014,2014-08-25,"Warner Park, Basseterre"
+736443,Australia,Zimbabwe,1,49.9,350,175,35.2,212,Y,2014,2014-08-25,Harare Sports Club
+745161,Sri Lanka,Pakistan,1,49.6,310,155,26.5,161,Y,2014,2014-08-26,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+667723,India,England,1,49.6,304,152,34.1,205,Y,2014,2014-08-27,Sophia Gardens
+736445,Australia,South Africa,1,49.6,327,164,32.2,194,Y,2014,2014-08-27,Harare Sports Club
+667725,England,India,1,49.7,227,114,26.2,158,Y,2014,2014-08-30,Trent Bridge
+736449,Australia,Zimbabwe,1,49.6,209,105,32.3,195,Y,2014,2014-08-31,Harare Sports Club
+736451,Australia,South Africa,1,49.6,282,141,32.5,197,Y,2014,2014-09-02,Harare Sports Club
+736453,South Africa,Zimbabwe,1,49.8,271,136,31.3,189,Y,2014,2014-09-04,Harare Sports Club
+667729,England,India,1,49.6,294,147,34.3,207,Y,2014,2014-09-05,Headingley
+736455,Australia,South Africa,1,49.6,217,109,25.5,155,Y,2014,2014-09-06,Harare Sports Club
+727939,Ireland,Scotland,1,49.6,241,121,31.2,188,Y,2014,2014-09-12,"The Village, Malahide"
+727919,Australia,Pakistan,1,49.7,255,128,27.1,163,Y,2014-2015,2014-10-07,Sharjah Cricket Stadium
+770121,West Indies,India,1,49.6,321,161,30.2,182,Y,2014-2015,2014-10-08,Nehru Stadium
+770123,India,West Indies,1,49.6,263,132,27.5,167,Y,2014-2015,2014-10-11,Feroz Shah Kotla
+727923,Australia,Pakistan,1,49.6,231,116,25.4,154,Y,2014-2015,2014-10-12,Sheikh Zayed Stadium
+727923,Pakistan,Australia,2,49.6,230,115,26.4,160,Y,2014-2015,2014-10-12,Sheikh Zayed Stadium
+770127,India,West Indies,1,49.6,330,165,31.1,187,Y,2014-2015,2014-10-17,Himachal Pradesh Cricket Association Stadium
+749773,South Africa,New Zealand,1,49.6,282,141,27.3,165,Y,2014-2015,2014-10-24,Bay Oval
+792289,India,Sri Lanka,1,49.6,363,182,27.6,168,Y,2014-2015,2014-11-02,Barabati Stadium
+792291,Sri Lanka,India,1,49.7,274,137,29.5,179,Y,2014-2015,2014-11-06,"Sardar Patel Stadium, Motera"
+792295,India,Sri Lanka,1,49.6,404,202,33.1,199,Y,2014-2015,2014-11-13,Eden Gardens
+754723,Australia,South Africa,1,49.7,300,150,31.3,189,Y,2014-2015,2014-11-14,Western Australia Cricket Association Ground
+792297,Sri Lanka,India,1,49.8,286,143,33.6,204,Y,2014-2015,2014-11-16,JSCA International Stadium Complex
+754727,Australia,South Africa,1,49.7,329,165,28.3,171,Y,2014-2015,2014-11-19,Manuka Oval
+754729,South Africa,Australia,1,49.6,267,134,28.2,170,Y,2014-2015,2014-11-21,Melbourne Cricket Ground
+760787,Bangladesh,Zimbabwe,1,49.6,281,141,33.4,202,Y,2014-2015,2014-11-21,Zahur Ahmed Chowdhury Stadium
+754731,South Africa,Australia,1,49.6,280,140,27.2,164,Y,2014-2015,2014-11-23,Sydney Cricket Ground
+760789,Bangladesh,Zimbabwe,1,49.6,251,126,29.3,177,Y,2014-2015,2014-11-23,Zahur Ahmed Chowdhury Stadium
+750663,Sri Lanka,England,1,49.7,317,159,29.3,177,Y,2014-2015,2014-11-26,R Premadasa Stadium
+760791,Bangladesh,Zimbabwe,1,49.6,297,149,32.4,196,Y,2014-2015,2014-11-26,Shere Bangla National Stadium
+760793,Bangladesh,Zimbabwe,1,49.6,256,128,31.3,189,Y,2014-2015,2014-11-28,Shere Bangla National Stadium
+760793,Zimbabwe,Bangladesh,2,49.6,235,118,26.3,159,Y,2014-2015,2014-11-28,Shere Bangla National Stadium
+803795,Afghanistan,U.A.E.,1,49.6,248,124,33.1,199,Y,2014-2015,2014-11-28,ICC Academy
+803797,Afghanistan,U.A.E.,1,49.6,280,140,30.1,181,Y,2014-2015,2014-11-30,ICC Academy
+750669,England,Sri Lanka,1,49.6,265,133,28.4,172,Y,2014-2015,2014-12-07,R Premadasa Stadium
+742619,New Zealand,Pakistan,1,49.7,246,123,32.3,195,Y,2014-2015,2014-12-08,Dubai International Cricket Stadium
+750673,Sri Lanka,England,1,49.6,292,146,31.1,187,Y,2014-2015,2014-12-13,Pallekele International Cricket Stadium
+742623,Pakistan,New Zealand,1,49.6,364,182,32.2,194,Y,2014-2015,2014-12-14,Sharjah Cricket Stadium
+750675,Sri Lanka,England,1,49.6,302,151,30.4,184,Y,2014-2015,2014-12-16,R Premadasa Stadium
+742625,New Zealand,Pakistan,1,49.7,299,150,31.2,188,Y,2014-2015,2014-12-17,Sheikh Zayed Stadium
+742625,Pakistan,New Zealand,2,49.6,292,146,33.2,200,Y,2014-2015,2014-12-17,Sheikh Zayed Stadium
+742627,New Zealand,Pakistan,1,49.6,275,138,32.3,195,Y,2014-2015,2014-12-19,Sheikh Zayed Stadium
+749781,Sri Lanka,New Zealand,1,49.6,218,109,30.5,185,Y,2014-2015,2015-01-11,Hagley Oval
+810829,Scotland,Ireland,1,49.6,216,108,23.3,141,Y,2014-2015,2015-01-12,Dubai International Cricket Stadium
+812645,Scotland,Afghanistan,1,49.6,213,107,32.3,195,Y,2014-2015,2015-01-14,Sheikh Zayed Stadium
+749783,New Zealand,Sri Lanka,1,49.6,248,124,24.1,145,Y,2014-2015,2015-01-15,Seddon Park
+810833,Afghanistan,Ireland,1,49.6,246,123,34.5,209,Y,2014-2015,2015-01-17,Dubai International Cricket Stadium
+722341,South Africa,West Indies,1,49.6,439,220,36.2,218,Y,2014-2015,2015-01-18,New Wanderers Stadium
+722341,West Indies,South Africa,2,49.7,291,146,24.4,148,Y,2014-2015,2015-01-18,New Wanderers Stadium
+754749,India,Australia,1,49.6,267,134,27.5,167,Y,2014-2015,2015-01-18,Melbourne Cricket Ground
+749789,New Zealand,Sri Lanka,1,49.6,360,180,32.2,194,Y,2014-2015,2015-01-23,University Oval
+754755,England,Australia,1,49.6,303,152,25.4,154,Y,2014-2015,2015-01-23,Bellerive Oval
+722345,South Africa,West Indies,1,49.6,262,131,27.6,168,Y,2014-2015,2015-01-25,St George's Park
+749791,New Zealand,Sri Lanka,1,49.6,315,158,30.4,184,Y,2014-2015,2015-01-25,University Oval
+749793,Sri Lanka,New Zealand,1,49.7,287,144,26.4,160,Y,2014-2015,2015-01-29,Westpac Stadium
+754761,Australia,England,1,49.7,278,139,33.6,204,Y,2014-2015,2015-02-01,Western Australia Cricket Association Ground
+749797,New Zealand,Pakistan,1,49.6,369,185,30.6,186,Y,2014-2015,2015-02-03,McLean Park
+656399,New Zealand,Sri Lanka,1,49.6,331,166,29.6,180,Y,2014-2015,2015-02-14,Hagley Oval
+656401,Australia,England,1,49.6,342,171,30.4,184,Y,2014-2015,2015-02-14,Melbourne Cricket Ground
+656403,South Africa,Zimbabwe,1,49.7,339,170,37.3,225,Y,2014-2015,2015-02-15,Seddon Park
+656405,India,Pakistan,1,49.6,300,150,28.3,171,Y,2014-2015,2015-02-15,Adelaide Oval
+656407,West Indies,Ireland,1,49.6,304,152,36.4,220,Y,2014-2015,2015-02-16,Saxton Oval
+656411,Bangladesh,Afghanistan,1,49.6,267,134,33.1,199,Y,2014-2015,2015-02-18,Manuka Oval
+656413,U.A.E.,Zimbabwe,1,49.6,285,143,32.3,195,Y,2014-2015,2015-02-19,Saxton Oval
+656417,West Indies,Pakistan,1,49.6,310,155,31.6,192,Y,2014-2015,2015-02-21,Hagley Oval
+656423,India,South Africa,1,49.6,307,154,31.1,187,Y,2014-2015,2015-02-22,Melbourne Cricket Ground
+656425,England,Scotland,1,49.7,303,152,27.1,163,Y,2014-2015,2015-02-23,Hagley Oval
+656427,West Indies,Zimbabwe,1,49.8,372,186,37.3,225,Y,2014-2015,2015-02-24,Manuka Oval
+656429,U.A.E.,Ireland,1,49.6,278,139,36.1,217,Y,2014-2015,2015-02-25,"Brisbane Cricket Ground, Woolloongabba"
+656431,Scotland,Afghanistan,1,49.6,210,105,25.2,152,Y,2014-2015,2015-02-26,University Oval
+656433,Sri Lanka,Bangladesh,1,49.7,332,166,32.5,197,Y,2014-2015,2015-02-26,Melbourne Cricket Ground
+656435,South Africa,West Indies,1,49.6,408,204,36.3,219,Y,2014-2015,2015-02-27,Sydney Cricket Ground
+656441,England,Sri Lanka,1,49.8,309,155,32.1,193,Y,2014-2015,2015-03-01,Westpac Stadium
+656443,Pakistan,Zimbabwe,1,49.6,235,118,30.6,186,Y,2014-2015,2015-03-01,"Brisbane Cricket Ground, Woolloongabba"
+656445,South Africa,Ireland,1,49.6,411,206,33.4,202,Y,2014-2015,2015-03-03,Manuka Oval
+656447,Pakistan,U.A.E.,1,49.6,339,170,32.4,196,Y,2014-2015,2015-03-04,McLean Park
+656447,U.A.E.,Pakistan,2,49.7,210,105,28.4,172,Y,2014-2015,2015-03-04,McLean Park
+656449,Australia,Afghanistan,1,49.6,417,209,31.1,187,Y,2014-2015,2015-03-04,Western Australia Cricket Association Ground
+656451,Scotland,Bangladesh,1,49.7,318,159,30.4,184,Y,2014-2015,2015-03-05,Saxton Oval
+656457,Ireland,Zimbabwe,1,49.6,331,166,33.1,199,Y,2014-2015,2015-03-07,Bellerive Oval
+656461,Australia,Sri Lanka,1,49.6,376,188,34.3,207,Y,2014-2015,2015-03-08,Sydney Cricket Ground
+656463,Bangladesh,England,1,49.6,275,138,29.6,180,Y,2014-2015,2015-03-09,Adelaide Oval
+656467,Sri Lanka,Scotland,1,49.6,363,182,30.4,184,Y,2014-2015,2015-03-11,Bellerive Oval
+656469,South Africa,U.A.E.,1,49.7,341,171,31.1,187,Y,2014-2015,2015-03-12,Westpac Stadium
+656471,Bangladesh,New Zealand,1,49.7,288,144,33.2,200,Y,2014-2015,2015-03-13,Seddon Park
+656481,Ireland,Pakistan,1,49.6,237,119,26.1,157,Y,2014-2015,2015-03-15,Adelaide Oval
+656485,India,Bangladesh,1,49.6,302,151,33.5,203,Y,2014-2015,2015-03-19,Melbourne Cricket Ground
+656489,New Zealand,West Indies,1,49.6,393,197,35.5,215,Y,2014-2015,2015-03-21,Westpac Stadium
+656493,Australia,India,1,49.6,328,164,31.3,189,Y,2014-2015,2015-03-26,Sydney Cricket Ground
+858485,Bangladesh,Pakistan,1,49.8,329,165,33.3,201,Y,2015,2015-04-17,Shere Bangla National Stadium
+858487,Pakistan,Bangladesh,1,49.6,239,120,34.6,210,Y,2015,2015-04-19,Shere Bangla National Stadium
+868727,Pakistan,Zimbabwe,1,49.6,375,188,30.5,185,Y,2015,2015-05-26,Gaddafi Stadium
+868727,Zimbabwe,Pakistan,2,49.6,334,167,29.5,179,Y,2015,2015-05-26,Gaddafi Stadium
+868729,Zimbabwe,Pakistan,1,49.6,268,134,28.6,174,Y,2015,2015-05-29,Gaddafi Stadium
+868731,Pakistan,Zimbabwe,1,49.6,296,148,27.6,168,Y,2015,2015-05-31,Gaddafi Stadium
+743943,England,New Zealand,1,49.7,408,204,30.3,183,Y,2015,2015-06-09,Edgbaston
+743945,New Zealand,England,1,49.7,398,199,28.5,173,Y,2015,2015-06-12,Kennington Oval
+743949,New Zealand,England,1,49.6,349,175,28.3,171,Y,2015,2015-06-17,Trent Bridge
+743951,New Zealand,England,1,49.6,283,142,28.3,171,Y,2015,2015-06-20,Riverside Ground
+870735,India,Bangladesh,1,49.6,317,159,27.1,163,Y,2015,2015-06-24,Shere Bangla National Stadium
+885959,India,Zimbabwe,1,49.6,255,128,33.2,200,Y,2015,2015-07-10,Harare Sports Club
+885959,Zimbabwe,India,2,49.6,251,126,30.2,182,Y,2015,2015-07-10,Harare Sports Club
+860269,Sri Lanka,Pakistan,1,49.6,255,128,29.5,179,Y,2015,2015-07-11,Rangiri Dambulla International Stadium
+885965,India,Zimbabwe,1,49.6,271,136,29.5,179,Y,2015,2015-07-12,Harare Sports Club
+885967,India,Zimbabwe,1,49.6,276,138,34.6,210,Y,2015,2015-07-14,Harare Sports Club
+860271,Pakistan,Sri Lanka,1,49.7,287,144,32.3,195,Y,2015,2015-07-15,Pallekele International Cricket Stadium
+860273,Pakistan,Sri Lanka,1,49.6,316,158,29.4,178,Y,2015,2015-07-19,R Premadasa Stadium
+860275,Sri Lanka,Pakistan,1,49.7,256,128,27.5,167,Y,2015,2015-07-22,R Premadasa Stadium
+860277,Sri Lanka,Pakistan,1,49.6,368,184,29.6,180,Y,2015,2015-07-26,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+894287,New Zealand,Zimbabwe,1,49.6,303,152,33.3,201,Y,2015,2015-08-02,Harare Sports Club
+894289,Zimbabwe,New Zealand,1,49.7,235,118,27.5,167,Y,2015,2015-08-04,Harare Sports Club
+894291,New Zealand,Zimbabwe,1,49.6,273,137,28.3,171,Y,2015,2015-08-07,Harare Sports Club
+848843,South Africa,New Zealand,1,49.6,304,152,30.3,183,Y,2015,2015-08-19,SuperSport Park
+848847,South Africa,New Zealand,1,49.7,283,142,31.4,190,Y,2015,2015-08-26,Kingsmead
+743977,Australia,England,1,49.6,305,153,29.3,177,Y,2015,2015-09-03,The Rose Bowl
+743981,England,Australia,1,49.6,300,150,26.3,159,Y,2015,2015-09-08,Old Trafford
+743983,Australia,England,1,49.6,299,150,25.6,156,Y,2015,2015-09-11,Headingley
+919607,Pakistan,Zimbabwe,1,49.8,259,130,32.2,194,Y,2015-2016,2015-10-01,Harare Sports Club
+919609,Zimbabwe,Pakistan,1,49.6,276,138,32.4,196,Y,2015-2016,2015-10-03,Harare Sports Club
+919613,Ireland,Zimbabwe,1,49.6,219,110,29.5,179,Y,2015-2016,2015-10-09,Harare Sports Club
+903593,South Africa,India,1,49.6,303,152,32.6,198,Y,2015-2016,2015-10-11,Green Park
+903593,India,South Africa,2,49.6,298,149,27.5,167,Y,2015-2016,2015-10-11,Green Park
+919615,Ireland,Zimbabwe,1,49.6,268,134,29.3,177,Y,2015-2016,2015-10-11,Harare Sports Club
+903595,India,South Africa,1,49.6,247,124,29.2,176,Y,2015-2016,2015-10-14,Holkar Cricket Stadium
+903597,South Africa,India,1,49.6,270,135,27.5,167,Y,2015-2016,2015-10-18,Saurashtra Cricket Association Stadium
+903597,India,South Africa,2,49.6,252,126,25.4,154,Y,2015-2016,2015-10-18,Saurashtra Cricket Association Stadium
+924629,Afghanistan,Zimbabwe,1,49.6,271,136,28.2,170,Y,2015-2016,2015-10-18,Queens Sports Club
+903599,India,South Africa,1,49.6,299,150,28.4,172,Y,2015-2016,2015-10-22,"MA Chidambaram Stadium, Chepauk"
+903599,South Africa,India,2,49.6,264,132,26.2,158,Y,2015-2016,2015-10-22,"MA Chidambaram Stadium, Chepauk"
+924633,Zimbabwe,Afghanistan,1,49.7,184,92,31.2,188,Y,2015-2016,2015-10-22,Queens Sports Club
+903601,South Africa,India,1,49.6,438,219,32.2,194,Y,2015-2016,2015-10-25,Wankhede Stadium
+931390,Bangladesh,Zimbabwe,1,49.6,273,137,31.2,188,Y,2015-2016,2015-11-07,Shere Bangla National Stadium
+931392,Bangladesh,Zimbabwe,1,49.6,241,121,26.4,160,Y,2015-2016,2015-11-09,Shere Bangla National Stadium
+931394,Bangladesh,Zimbabwe,1,49.6,276,138,27.2,164,Y,2015-2016,2015-11-11,Shere Bangla National Stadium
+902643,England,Pakistan,1,49.6,283,142,27.3,165,Y,2015-2016,2015-11-13,Sheikh Zayed Stadium
+911049,Hong Kong,U.A.E.,1,49.6,298,149,30.2,182,Y,2015-2016,2015-11-16,ICC Academy
+902647,England,Pakistan,1,49.8,355,178,32.1,193,Y,2015-2016,2015-11-20,Dubai International Cricket Stadium
+953337,Zimbabwe,Afghanistan,1,49.7,253,127,28.3,171,Y,2015-2016,2015-12-29,Sharjah Cricket Stadium
+914211,New Zealand,Sri Lanka,1,49.6,276,138,25.6,156,Y,2015-2016,2015-12-31,Saxton Oval
+914215,New Zealand,Sri Lanka,1,49.6,294,147,28.1,169,Y,2015-2016,2016-01-05,Bay Oval
+895807,India,Australia,1,49.6,309,155,31.1,187,Y,2015-2016,2016-01-12,Western Australia Cricket Association Ground
+895809,India,Australia,1,49.6,308,154,27.5,167,Y,2015-2016,2016-01-15,"Brisbane Cricket Ground, Woolloongabba"
+895811,India,Australia,1,49.7,295,148,30.1,181,Y,2015-2016,2016-01-17,Melbourne Cricket Ground
+895813,Australia,India,1,49.6,348,174,27.1,163,Y,2015-2016,2016-01-20,Manuka Oval
+895815,Australia,India,1,49.6,330,165,29.1,175,Y,2015-2016,2016-01-23,Sydney Cricket Ground
+914227,New Zealand,Pakistan,1,49.6,280,140,31.4,190,Y,2015-2016,2016-01-25,Basin Reserve
+800469,England,South Africa,1,49.7,399,200,26.1,157,Y,2015-2016,2016-02-03,Mangaung Oval
+914231,New Zealand,Australia,1,49.6,307,154,21.6,132,Y,2015-2016,2016-02-03,Eden Park
+800471,South Africa,England,1,49.7,262,131,28.6,174,Y,2015-2016,2016-02-06,St George's Park
+914233,New Zealand,Australia,1,49.7,281,141,27.2,164,Y,2015-2016,2016-02-06,Westpac Stadium
+800473,England,South Africa,1,49.6,318,159,25.6,156,Y,2015-2016,2016-02-09,SuperSport Park
+932853,South Africa,Australia,1,49.6,189,95,20.6,126,Y,2016,2016-06-07,Providence Stadium
+932855,Australia,South Africa,1,49.6,288,144,27.6,168,Y,2016,2016-06-11,"Warner Park, Basseterre"
+932857,Australia,West Indies,1,49.7,265,133,26.4,160,Y,2016,2016-06-13,"Warner Park, Basseterre"
+932859,South Africa,West Indies,1,49.6,343,172,32.3,195,Y,2016,2016-06-15,"Warner Park, Basseterre"
+913621,Sri Lanka,Ireland,1,49.6,377,189,31.3,189,Y,2016,2016-06-18,"The Village, Malahide"
+913623,Sri Lanka,England,1,49.6,286,143,30.4,184,Y,2016,2016-06-21,Trent Bridge
+913623,England,Sri Lanka,2,49.6,286,143,30.1,181,Y,2016,2016-06-21,Trent Bridge
+932863,West Indies,Australia,1,49.6,282,141,29.4,178,Y,2016,2016-06-21,"Kensington Oval, Bridgetown"
+913625,Sri Lanka,England,1,49.6,254,127,26.5,161,Y,2016,2016-06-24,Edgbaston
+932865,West Indies,South Africa,1,49.6,285,143,25.4,154,Y,2016,2016-06-24,"Kensington Oval, Bridgetown"
+913627,Sri Lanka,England,1,49.6,248,124,27.3,165,Y,2016,2016-06-26,County Ground
+932867,Australia,West Indies,1,49.6,270,135,28.1,169,Y,2016,2016-06-26,"Kensington Oval, Bridgetown"
+913631,England,Sri Lanka,1,49.6,324,162,29.3,177,Y,2016,2016-07-02,Sophia Gardens
+997965,Afghanistan,Ireland,1,49.6,229,115,33.2,200,Y,2016,2016-07-17,"Civil Service Cricket Club, Stormont"
+997967,Ireland,Afghanistan,1,49.6,265,133,32.3,195,Y,2016,2016-07-19,"Civil Service Cricket Club, Stormont"
+997967,Afghanistan,Ireland,2,49.7,253,127,33.3,201,Y,2016,2016-07-19,"Civil Service Cricket Club, Stormont"
+997993,Scotland,U.A.E.,1,49.6,327,164,31.1,187,Y,2016,2016-08-14,"Grange Cricket Club Ground, Raeburn Place"
+995457,Sri Lanka,Australia,1,49.6,227,114,27.5,167,Y,2016,2016-08-21,R Premadasa Stadium
+913653,Pakistan,England,1,49.6,260,130,27.3,165,Y,2016,2016-08-24,The Rose Bowl
+913655,Pakistan,England,1,49.6,251,126,26.3,159,Y,2016,2016-08-27,Lord's
+913657,England,Pakistan,1,49.6,444,222,31.5,191,Y,2016,2016-08-30,Trent Bridge
+995463,Sri Lanka,Australia,1,49.6,212,106,25.5,155,Y,2016,2016-08-31,Rangiri Dambulla International Stadium
+913659,Pakistan,England,1,49.6,247,124,26.1,157,Y,2016,2016-09-01,Headingley
+913661,England,Pakistan,1,49.6,302,151,26.2,158,Y,2016,2016-09-04,Sophia Gardens
+1004285,Scotland,Hong Kong,1,49.6,266,133,29.6,180,Y,2016,2016-09-10,"Grange Cricket Club Ground, Raeburn Place"
+936131,South Africa,Ireland,1,49.6,354,177,28.3,171,Y,2016-2017,2016-09-25,Willowmoore Park
+1051297,Bangladesh,Afghanistan,1,49.6,265,133,28.2,170,Y,2016-2017,2016-09-25,Shere Bangla National Stadium
+1051297,Afghanistan,Bangladesh,2,49.6,258,129,27.2,164,Y,2016-2017,2016-09-25,Shere Bangla National Stadium
+936135,Australia,South Africa,1,49.6,294,147,22.6,138,Y,2016-2017,2016-09-30,SuperSport Park
+1051301,Bangladesh,Afghanistan,1,49.6,279,140,27.5,167,Y,2016-2017,2016-10-01,Shere Bangla National Stadium
+936137,South Africa,Australia,1,49.6,361,181,29.4,178,Y,2016-2017,2016-10-02,New Wanderers Stadium
+1050225,Pakistan,West Indies,1,49.6,337,169,27.1,163,Y,2016-2017,2016-10-02,Sharjah Cricket Stadium
+1050225,West Indies,Pakistan,2,49.7,278,139,30.4,184,Y,2016-2017,2016-10-02,Sharjah Cricket Stadium
+936139,Australia,South Africa,1,49.6,371,186,28.5,173,Y,2016-2017,2016-10-05,Kingsmead
+1050227,Pakistan,West Indies,1,49.6,308,154,26.1,157,Y,2016-2017,2016-10-05,Sheikh Zayed Stadium
+1029819,England,Bangladesh,1,49.6,309,155,27.4,166,Y,2016-2017,2016-10-07,Shere Bangla National Stadium
+1029821,Bangladesh,England,1,49.6,238,119,32.3,195,Y,2016-2017,2016-10-09,Shere Bangla National Stadium
+936143,South Africa,Australia,1,49.6,327,164,26.2,158,Y,2016-2017,2016-10-12,Newlands
+1029823,Bangladesh,England,1,49.6,277,139,27.6,168,Y,2016-2017,2016-10-12,Zahur Ahmed Chowdhury Stadium
+1030221,New Zealand,India,1,49.6,242,121,21.2,128,Y,2016-2017,2016-10-20,Feroz Shah Kotla
+1030225,New Zealand,India,1,49.7,260,130,22.5,137,Y,2016-2017,2016-10-26,JSCA International Stadium Complex
+1030227,India,New Zealand,1,49.6,269,135,27.3,165,Y,2016-2017,2016-10-29,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+1026851,P.N.G.,Hong Kong,1,49.6,244,122,29.2,176,Y,2016-2017,2016-11-08,"Mission Road Ground, Mong Kok"
+1059712,Zimbabwe,West Indies,1,49.6,257,129,29.1,175,Y,2016-2017,2016-11-19,Queens Sports Club
+1059712,West Indies,Zimbabwe,2,49.6,257,129,28.2,170,Y,2016-2017,2016-11-19,Queens Sports Club
+1059714,Sri Lanka,West Indies,1,49.6,330,165,28.5,173,Y,2016-2017,2016-11-23,Queens Sports Club
+1059714,West Indies,Sri Lanka,2,49.6,329,165,27.1,163,Y,2016-2017,2016-11-23,Queens Sports Club
+1001371,Australia,New Zealand,1,49.6,324,162,32.1,193,Y,2016-2017,2016-12-04,Sydney Cricket Ground
+1001373,Australia,New Zealand,1,49.6,378,189,33.6,204,Y,2016-2017,2016-12-06,Manuka Oval
+1001375,Australia,New Zealand,1,49.6,264,132,31.1,187,Y,2016-2017,2016-12-09,Melbourne Cricket Ground
+1019973,New Zealand,Bangladesh,1,49.6,341,171,30.2,182,Y,2016-2017,2016-12-26,Hagley Oval
+1019975,New Zealand,Bangladesh,1,49.6,251,126,30.4,184,Y,2016-2017,2016-12-29,Saxton Oval
+1019977,Bangladesh,New Zealand,1,49.6,236,118,24.2,146,Y,2016-2017,2016-12-31,Saxton Oval
+1000887,Australia,Pakistan,1,49.6,268,134,26.4,160,Y,2016-2017,2017-01-13,"Brisbane Cricket Ground, Woolloongabba"
+1034819,England,India,1,49.6,350,175,30.6,186,Y,2016-2017,2017-01-15,Maharashtra Cricket Association Stadium
+1000891,Pakistan,Australia,1,49.6,263,132,25.3,153,Y,2016-2017,2017-01-19,Western Australia Cricket Association Ground
+1034821,India,England,1,49.6,381,191,33.1,199,Y,2016-2017,2017-01-19,Barabati Stadium
+1034821,England,India,2,49.6,366,183,28.6,174,Y,2016-2017,2017-01-19,Barabati Stadium
+1000893,Australia,Pakistan,1,49.6,353,177,30.3,183,Y,2016-2017,2017-01-22,Sydney Cricket Ground
+1034823,England,India,1,49.7,321,161,29.3,177,Y,2016-2017,2017-01-22,Eden Gardens
+1034823,India,England,2,49.6,316,158,29.2,176,Y,2016-2017,2017-01-22,Eden Gardens
+1000895,Australia,Pakistan,1,49.6,369,185,28.5,173,Y,2016-2017,2017-01-26,Adelaide Oval
+1020013,New Zealand,Australia,1,49.6,286,143,26.2,158,Y,2016-2017,2017-01-30,Eden Park
+936161,South Africa,Sri Lanka,1,49.6,307,154,28.1,169,Y,2016-2017,2017-02-01,Kingsmead
+1020017,New Zealand,Australia,1,49.7,281,141,25.6,156,Y,2016-2017,2017-02-05,Seddon Park
+936165,South Africa,Sri Lanka,1,49.6,367,184,29.1,175,Y,2016-2017,2017-02-07,Newlands
+936167,South Africa,Sri Lanka,1,49.9,384,192,27.3,165,Y,2016-2017,2017-02-10,SuperSport Park
+936167,Sri Lanka,South Africa,2,49.6,296,148,27.2,164,Y,2016-2017,2017-02-10,SuperSport Park
+1079247,Afghanistan,Zimbabwe,1,49.6,238,119,27.1,163,Y,2016-2017,2017-02-19,Harare Sports Club
+1020033,New Zealand,South Africa,1,49.6,289,145,28.5,173,Y,2016-2017,2017-02-22,Hagley Oval
+1020033,South Africa,New Zealand,2,49.6,283,142,28.1,169,Y,2016-2017,2017-02-22,Hagley Oval
+1020035,South Africa,New Zealand,1,49.6,271,136,27.2,164,Y,2016-2017,2017-02-25,Westpac Stadium
+1079250,Afghanistan,Zimbabwe,1,49.7,253,127,27.1,163,Y,2016-2017,2017-02-26,Harare Sports Club
+1020037,South Africa,New Zealand,1,49.6,279,140,30.6,186,Y,2016-2017,2017-03-01,Seddon Park
+1027315,England,West Indies,1,49.6,296,148,30.4,184,Y,2016-2017,2017-03-03,"Sir Vivian Richards Stadium, North Sound"
+1027319,England,West Indies,1,49.8,328,164,29.3,177,Y,2016-2017,2017-03-09,"Kensington Oval, Bridgetown"
+1040491,Afghanistan,Ireland,1,49.6,292,146,27.5,167,Y,2016-2017,2017-03-15,Greater Noida Sports Complex Ground
+1040493,Afghanistan,Ireland,1,49.6,338,169,31.4,190,Y,2016-2017,2017-03-17,Greater Noida Sports Complex Ground
+1040495,Afghanistan,Ireland,1,49.6,264,132,33.2,200,Y,2016-2017,2017-03-19,Greater Noida Sports Complex Ground
+1083446,Bangladesh,Sri Lanka,1,49.8,324,162,30.5,185,Y,2016-2017,2017-03-25,Rangiri Dambulla International Stadium
+1083448,Sri Lanka,Bangladesh,1,49.7,280,140,26.5,161,Y,2016-2017,2017-04-01,Sinhalese Sports Club Ground
+1068737,P.N.G.,U.A.E.,1,49.6,232,116,26.2,158,Y,2017,2017-04-02,Sheikh Zayed Stadium
+1089183,U.A.E.,P.N.G.,1,49.6,251,126,25.6,156,Y,2017,2017-04-04,Sheikh Zayed Stadium
+1077949,Pakistan,West Indies,1,49.6,308,154,29.3,177,Y,2017,2017-04-07,Providence Stadium
+1077950,Pakistan,West Indies,1,49.6,282,141,31.4,190,Y,2017,2017-04-09,Providence Stadium
+1077951,West Indies,Pakistan,1,49.6,233,117,33.1,199,Y,2017,2017-04-11,Providence Stadium
+1029003,England,Ireland,1,49.6,328,164,30.3,183,Y,2017,2017-05-07,Lord's
+1033363,New Zealand,Ireland,1,49.7,289,145,31.1,187,Y,2017,2017-05-14,Malahide
+1033365,Bangladesh,New Zealand,1,49.7,257,129,27.5,167,Y,2017,2017-05-17,Clontarf Cricket Club Ground
+1033369,New Zealand,Ireland,1,49.7,344,172,28.5,173,Y,2017,2017-05-21,Malahide
+1031425,England,South Africa,1,49.6,339,170,29.5,179,Y,2017,2017-05-24,Headingley
+1033371,New Zealand,Bangladesh,1,49.6,270,135,25.1,151,Y,2017,2017-05-24,Clontarf Cricket Club Ground
+1031427,England,South Africa,1,49.6,330,165,31.3,189,Y,2017,2017-05-27,The Rose Bowl
+1031427,South Africa,England,2,49.6,328,164,27.3,165,Y,2017,2017-05-27,The Rose Bowl
+1022347,Bangladesh,England,1,49.6,305,153,28.4,172,Y,2017,2017-06-01,Kennington Oval
+1022351,South Africa,Sri Lanka,1,49.6,299,150,27.5,167,Y,2017,2017-06-03,Kennington Oval
+1022359,South Africa,Pakistan,1,49.6,219,110,27.6,168,Y,2017,2017-06-07,Edgbaston
+1022361,India,Sri Lanka,1,49.6,321,161,28.1,169,Y,2017,2017-06-08,Kennington Oval
+1022363,New Zealand,Bangladesh,1,49.6,265,133,24.5,149,Y,2017,2017-06-09,Sophia Gardens
+1089779,Afghanistan,West Indies,1,49.6,212,106,28.5,173,Y,2017,2017-06-09,"Darren Sammy National Cricket Stadium, Gros Islet"
+1022365,Australia,England,1,49.6,277,139,24.3,147,Y,2017,2017-06-10,Edgbaston
+1022371,England,Pakistan,1,49.6,211,106,22.2,134,Y,2017,2017-06-14,Sophia Gardens
+1022373,Bangladesh,India,1,49.7,264,132,23.1,139,Y,2017,2017-06-15,Edgbaston
+1089419,Scotland,Zimbabwe,1,49.6,317,159,27.6,168,Y,2017,2017-06-15,"Grange Cricket Club Ground, Raeburn Place"
+1022375,Pakistan,India,1,49.6,338,169,27.2,164,Y,2017,2017-06-18,Kennington Oval
+1098208,India,West Indies,1,49.6,251,126,33.4,202,Y,2017,2017-06-30,"Sir Vivian Richards Stadium, North Sound"
+1104478,Sri Lanka,Zimbabwe,1,49.6,316,158,29.4,178,Y,2017,2017-06-30,Galle International Stadium
+1098209,West Indies,India,1,49.6,189,95,24.6,150,Y,2017,2017-07-02,"Sir Vivian Richards Stadium, North Sound"
+1098210,West Indies,India,1,49.6,205,103,25.2,152,Y,2017,2017-07-06,"Sabina Park, Kingston"
+1104480,Zimbabwe,Sri Lanka,1,49.6,310,155,24.4,148,Y,2017,2017-07-06,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+1104481,Sri Lanka,Zimbabwe,1,49.6,300,150,24.2,146,Y,2017,2017-07-08,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+1104482,Sri Lanka,Zimbabwe,1,49.6,203,102,27.4,166,Y,2017,2017-07-10,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+1109606,Sri Lanka,India,1,49.6,236,118,27.1,163,Y,2017,2017-08-24,Pallekele International Cricket Stadium
+1109607,Sri Lanka,India,1,49.6,217,109,28.4,172,Y,2017,2017-08-27,Pallekele International Cricket Stadium
+1109608,India,Sri Lanka,1,49.6,375,188,25.1,151,Y,2017,2017-08-31,"R.Premadasa Stadium, Khettarama"
+1119496,India,Australia,1,49.7,281,141,33.2,200,Y,2017-2018,2017-09-17,"MA Chidambaram Stadium, Chepauk"
+1119497,India,Australia,1,49.6,252,126,25.4,154,Y,2017-2018,2017-09-21,Eden Gardens
+1031671,England,West Indies,1,49.7,369,185,28.6,174,Y,2017,2017-09-24,County Ground
+1119498,Australia,India,1,49.8,293,147,27.1,163,Y,2017-2018,2017-09-24,Holkar Cricket Stadium
+1031673,West Indies,England,1,49.6,356,178,33.2,200,Y,2017,2017-09-27,Kennington Oval
+1119499,Australia,India,1,49.6,334,167,26.3,159,Y,2017-2018,2017-09-28,M.Chinnaswamy Stadium
+1119499,India,Australia,2,49.6,313,157,26.4,160,Y,2017-2018,2017-09-28,M.Chinnaswamy Stadium
+1031675,West Indies,England,1,49.6,288,144,31.5,191,Y,2017,2017-09-29,The Rose Bowl
+1119500,Australia,India,1,49.6,242,121,25.4,154,Y,2017-2018,2017-10-01,"Vidarbha Cricket Association Stadium, Jamtha"
+1120286,Pakistan,Sri Lanka,1,49.6,292,146,32.1,193,Y,2017-2018,2017-10-13,Dubai International Cricket Stadium
+1120286,Sri Lanka,Pakistan,2,49.6,209,105,25.2,152,Y,2017-2018,2017-10-13,Dubai International Cricket Stadium
+1075504,Bangladesh,South Africa,1,49.7,278,139,28.2,170,Y,2017-2018,2017-10-15,Diamond Oval
+1120287,Pakistan,Sri Lanka,1,49.6,219,110,30.6,186,Y,2017-2018,2017-10-16,Sheikh Zayed Stadium
+1075505,South Africa,Bangladesh,1,49.6,353,177,29.2,176,Y,2017-2018,2017-10-18,Boland Park
+1075506,South Africa,Bangladesh,1,49.6,369,185,29.3,177,Y,2017-2018,2017-10-22,Buffalo Park
+1120090,India,New Zealand,1,49.6,280,140,27.2,164,Y,2017-2018,2017-10-22,Wankhede Stadium
+1120091,New Zealand,India,1,49.7,230,115,27.5,167,Y,2017-2018,2017-10-25,Maharashtra Cricket Association Stadium
+1120092,India,New Zealand,1,49.7,337,169,30.5,185,Y,2017-2018,2017-10-29,Green Park
+1120092,New Zealand,India,2,49.6,331,166,27.6,168,Y,2017-2018,2017-10-29,Green Park
+1125472,Afghanistan,Ireland,1,49.8,238,119,24.6,150,Y,2017-2018,2017-12-05,Sharjah Cricket Stadium
+1124089,Hong Kong,P.N.G.,1,49.6,230,115,28.5,173,Y,2017-2018,2017-12-06,ICC Academy
+1125473,Ireland,Afghanistan,1,49.6,271,136,27.4,166,Y,2017-2018,2017-12-07,Sharjah Cricket Stadium
+1122727,India,Sri Lanka,1,49.6,392,196,33.5,203,Y,2017-2018,2017-12-13,"Punjab Cricket Association IS Bindra Stadium, Mohali"
+1122727,Sri Lanka,India,2,49.6,251,126,25.1,151,Y,2017-2018,2017-12-13,"Punjab Cricket Association IS Bindra Stadium, Mohali"
+1115795,West Indies,New Zealand,1,49.6,248,124,28.2,170,Y,2017-2018,2017-12-20,Cobham Oval (New)
+1115796,New Zealand,West Indies,1,49.7,325,163,29.3,177,Y,2017-2018,2017-12-23,Hagley Oval
+1115802,New Zealand,Pakistan,1,49.6,315,158,26.6,162,Y,2017-2018,2018-01-06,Basin Reserve
+1115803,Pakistan,New Zealand,1,49.8,246,123,28.5,173,Y,2017-2018,2018-01-09,Saxton Oval
+1131274,U.A.E.,Ireland,1,49.6,222,111,30.2,182,Y,2017-2018,2018-01-11,ICC Academy
+1115804,New Zealand,Pakistan,1,49.6,257,129,28.2,170,Y,2017-2018,2018-01-13,University Oval
+1131275,Ireland,U.A.E.,1,49.7,301,151,33.4,202,Y,2017-2018,2018-01-13,ICC Academy
+1072310,Australia,England,1,49.6,304,152,28.2,170,Y,2017-2018,2018-01-14,Melbourne Cricket Ground
+1115805,Pakistan,New Zealand,1,49.6,262,131,32.4,196,Y,2017-2018,2018-01-16,Seddon Park
+1130738,Zimbabwe,Sri Lanka,1,49.6,290,145,28.4,172,Y,2017-2018,2018-01-17,"Shere Bangla National Stadium, Mirpur"
+1131277,Ireland,Scotland,1,49.6,331,166,33.7,205,Y,2017-2018,2018-01-18,ICC Academy
+1131277,Scotland,Ireland,2,49.6,307,154,31.3,189,Y,2017-2018,2018-01-18,ICC Academy
+1072311,Australia,England,1,49.6,270,135,26.3,159,Y,2017-2018,2018-01-19,"Brisbane Cricket Ground, Woolloongabba"
+1115806,New Zealand,Pakistan,1,49.6,271,136,27.3,165,Y,2017-2018,2018-01-19,Basin Reserve
+1130739,Bangladesh,Sri Lanka,1,49.6,320,160,26.6,162,Y,2017-2018,2018-01-19,"Shere Bangla National Stadium, Mirpur"
+1072312,England,Australia,1,49.6,302,151,30.4,184,Y,2017-2018,2018-01-21,Sydney Cricket Ground
+1072312,Australia,England,2,49.6,286,143,25.5,155,Y,2017-2018,2018-01-21,Sydney Cricket Ground
+1131278,Scotland,U.A.E.,1,49.6,249,125,28.2,170,Y,2017-2018,2018-01-21,ICC Academy
+1130741,Bangladesh,Zimbabwe,1,49.6,216,108,25.6,156,Y,2017-2018,2018-01-23,"Shere Bangla National Stadium, Mirpur"
+1131279,Scotland,U.A.E.,1,49.6,299,150,28.2,170,Y,2017-2018,2018-01-23,ICC Academy
+1130743,Sri Lanka,Bangladesh,1,49.6,221,111,22.6,138,Y,2017-2018,2018-01-27,"Shere Bangla National Stadium, Mirpur"
+1122279,South Africa,India,1,49.7,269,135,28.3,171,Y,2017-2018,2018-02-01,Kingsmead
+1122281,India,South Africa,1,49.7,303,152,25.2,152,Y,2017-2018,2018-02-07,Newlands
+1134033,Afghanistan,Zimbabwe,1,49.7,333,167,33.6,204,Y,2017-2018,2018-02-09,Sharjah Cricket Stadium
+1122282,India,South Africa,1,49.6,289,145,23.6,144,Y,2017-2018,2018-02-10,The Wanderers Stadium
+1134034,Zimbabwe,Afghanistan,1,49.6,333,167,29.6,180,Y,2017-2018,2018-02-11,Sharjah Cricket Stadium
+1122283,India,South Africa,1,49.6,274,137,23.6,144,Y,2017-2018,2018-02-13,St George's Park
+1134037,Afghanistan,Zimbabwe,1,49.6,241,121,24.4,148,Y,2017-2018,2018-02-19,Sharjah Cricket Stadium
+1115775,England,New Zealand,1,49.6,284,142,30.1,181,Y,2017-2018,2018-02-25,Seddon Park
+1115777,England,New Zealand,1,49.6,234,117,30.6,186,Y,2017-2018,2018-03-03,Westpac Stadium
+1115777,New Zealand,England,2,49.6,230,115,28.3,171,Y,2017-2018,2018-03-03,Westpac Stadium
+1133002,P.N.G.,Ireland,1,49.7,235,118,33.5,203,Y,2017-2018,2018-03-06,Harare Sports Club
+1133003,West Indies,U.A.E.,1,49.6,357,179,26.4,160,Y,2017-2018,2018-03-06,Old Hararians
+1133003,U.A.E.,West Indies,2,49.6,297,149,33.1,199,Y,2017-2018,2018-03-06,Old Hararians
+1115778,England,New Zealand,1,49.6,335,168,27.2,164,Y,2017-2018,2018-03-07,University Oval
+1133009,Hong Kong,Afghanistan,1,49.6,241,121,27.7,169,Y,2017-2018,2018-03-08,Bulawayo Athletic Club
+1115779,New Zealand,England,1,49.6,223,112,31.3,189,Y,2017-2018,2018-03-10,Hagley Oval
+1133010,West Indies,Ireland,1,49.6,257,129,32.3,195,Y,2017-2018,2018-03-10,Harare Sports Club
+1133012,Zimbabwe,Hong Kong,1,49.6,263,132,19.2,116,Y,2017-2018,2018-03-10,Queens Sports Club
+1133018,West Indies,Afghanistan,1,49.7,197,99,28.4,172,Y,2017-2018,2018-03-15,Harare Sports Club
+1133019,Scotland,U.A.E.,1,49.6,322,161,34.2,206,Y,2017-2018,2018-03-15,Queens Sports Club
+1133022,Zimbabwe,Ireland,1,49.6,211,106,24.6,150,Y,2017-2018,2018-03-16,Harare Sports Club
+1133025,Ireland,Scotland,1,49.6,271,136,30.4,184,Y,2017-2018,2018-03-18,Harare Sports Club
+1133026,Zimbabwe,West Indies,1,49.6,289,145,29.5,179,Y,2017-2018,2018-03-19,Harare Sports Club
+1133030,Ireland,Afghanistan,1,49.6,209,105,29.3,177,Y,2017-2018,2018-03-23,Harare Sports Club
+1119538,England,Australia,1,49.7,342,171,26.1,157,Y,2018,2018-06-16,Sophia Gardens
+1119539,England,Australia,1,49.6,481,241,29.1,175,Y,2018,2018-06-19,Trent Bridge
+1119540,Australia,England,1,49.6,310,155,30.3,183,Y,2018,2018-06-21,Riverside Ground
+1142920,Pakistan,Zimbabwe,1,49.6,308,154,29.6,180,Y,2018,2018-07-13,Queens Sports Club
+1119547,England,India,1,49.6,322,161,26.2,158,Y,2018,2018-07-14,Lord's
+1119547,India,England,2,49.7,236,118,22.2,134,Y,2018,2018-07-14,Lord's
+1119548,India,England,1,49.6,256,128,24.6,150,Y,2018,2018-07-17,Headingley
+1142923,Pakistan,Zimbabwe,1,49.6,399,200,31.4,190,Y,2018,2018-07-20,Queens Sports Club
+1142924,Pakistan,Zimbabwe,1,49.8,364,182,27.6,168,Y,2018,2018-07-22,Queens Sports Club
+1142924,Zimbabwe,Pakistan,2,49.6,233,117,26.2,158,Y,2018,2018-07-22,Queens Sports Club
+1146720,Bangladesh,West Indies,1,49.6,279,140,31.4,190,Y,2018,2018-07-22,Providence Stadium
+1146720,West Indies,Bangladesh,2,49.6,231,116,29.5,179,Y,2018,2018-07-22,Providence Stadium
+1146721,Bangladesh,West Indies,2,49.6,268,134,26.4,160,Y,2018,2018-07-25,Providence Stadium
+1146722,Bangladesh,West Indies,1,49.6,301,151,30.5,185,Y,2018,2018-07-28,"Warner Park, Basseterre"
+1146722,West Indies,Bangladesh,2,49.6,283,142,29.2,176,Y,2018,2018-07-28,"Warner Park, Basseterre"
+1142585,Sri Lanka,South Africa,1,49.6,244,122,24.6,150,Y,2018,2018-08-01,Rangiri Dambulla International Stadium
+1142586,South Africa,Sri Lanka,1,49.9,363,182,29.3,177,Y,2018,2018-08-05,Pallekele International Cricket Stadium
+1142588,Sri Lanka,South Africa,1,49.7,299,150,28.3,171,Y,2018,2018-08-12,"R.Premadasa Stadium, Khettarama"
+1150146,Afghanistan,Ireland,1,49.6,227,114,27.5,167,Y,2018,2018-08-27,"Civil Service Cricket Club, Stormont"
+1150147,Afghanistan,Ireland,1,49.6,182,91,29.4,178,Y,2018,2018-08-29,"Civil Service Cricket Club, Stormont"
+1154649,U.A.E.,Nepal,1,49.6,254,127,24.7,151,Y,2018,2018-08-30,Kinrara Academy Oval
+1153245,Afghanistan,Sri Lanka,1,49.6,249,125,28.3,171,Y,2018,2018-09-17,Sheikh Zayed Stadium
+1153246,India,Hong Kong,1,49.6,285,143,26.2,158,Y,2018,2018-09-18,Dubai International Cricket Stadium
+1153246,Hong Kong,India,2,49.6,259,130,24.6,150,Y,2018,2018-09-18,Dubai International Cricket Stadium
+1153248,Afghanistan,Bangladesh,1,49.6,255,128,29.6,180,Y,2018,2018-09-20,Sheikh Zayed Stadium
+1153250,Afghanistan,Pakistan,1,49.6,257,129,33.6,204,Y,2018,2018-09-21,Sheikh Zayed Stadium
+1153251,Pakistan,India,1,49.6,237,119,30.3,183,Y,2018,2018-09-23,Dubai International Cricket Stadium
+1153252,Bangladesh,Afghanistan,1,49.7,249,125,29.1,175,Y,2018,2018-09-23,Sheikh Zayed Stadium
+1153252,Afghanistan,Bangladesh,2,49.6,246,123,32.2,194,Y,2018,2018-09-23,Sheikh Zayed Stadium
+1153253,Afghanistan,India,1,49.6,252,126,26.5,161,Y,2018,2018-09-25,Dubai International Cricket Stadium
+1153254,Pakistan,Bangladesh,2,49.6,202,101,27.3,165,Y,2018,2018-09-26,Sheikh Zayed Stadium
+1153255,India,Bangladesh,2,49.6,223,112,24.5,149,Y,2018,2018-09-28,Dubai International Cricket Stadium
+1140380,England,Sri Lanka,1,49.6,278,139,28.2,170,Y,2018-2019,2018-10-13,Rangiri Dambulla International Stadium
+1140382,Sri Lanka,England,1,49.7,273,137,28.8,176,Y,2018-2019,2018-10-20,Pallekele International Cricket Stadium
+1153635,Bangladesh,Zimbabwe,1,49.7,271,136,26.7,163,Y,2018-2019,2018-10-21,"Shere Bangla National Stadium, Mirpur"
+1153635,Zimbabwe,Bangladesh,2,49.6,243,122,30.4,184,Y,2018-2019,2018-10-21,"Shere Bangla National Stadium, Mirpur"
+1157754,West Indies,India,1,49.7,322,161,27.2,164,Y,2018-2019,2018-10-21,Barsapara Cricket Stadium
+1140383,Sri Lanka,England,1,49.6,366,183,28.1,169,Y,2018-2019,2018-10-23,"R.Premadasa Stadium, Khettarama"
+1153636,Zimbabwe,Bangladesh,1,49.6,246,123,25.2,152,Y,2018-2019,2018-10-24,Zahur Ahmed Chowdhury Stadium
+1157755,India,West Indies,1,49.6,321,161,29.4,178,Y,2018-2019,2018-10-24,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+1157755,West Indies,India,2,49.6,321,161,24.6,150,Y,2018-2019,2018-10-24,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+1153637,Zimbabwe,Bangladesh,1,49.6,286,143,26.5,161,Y,2018-2019,2018-10-26,Zahur Ahmed Chowdhury Stadium
+1157756,West Indies,India,1,49.6,283,142,29.4,178,Y,2018-2019,2018-10-27,Maharashtra Cricket Association Stadium
+1157757,India,West Indies,1,49.6,377,189,31.3,189,Y,2018-2019,2018-10-29,Brabourne Stadium
+1157378,New Zealand,Pakistan,1,49.6,266,133,29.6,180,Y,2018-2019,2018-11-07,Sheikh Zayed Stadium
+1144987,South Africa,Australia,2,49.6,224,112,22.5,137,Y,2018-2019,2018-11-09,Adelaide Oval
+1157379,New Zealand,Pakistan,1,49.6,209,105,27.4,166,Y,2018-2019,2018-11-09,Sheikh Zayed Stadium
+1144988,South Africa,Australia,1,49.6,320,160,36.5,221,Y,2018-2019,2018-11-11,Bellerive Oval
+1144988,Australia,South Africa,2,49.7,280,140,29.3,177,Y,2018-2019,2018-11-11,Bellerive Oval
+1157380,Pakistan,New Zealand,1,49.6,279,140,28.3,171,Y,2018-2019,2018-11-11,Dubai International Cricket Stadium
+1153314,West Indies,Bangladesh,1,49.6,195,98,30.3,183,Y,2018-2019,2018-12-09,"Shere Bangla National Stadium, Mirpur"
+1153315,Bangladesh,West Indies,1,49.6,255,128,24.4,148,Y,2018-2019,2018-12-11,"Shere Bangla National Stadium, Mirpur"
+1153316,West Indies,Bangladesh,1,49.6,198,99,24.5,149,Y,2018-2019,2018-12-14,Sylhet International Cricket Stadium
+1153840,New Zealand,Sri Lanka,1,49.6,371,186,30.5,185,Y,2018-2019,2019-01-03,Bay Oval
+1153841,New Zealand,Sri Lanka,1,49.6,319,160,28.1,169,Y,2018-2019,2019-01-05,Bay Oval
+1153842,New Zealand,Sri Lanka,1,49.7,364,182,33.2,200,Y,2018-2019,2019-01-08,Saxton Oval
+1144997,Australia,India,1,49.7,288,144,30.6,186,Y,2018-2019,2019-01-12,Sydney Cricket Ground
+1144997,India,Australia,2,49.6,254,127,29.2,176,Y,2018-2019,2019-01-12,Sydney Cricket Ground
+1144998,Australia,India,1,49.6,298,149,31.2,188,Y,2018-2019,2019-01-15,Adelaide Oval
+1144156,South Africa,Pakistan,1,49.6,266,133,28.3,171,Y,2018-2019,2019-01-19,St George's Park
+1144158,Pakistan,South Africa,1,49.6,317,159,29.5,179,Y,2018-2019,2019-01-25,SuperSport Park
+1153692,India,New Zealand,1,49.6,324,162,27.3,165,Y,2018-2019,2019-01-26,Bay Oval
+1170455,Nepal,U.A.E.,1,49.7,242,121,30.4,184,Y,2018-2019,2019-01-26,ICC Academy
+1170456,U.A.E.,Nepal,1,49.6,254,127,38.5,233,Y,2018-2019,2019-01-28,ICC Academy
+1144160,Pakistan,South Africa,1,49.6,240,120,22.6,138,Y,2018-2019,2019-01-30,Newlands
+1153846,New Zealand,Bangladesh,1,49.6,330,165,31.3,189,Y,2018-2019,2019-02-20,University Oval
+1158066,West Indies,England,1,49.6,360,180,30.3,183,Y,2018-2019,2019-02-20,"Kensington Oval, Barbados"
+1158067,West Indies,England,1,49.6,289,145,30.3,183,Y,2018-2019,2019-02-22,"Kensington Oval, Barbados"
+1158069,England,West Indies,1,49.7,418,209,32.2,194,Y,2018-2019,2019-02-27,"National Cricket Stadium, Grenada"
+1168242,Australia,India,1,49.6,236,118,27.5,167,Y,2018-2019,2019-03-02,"Rajiv Gandhi International Stadium, Uppal"
+1168117,Afghanistan,Ireland,1,49.7,256,128,32.5,197,Y,2018-2019,2019-03-05,"Rajiv Gandhi International Cricket Stadium, Dehradun"
+1168244,Australia,India,1,49.6,313,157,25.3,153,Y,2018-2019,2019-03-08,JSCA International Stadium Complex
+1144169,South Africa,Sri Lanka,1,49.6,331,166,27.2,164,Y,2018-2019,2019-03-10,Kingsmead
+1168119,Afghanistan,Ireland,1,49.8,216,108,32.1,193,Y,2018-2019,2019-03-10,"Rajiv Gandhi International Cricket Stadium, Dehradun"
+1168245,India,Australia,1,49.7,358,179,29.6,180,Y,2018-2019,2019-03-10,"Punjab Cricket Association IS Bindra Stadium, Mohali"
+1168246,Australia,India,1,49.6,272,136,24.6,150,Y,2018-2019,2019-03-13,Arun Jaitley Stadium
+1168246,India,Australia,2,49.7,237,119,24.3,147,Y,2018-2019,2019-03-13,Arun Jaitley Stadium
+1174238,Pakistan,Australia,1,49.6,280,140,30.2,182,Y,2018-2019,2019-03-22,Sharjah Cricket Stadium
+1174239,Pakistan,Australia,1,49.6,284,142,28.1,169,Y,2018-2019,2019-03-24,Sharjah Cricket Stadium
+1174240,Australia,Pakistan,1,49.6,266,133,30.1,181,Y,2018-2019,2019-03-27,Sheikh Zayed Stadium
+1174241,Australia,Pakistan,1,49.6,277,139,27.6,168,Y,2018-2019,2019-03-29,Dubai International Cricket Stadium
+1174241,Pakistan,Australia,2,49.7,271,136,27.2,164,Y,2018-2019,2019-03-29,Dubai International Cricket Stadium
+1174242,Australia,Pakistan,1,49.6,327,164,30.3,183,Y,2018-2019,2019-03-31,Dubai International Cricket Stadium
+1174242,Pakistan,Australia,2,49.7,307,154,26.6,162,Y,2018-2019,2019-03-31,Dubai International Cricket Stadium
+1174845,Namibia,Oman,1,49.6,226,113,33.2,200,Y,2019,2019-04-27,Wanderers Cricket Ground
+1168508,West Indies,Ireland,1,49.8,381,191,30.5,185,Y,2019,2019-05-05,Castle Avenue
+1168509,West Indies,Bangladesh,1,49.7,261,131,27.5,167,Y,2019,2019-05-07,Castle Avenue
+1169330,Scotland,Afghanistan,1,49.6,325,163,32.5,197,Y,2019,2019-05-10,"Grange Cricket Club, Raeburn Place"
+1152842,England,Pakistan,1,49.6,373,187,31.4,190,Y,2019,2019-05-11,The Rose Bowl
+1152842,Pakistan,England,2,49.7,361,181,28.2,170,Y,2019,2019-05-11,The Rose Bowl
+1168511,Ireland,West Indies,1,49.7,327,164,31.2,188,Y,2019,2019-05-11,"The Village, Malahide"
+1168512,West Indies,Bangladesh,1,49.6,247,124,29.6,180,Y,2019,2019-05-13,"The Village, Malahide"
+1152843,Pakistan,England,1,49.6,358,179,29.4,178,Y,2019,2019-05-14,County Ground
+1168513,Ireland,Bangladesh,1,49.6,292,146,30.3,183,Y,2019,2019-05-15,Castle Avenue
+1152844,Pakistan,England,1,49.6,340,170,28.2,170,Y,2019,2019-05-17,Trent Bridge
+1152845,England,Pakistan,1,49.6,351,176,22.6,138,Y,2019,2019-05-19,Headingley
+1168516,Afghanistan,Ireland,1,49.6,305,153,27.6,168,Y,2019,2019-05-21,"Civil Service Cricket Club, Stormont"
+1169332,Sri Lanka,Scotland,1,49.7,322,161,28.6,174,Y,2019,2019-05-21,"Grange Cricket Club, Raeburn Place"
+1144483,England,South Africa,1,49.6,311,156,26.5,161,Y,2019,2019-05-30,Kennington Oval
+1144487,Bangladesh,South Africa,1,49.6,330,165,25.6,156,Y,2019,2019-06-02,Kennington Oval
+1144487,South Africa,Bangladesh,2,49.6,309,155,28.1,169,Y,2019,2019-06-02,Kennington Oval
+1144488,Pakistan,England,1,49.6,348,174,29.4,178,Y,2019,2019-06-03,Trent Bridge
+1144488,England,Pakistan,2,49.6,334,167,27.3,165,Y,2019,2019-06-03,Trent Bridge
+1144490,South Africa,India,1,49.6,227,114,28.4,172,Y,2019,2019-06-05,The Rose Bowl
+1144492,West Indies,Australia,2,49.6,273,137,25.6,156,Y,2019,2019-06-06,Trent Bridge
+1144494,England,Bangladesh,1,49.6,386,193,30.2,182,Y,2019,2019-06-08,Sophia Gardens
+1144496,India,Australia,1,49.7,352,176,30.5,185,Y,2019,2019-06-09,Kennington Oval
+1144496,Australia,India,2,49.6,316,158,30.3,183,Y,2019,2019-06-09,Kennington Oval
+1144502,Australia,Sri Lanka,1,49.6,334,167,30.5,185,Y,2019,2019-06-15,Kennington Oval
+1144504,India,Pakistan,1,49.7,336,168,29.3,177,Y,2019,2019-06-16,Old Trafford
+1144505,West Indies,Bangladesh,1,49.9,321,161,32.4,196,Y,2019,2019-06-17,The Cooper Associates County Ground
+1144506,England,Afghanistan,1,49.7,397,199,34.5,209,Y,2019,2019-06-18,Old Trafford
+1144506,Afghanistan,England,2,49.6,247,124,29.4,178,Y,2019,2019-06-18,Old Trafford
+1144508,Australia,Bangladesh,1,49.6,381,191,33.1,199,Y,2019,2019-06-20,Trent Bridge
+1144508,Bangladesh,Australia,2,49.6,333,167,27.6,168,Y,2019,2019-06-20,Trent Bridge
+1144509,Sri Lanka,England,1,49.6,232,116,26.1,157,Y,2019,2019-06-21,Headingley
+1188378,Zimbabwe,Netherlands,1,49.6,290,145,29.1,175,Y,2019,2019-06-21,Sportpark Het Schootsveld
+1144510,India,Afghanistan,1,49.6,224,112,24.3,147,Y,2019,2019-06-22,The Rose Bowl
+1144511,New Zealand,West Indies,1,49.6,291,146,30.2,182,Y,2019,2019-06-22,Old Trafford
+1144512,Pakistan,South Africa,1,49.6,308,154,31.4,190,Y,2019,2019-06-23,Lord's
+1144512,South Africa,Pakistan,2,49.6,259,130,27.6,168,Y,2019,2019-06-23,Lord's
+1144513,Bangladesh,Afghanistan,1,49.6,262,131,24.5,149,Y,2019,2019-06-24,The Rose Bowl
+1144514,Australia,England,1,49.6,285,143,26.3,159,Y,2019,2019-06-25,Lord's
+1144515,New Zealand,Pakistan,1,49.7,237,119,33.5,203,Y,2019,2019-06-26,Edgbaston
+1144516,India,West Indies,1,49.6,268,134,27.6,168,Y,2019,2019-06-27,Old Trafford
+1144518,Afghanistan,Pakistan,1,49.6,227,114,22.4,136,Y,2019,2019-06-29,Headingley
+1144519,Australia,New Zealand,1,49.6,243,122,26.3,159,Y,2019,2019-06-29,Lord's
+1144520,England,India,1,49.6,337,169,23.5,143,Y,2019,2019-06-30,Edgbaston
+1144520,India,England,2,49.6,306,153,30.1,181,Y,2019,2019-06-30,Edgbaston
+1144521,Sri Lanka,West Indies,1,49.6,338,169,28.4,172,Y,2019,2019-07-01,Riverside Ground
+1144521,West Indies,Sri Lanka,2,49.6,315,158,29.7,181,Y,2019,2019-07-01,Riverside Ground
+1168517,Zimbabwe,Ireland,1,49.6,254,127,29.2,176,Y,2019,2019-07-01,"Bready Cricket Club, Magheramason"
+1144522,India,Bangladesh,1,49.7,314,157,23.5,143,Y,2019,2019-07-02,Edgbaston
+1144523,England,New Zealand,1,49.6,305,153,23.4,142,Y,2019,2019-07-03,Riverside Ground
+1144524,West Indies,Afghanistan,1,49.6,311,156,32.2,194,Y,2019,2019-07-04,Headingley
+1144524,Afghanistan,West Indies,2,49.6,288,144,27.6,168,Y,2019,2019-07-04,Headingley
+1168518,Ireland,Zimbabwe,1,49.6,242,121,25.5,155,Y,2019,2019-07-04,"Civil Service Cricket Club, Stormont"
+1168518,Zimbabwe,Ireland,2,49.6,237,119,22.4,136,Y,2019,2019-07-04,"Civil Service Cricket Club, Stormont"
+1144525,Pakistan,Bangladesh,1,49.6,315,158,29.5,179,Y,2019,2019-07-05,Lord's
+1144526,Sri Lanka,India,1,49.8,264,132,30.3,183,Y,2019,2019-07-06,Headingley
+1144527,South Africa,Australia,1,49.6,325,163,28.1,169,Y,2019,2019-07-06,Old Trafford
+1144528,New Zealand,India,1,49.6,239,120,30.6,186,Y,2019,2019-07-09,Old Trafford
+1144530,New Zealand,England,1,49.7,241,121,27.4,166,Y,2019,2019-07-14,Lord's
+1144530,England,New Zealand,2,49.6,241,121,31.2,188,Y,2019,2019-07-14,Lord's
+1193504,Sri Lanka,Bangladesh,1,49.7,314,157,22.3,135,Y,2019,2019-07-26,"R.Premadasa Stadium, Khettarama"
+1193505,Bangladesh,Sri Lanka,1,49.6,238,119,32.4,196,Y,2019,2019-07-28,"R.Premadasa Stadium, Khettarama"
+1193506,Sri Lanka,Bangladesh,1,49.7,294,147,32.5,197,Y,2019,2019-07-31,"R.Premadasa Stadium, Khettarama"
+1188625,India,West Indies,1,49.7,279,140,29.1,175,Y,2019,2019-08-11,"Queen's Park Oval, Trinidad"
+1196670,P.N.G.,Oman,1,49.6,229,115,24.5,149,Y,2019,2019-08-14,Mannofield Park
+1196672,P.N.G.,Scotland,1,49.6,205,103,25.3,153,Y,2019,2019-08-17,Mannofield Park
+1196673,Scotland,Oman,1,49.6,223,112,30.6,186,Y,2019,2019-08-18,Mannofield Park
+1196674,Scotland,P.N.G.,1,49.6,242,121,34.2,206,Y,2019,2019-08-20,Mannofield Park
+1196674,P.N.G.,Scotland,2,49.6,204,102,29.1,175,Y,2019,2019-08-20,Mannofield Park
+1196675,P.N.G.,Oman,1,49.6,206,103,21.1,127,Y,2019,2019-08-21,Mannofield Park
+1199225,U.S.A.,P.N.G.,1,49.6,251,126,26.4,160,Y,2019,2019-09-13,Central Broward Regional Park Stadium Turf Ground
+1199229,P.N.G.,Namibia,1,49.7,219,110,28.3,171,Y,2019,2019-09-22,Central Broward Regional Park Stadium Turf Ground
+1199230,Namibia,P.N.G.,1,49.8,260,130,29.1,175,Y,2019,2019-09-23,Central Broward Regional Park Stadium Turf Ground
+1198487,Pakistan,Sri Lanka,1,49.6,305,153,30.6,186,Y,2019-2020,2019-09-30,National Stadium
+1198488,Sri Lanka,Pakistan,1,49.7,297,149,28.3,171,Y,2019-2020,2019-10-02,National Stadium
+1193498,West Indies,Afghanistan,1,49.7,247,124,31.3,189,Y,2019-2020,2019-11-09,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium
+1193499,Afghanistan,West Indies,1,49.7,249,125,31.2,188,Y,2019-2020,2019-11-11,Bharat Ratna Shri Atal Bihari Vajpayee Ekana Cricket Stadium
+1206060,U.S.A.,Scotland,1,49.6,282,141,31.5,191,Y,2019-2020,2019-12-09,Sharjah Cricket Stadium
+1206063,U.S.A.,Scotland,1,49.7,245,123,29.1,175,Y,2019-2020,2019-12-14,ICC Academy
+1187021,India,West Indies,1,49.7,287,144,30.6,186,Y,2019-2020,2019-12-15,"MA Chidambaram Stadium, Chepauk"
+1187022,India,West Indies,1,49.7,387,194,32.5,197,Y,2019-2020,2019-12-18,Dr. Y.S. Rajasekhara Reddy ACA-VDCA Cricket Stadium
+1187023,West Indies,India,1,49.6,315,158,34.3,207,Y,2019-2020,2019-12-22,Barabati Stadium
+1211170,U.A.E.,Namibia,1,49.6,222,111,28.5,173,Y,2019-2020,2020-01-06,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)
+1211170,Namibia,U.A.E.,2,49.6,214,107,27.4,166,Y,2019-2020,2020-01-06,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)
+1211171,Namibia,Oman,1,49.6,324,162,27.1,163,Y,2019-2020,2020-01-08,Al Amerat Cricket Ground Oman Cricket (Ministry Turf 1)
+1203674,Ireland,West Indies,1,49.6,237,119,24.6,150,Y,2019-2020,2020-01-09,"Kensington Oval, Barbados"
+1187028,India,Australia,1,49.6,340,170,26.4,160,Y,2019-2020,2020-01-17,Saurashtra Cricket Association Stadium
+1187029,Australia,India,1,49.6,286,143,25.3,153,Y,2019-2020,2020-01-19,M.Chinnaswamy Stadium
+1185310,England,South Africa,1,49.6,258,129,27.2,164,Y,2019-2020,2020-02-04,Newlands
+1187682,India,New Zealand,1,49.9,347,174,32.2,194,Y,2019-2020,2020-02-05,Seddon Park
+1215122,Oman,Nepal,1,49.6,197,99,34.6,210,Y,2019-2020,2020-02-05,Tribhuvan University International Cricket Ground
+1215123,U.S.A.,Oman,1,49.6,213,107,28.6,174,Y,2019-2020,2020-02-06,Tribhuvan University International Cricket Ground
+1187683,New Zealand,India,1,49.6,273,137,25.6,156,Y,2019-2020,2020-02-08,Eden Park
+1185312,South Africa,England,1,49.6,256,128,28.2,170,Y,2019-2020,2020-02-09,The Wanderers Stadium
+1215125,Nepal,Oman,1,49.6,249,125,26.4,160,Y,2019-2020,2020-02-09,Tribhuvan University International Cricket Ground
+1187684,India,New Zealand,1,49.7,296,148,27.6,168,Y,2019-2020,2020-02-11,Bay Oval
+1215126,Oman,U.S.A.,1,49.6,276,138,31.6,192,Y,2019-2020,2020-02-11,Tribhuvan University International Cricket Ground
+1213871,West Indies,Sri Lanka,1,49.6,289,145,30.6,186,Y,2019-2020,2020-02-22,Sinhalese Sports Club Ground
+1213872,Sri Lanka,West Indies,1,49.6,345,173,29.5,179,Y,2019-2020,2020-02-26,"Mahinda Rajapaksa International Cricket Stadium, Sooriyawewa"
+1185319,South Africa,Australia,1,49.7,291,146,30.2,182,Y,2019-2020,2020-02-29,Boland Park
+1213873,Sri Lanka,West Indies,1,49.7,307,154,28.4,172,Y,2019-2020,2020-03-01,Pallekele International Cricket Stadium
+1213873,West Indies,Sri Lanka,2,49.7,301,151,26.3,159,Y,2019-2020,2020-03-01,Pallekele International Cricket Stadium
+1214667,Bangladesh,Zimbabwe,1,49.7,321,161,30.2,182,Y,2019-2020,2020-03-01,Sylhet International Cricket Stadium
+1214668,Bangladesh,Zimbabwe,1,49.6,322,161,27.2,164,Y,2019-2020,2020-03-03,Sylhet International Cricket Stadium
+1214668,Zimbabwe,Bangladesh,2,49.7,318,159,33.1,199,Y,2019-2020,2020-03-03,Sylhet International Cricket Stadium
+1185320,Australia,South Africa,1,49.6,271,136,22.6,138,Y,2019-2020,2020-03-04,Mangaung Oval
+1185321,Australia,South Africa,1,49.6,254,127,29.4,178,Y,2019-2020,2020-03-07,Senwes Park
+1183537,Australia,New Zealand,1,49.6,258,129,25.3,153,Y,2019-2020,2020-03-13,Sydney Cricket Ground
+1198248,Ireland,England,1,49.6,212,106,31.2,188,Y,2020,2020-08-01,The Rose Bowl
+1198249,Ireland,England,2,49.6,329,165,26.1,157,Y,2020,2020-08-04,The Rose Bowl
+1198238,Australia,England,1,49.6,294,147,29.2,176,Y,2020,2020-09-11,Old Trafford
+1198238,England,Australia,2,49.6,275,138,29.7,181,Y,2020,2020-09-11,Old Trafford
+1198239,England,Australia,1,49.7,231,116,27.5,167,Y,2020,2020-09-13,Old Trafford
+1198240,England,Australia,1,49.6,302,151,28.6,174,Y,2020,2020-09-16,Old Trafford
+1233461,Pakistan,Zimbabwe,1,49.6,281,141,31.1,187,Y,2020-2021,2020-10-30,Rawalpindi Cricket Stadium
+1233463,Zimbabwe,Pakistan,1,49.6,278,139,31.4,190,Y,2020-2021,2020-11-03,Rawalpindi Cricket Stadium
+1233463,Pakistan,Zimbabwe,2,49.6,278,139,28.5,173,Y,2020-2021,2020-11-03,Rawalpindi Cricket Stadium
+1223955,Australia,India,1,49.6,374,187,31.6,192,Y,2020-2021,2020-11-27,Sydney Cricket Ground
+1223955,India,Australia,2,49.6,308,154,22.2,134,Y,2020-2021,2020-11-27,Sydney Cricket Ground
+1223956,Australia,India,1,49.6,389,195,30.6,186,Y,2020-2021,2020-11-29,Sydney Cricket Ground
+1223956,India,Australia,2,49.6,338,169,26.1,157,Y,2020-2021,2020-11-29,Sydney Cricket Ground
