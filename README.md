@@ -2,7 +2,7 @@
 
 This is a basic project for building and deploying the cricdata streamlit app   
   
-Last Update: 15/12/2020  
+Last Update: 03 Feb 2020  
 Description: ODI cricket data analysis using Python and Streamlit  
 Docs : https://www.streamlit.io/  
 @author: 18HIAGC  
