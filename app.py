@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # =============================================================================
 # Created on Tue Oct 21, 2020
-# Last Update: 15/12/2020
+# Last Update: 02/04/2021
 # Script Name: streamlit_cricdata_app.py
 # Description: ODI cricket data analysis using Python and Streamlit
 #
@@ -19,12 +19,13 @@ import numpy as np
 import plotly.express as px
 from datetime import datetime
 
-file_dir = './data/'
+#TODO: update directory path
+file_dir = 'C:/Users/Nitesh/Documents/Dev/PythonEnvs/python_cricket/files_python_cricket/'
 # cricsheet file formattted for use in streamlit app (only full 50 over innings included)
 csv_st_cs = 'cricsheet_stdata_ODI.csv'
 csv_st_ssn = 'cricsheet_stdata_ODI_season_grp.csv'
 
-#%% Part 1 : Page Setup (set_page_config, checkbox - darkmode)
+#%% Part 1 : Page Setup (set_page_config)
 
 st.set_page_config(
     page_title="ODI Cricket Data Viewer",
@@ -32,38 +33,6 @@ st.set_page_config(
 	layout="wide",
 	initial_sidebar_state="expanded")
 
-if st.sidebar.checkbox('Darkmode', value=True):
-    st.markdown("""
-    <style>
-    body {
-        color: #008000;
-        background-color: #111;
-    }
-
-    .sidebar .sidebar-content {
-        background-image: linear-gradient(#2e7bcf,#333cff);
-        color: darkgray;
-    }
-    </style>
-    """,
-        unsafe_allow_html=True,
-    )
-else:
-    st.markdown("""
-    <style>
-    body {
-        color: #111;
-        background-color: #fff;
-    }
-
-    .sidebar .sidebar-content {
-        background-image: linear-gradient(#2e7bcf,#333cff);
-        color: white;
-    }
-    </style>
-    """,
-        unsafe_allow_html=True,
-    )
 
 #%% Part 2 : Read CricSheet data (read_cric_csv() function)
 
@@ -95,6 +64,7 @@ def show_data():
     max_team1 = df.iloc[-1, 1]
     max_team2 = df.iloc[-1, 2]
     max_venue = df.iloc[-1, 12]
+    min_season = df.iloc[1, 10]
     max_season = df.iloc[-1, 10]
 
     # Column Multi Select / SelectBox
@@ -111,7 +81,7 @@ def show_data():
     start_season, end_season = st.sidebar.select_slider(
         'Select a range of seasons',
         options=df_season,
-        value=('2005-2006', max_season))
+        value=(min_season, max_season))
 
     teams_top10 = ['Australia', 'Bangladesh', 'England', 'India', 'New Zealand',
                    'Pakistan', 'South Africa', 'Sri Lanka', 'West Indies', 'Zimbabwe']
@@ -164,7 +134,7 @@ new_df, start_season, end_season, fig1, fig2 = show_data()
 
 ### But is this accurate and is it a stable trend?
 
-### The following analysis uses match data starting from the 2005-2006 season \
+### The following analysis uses match data starting from the 2004-2005 season \
 till the present to answer this question.
 
 ### Instructions:
@@ -193,9 +163,8 @@ was around the 2014-2015 season and continued to the 2015 World Cup.
 st.plotly_chart(fig2)
 """## **Acknowledgements**
 Data downloaded from: *[Cricsheet.org](https://cricsheet.org/)*.
-> Cricsheet provides freely-available structured ball-by-ball data
-> for international and T20 League cricket matches.
+> Cricsheet is maintained by __*Stephen Rushe*__ and provides freely-available structured
+> ball-by-ball data for international and T20 League cricket matches.
 >
 >Find Cricsheet on Twitter: *[@cricsheet](https://twitter.com/cricsheet)*
-
 """
