@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # =============================================================================
 # Created on Tue Oct 21, 2020
-# Last Update: 02/04/2021
+# Last Update: 11/04/2021
 # Script Name: streamlit_cricdata_app.py
 # Description: ODI cricket data analysis using Python and Streamlit
 #
@@ -133,7 +133,7 @@ new_df, start_season, end_season, fig1, fig2 = show_data()
 
 ### But is this accurate and is it a stable trend?
 
-### The following analysis uses match data starting from the 2004-2005 season \
+### The following analysis uses match data starting from the 2003-2004 season \
 till the present to answer this question.
 
 ### Instructions:
@@ -144,7 +144,7 @@ till the present to answer this question.
 # st.write('### Selected Season : ', selected_season)
 st.write('You selected playing seasons between', start_season, 'and', end_season)
 
-# """### Mapping of halfway delivery number for batting innings 2006-2020"""
+# """### Mapping of halfway delivery number for ODI batting innings"""
 st.write('Mapping of halfway delivery number for innings between', start_season, 'and', end_season)
 
 # Plot fig1
