@@ -19,8 +19,7 @@ import numpy as np
 import plotly.express as px
 from datetime import datetime
 
-#TODO: update directory path
-file_dir = 'C:/Users/Nitesh/Documents/Dev/PythonEnvs/python_cricket/files_python_cricket/'
+file_dir = './data/'
 # cricsheet file formattted for use in streamlit app (only full 50 over innings included)
 csv_st_cs = 'cricsheet_stdata_ODI.csv'
 csv_st_ssn = 'cricsheet_stdata_ODI_season_grp.csv'
