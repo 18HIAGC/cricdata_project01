@@ -27,7 +27,7 @@ from datetime import datetime
 import base64
 # from base64 import b64encode
 
-file_dir = "C:/Users//Nitesh/Documents/Dev/PythonEnvs/python_cricket/data/"
+file_dir = './data/'
 csv_st_cs = 'cricsheet_stdata_ODI.csv'
 csv_st_ssn = 'cricsheet_stdata_ODI_season_grp.csv'
 
