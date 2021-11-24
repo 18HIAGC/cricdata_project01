@@ -1,108 +1,223 @@
 # -*- coding: utf-8 -*-
 # =============================================================================
 # Created on Tue Oct 21, 2020
-# Last Update: 06/09/2021
-# Script Name: streamlit_cricdata_app_v0_4.py
+# Last Update: 24/11/2021
+# Script Name: streamlit_cricdata_app_v0_6.py
 # Description: ODI cricket data analysis using Python and Streamlit
-# Current version: ver0.4 (Streamlit 0.86)
+#
+# Current version: ver0.6 (Streamlit 1.00)
 # Docs : https://www.streamlit.io/
 #
 # @author: 18HIAGC
 # Acknowledgements: Stephen Rushe (CricSheet.org - cricket scorecard data)
 # =============================================================================
 
-# Changes in version 0.4:
-#1. Updated df formatting: Date field
-#2. Added form and submit button
-#3. Updated plot1 - new colours and plot 2, switched to Altair module
-#7. Created data download link
+# Changes in version 0.6 (sipped depyment of ver0.5):
+#DONE 1. Update df formatting: Date field (DONE!)
+#DONE 2. Add form and submit button
+#DONE 3. Update plot1 - new colours
+#DONE 4. Changed default teams list from Top8 to Top10
 
-#%% Part 1: Imports
+# %% Part 1: Imports
 
-import streamlit as st
-import pandas as pd
+from datetime import datetime
+
 import altair as alt
 import numpy as np
-from datetime import datetime
-import base64
-# from base64 import b64encode
+import pandas as pd
+import streamlit as st
 
-file_dir = './data/'
-csv_st_cs = 'cricsheet_stdata_ODI.csv'
-csv_st_ssn = 'cricsheet_stdata_ODI_season_grp.csv'
+FILE_DIR = './data/'
+CSV_ST_CS = FILE_DIR+'cricsheet_stdata_ODI.csv'
+
+TEAMS_TOP10 = ['Afghanistan', 'Australia', 'Bangladesh', 'England', 'India',
+               'New Zealand', 'Pakistan', 'South Africa', 'Sri Lanka', 'West Indies']
 
 
-#%% Part 2 : Functions - Read CricSheet Data & Get Download Link
-
-@st.cache
-def read_cric_csv():
-    # Dataframe for cricsheet 50 over innings file
-    df_cs = pd.read_csv(file_dir+csv_st_cs, parse_dates=['Date'])
-    # Dataframe for season delivery summary file
-    df_ssn = pd.read_csv(file_dir+csv_st_ssn)
-    # df_ssn = df_ssn.astype({'IHD': str})
-    return df_cs, df_ssn
-
-def get_table_download_link(df):
-    """Generates a link allowing the data in a given panda dataframe to be downloaded
-    in:  dataframe
-    out: href string
-    """
-    csv = new_df.to_csv(index=False)
-    b64 = base64.b64encode(csv.encode()).decode()  # some strings <-> bytes conversions necessary here
-    # href = f'<a href="data:file/csv;base64,{b64}">Download csv file</a>'
-    href = f'<a href="data:file/csv;base64,{b64}" download="data.csv" target="_blank">Download csv file</a>'
-    return href
-
-#%% Part 3 : Page Setup (set_page_config), Title and Opening paragraph
+# %% Part 2.1 : Page Setup (set_page_config)
 
 st.set_page_config(
     page_title="ODI Cricket Data Viewer",
 	page_icon="🏏",
 	layout="wide",
-	initial_sidebar_state="expanded")
+	initial_sidebar_state="expanded",
+    menu_items={'About': "streamlit cricdata app (ver 0.6) \
+                \n updated: scatter plot \
+                \n updated: halfway delivery graph \
+                \n added: stats columns \
+                \n added: definitions"
+                }
+    )
 
-st.title('🏏 ODI Cricket : 30 Over Score Predictions')
 
+# %% Part 2.2 : Opening Paragraph & Instructions
 """
+# ODI Cricket Data Viewer 🏏
 ### The common assumption when watching an ODI match is that the score at \
 (or around) the 30 over mark can be doubled to predict the final score at the \
 50 over mark.
 
-### But is this accurate and is it a stable trend?
+But is this accurate and is it a stable trend?
 
-### The following analysis uses match data starting from the 2003-2004 season \
+The following analysis uses match data starting from the 2003-2004 season \
 till the present to answer this question.
 """
 
-with st.container():
+# %% Part 3 : Functions
 
-    # Display df_cs data
-    with st.expander(label='Instructions', expanded=False):
-        """### :book: Instructions:"""
-        st.markdown('- Make selections for seasons and teams on the User Input sidebar to the left')
-        st.markdown('- Your selections update the interactive graph and table')
+@st.cache
+def read_cric_csv(file_in1):
+    """ Functon to read csv_st_cs
+        Parameters: file_in1 (string, cricsheet 50 over file)
+        Returns: df_cs, df_full50 (2 DataFrames derived from csv file)
+                 match_count1, season_count1, inn50_count1 (int. match stats)
+    """
+    df_cs1 = pd.read_csv(file_in1, parse_dates=['Date'])
+
+    # calc df for full 50 over matches
+    df_full50_1 = df_cs1[df_cs1['Full_50'] == 'Y']
+    df_full50_1 = df_full50_1.reset_index(drop=True)
+    df_full50_1 = df_full50_1.drop(columns=['Final_Del', 'Full_50'])
+
+    # calc match stats
+    match_count1 = df_cs1['Match_ID'].nunique()
+    season_count1 = df_cs1['Season'].nunique()
+    inn50_count1 = df_full50_1['Match_ID'].count()
+
+    return df_cs1, df_full50_1, match_count1, season_count1, inn50_count1
 
 
-#%% Part 3 : Loading data
+@st.cache
+def season_grp_calc(df_in1):
+    """ Function to calculate season average delivery number at which half of
+        total runs is reached.
+        Parameters: df_in1 (DataFrame, df returned by read_cric_csv())
+        Returns: season_grp_AHB (DataFrame), all_AHD (string of delivery numbers)
+    """
 
-# Call function: Read CricSheet Data
+    # SELECT Season, mean(Half_Ball) FROM df_sahd GROUP BY Season
+    df_sahd = df_in1.loc[:, ['Season', 'Half_Del', 'Half_Ball']]
+    # df_sahd.reset_index(inplace=True, drop=True)
+
+    # df_sahd (season avg half-del df) group by Season
+    # .... df_sahd GROUP BY Season
+    season_grp = df_sahd.groupby(df_sahd['Season'])
+
+    # Season Group Avg Haf-Ball : SELECT Season, mean(Half_Ball) ....
+    season_grp_AHB = season_grp['Half_Ball'].agg(['mean', 'count']).round(0)
+    season_grp_AHB.columns = ['Half_Ball', 'Count']
+
+    # calc inn. half del. no. from inn. half ball count
+    season_grp_AHB['Half_Del'] = season_grp_AHB['Half_Ball'] \
+                                 .apply(lambda x: int(x//6) + (int(x%6)/10))
+
+    season_grp_AHB = season_grp_AHB.reset_index()
+    season_grp_AHB = season_grp_AHB.astype({'Half_Ball' : int, 'Count':int})
+
+    # calc all AHD (Avg. Haf Delivery for all 50 over innnngs)
+    all_AHB = df_sahd['Half_Ball'].agg(['mean']).round(0)
+    all_AHD = str(int(all_AHB // 6) + (int(all_AHB % 6) / 10))
+
+    return season_grp_AHB, all_AHD
+
+def display_plot1(df_in2):
+    """ Function to display Altair scatterplot with ruled line.
+        Parameters: df_in2 (DataFrame with ODI innings info)
+        Returns: None.
+    """
+    base = alt.Chart(df_in2).properties(
+            width=900,
+            height=650,
+            # title='Delivery Number at halfway point',
+            # background='#aab7b8',
+            ) #.add_selection(selector)
+
+    color_scale = alt.Scale(
+        domain=['Afghanistan', 'Africa XI', 'Asia XI', 'Australia', 'Bangladesh', 'Bermuda',
+        'Canada', 'Denmark', 'England','Hong Kong', 'India', 'Ireland', 'Italy', 'Kenya',
+        'Malaysia', 'Namibia', 'Nepal', 'Netherlands', 'New Zealand', 'Oman', 'P.N.G.', 'Pakistan',
+        'Scotland', 'South Africa','Sri Lanka', 'U.A.E.', 'U.S.A.', 'Uganda', 'West Indies', 'Zimbabwe'],
+
+        range=['Blue', 'DarkGreen', ' LightBlue', 'Gold', '#006747', 'Blue',
+        'Red', 'Red', 'Navy', 'Green', 'SkyBlue', '#169b62', 'Blue', 'DarkGreen',
+        'Yellow', 'Blue', 'Blue', 'OrangeRed', 'Black', 'Red', 'Black', 'Lime',
+        'Blue', '#007a4d', 'DarkBlue', 'Grey', 'Blue', 'Yellow', '#7b0041', 'Red'],
+    )
+
+    scatterplot = base.mark_point(filled=True, size=100, opacity=0.7
+                                  ).encode(
+            x=alt.X('Date:T',
+                    title = 'Match Date'),
+                    # axis=alt.Axis(values=)),
+            y=alt.Y('Half_Del:Q',
+                    title = 'Halfway Delivery',
+                    scale=alt.Scale(zero=False)),
+                    # scale=alt.Scale(domain=[18,42])),
+                    # axis=alt.Axis(values=ticks)),
+
+            color=alt.Color('Batting_Team:N', scale=color_scale),
+            tooltip=['Batting_Team', 'Opposition', 'Date', 'Half_Del', 'Venue', 'Winner']
+    ).interactive()
+
+    rule = base.mark_rule(color='red', opacity=0.8).encode(
+        y='mean(Half_Del):Q',
+        size=alt.value(5),
+        tooltip=['mean(Half_Del)']
+    )
+
+    st.altair_chart(scatterplot + rule)
+
+
+def display_plot2(df_in3):
+    """ Function to display Altair llne and bar graph plots.
+        Parameters: df_in3 (DataFrame with ODI innings info grouped by season)
+        Returns: None.
+    """
+    base2 = alt.Chart(df_in3).properties(
+                width=800,
+                height=450)
+
+    plot2_1 = base2.mark_line(interpolate='monotone', size=3,
+                              opacity=0.9, color='red').encode(
+                x = alt.X('Season:N'),
+                y = alt.Y('Half_Del:Q',
+                          title = 'Avg. Halfway Delivery',
+                          # axis=alt.Axis(values=['168', '174', '185', '190']),
+                          axis=alt.Axis(values=[26,27,28,29,30,31,32]),
+                          scale=alt.Scale(domain=[26, 32]),
+                          )
+                ).properties(width=800,
+                             height=450)
+
+    plot2_2 = base2.mark_bar(size=15, opacity=0.6, color='green').encode(
+                x = alt.X('Season:N'),
+                y = alt.Y('Half_Del:Q'),
+                tooltip=['Season', 'Half_Del'],
+                ).interactive()
+
+    st.altair_chart(plot2_1 + plot2_2)
+
+
+# %% Part 4 : Loading Data
+
+# Call functions: Read csv file and calc season group data
 data_load_state = st.text('Loading data...')
-df, df_ssn = read_cric_csv()
-df_full50 = df[df['Full_50'] == 'Y']
+
+df_cs, df_full50, match_count, season_count, inn50_count = read_cric_csv(CSV_ST_CS)
+df_ssn, all_avg_ihd = season_grp_calc(df_full50)
 
 # round to one decimal place(s) in python pandas
 pd.options.display.float_format = '{:.1f}'.format
 data_load_state.text('')
 
-# fiter Data
+# filter Data
 # find max (latest available match) date/teams/venue/season
-find_max_date = find_max_date = df_full50['Date'].iloc[-1]
+find_max_date = df_cs['Date'].iloc[-1]
 max_date = datetime.strftime(find_max_date, '%b %d, %Y')
 
-max_team1 = df_full50['Batting_Team'].iloc[-1]
-max_team2 = df_full50['Opposition'].iloc[-1]
-max_venue = df_full50['Venue'].iloc[-1]
+max_team1 = df_cs['Batting_Team'].iloc[-1]
+max_team2 = df_cs['Opposition'].iloc[-1]
+max_venue = df_cs['Venue'].iloc[-1]
 min_season = df_full50['Season'].iloc[0]
 max_season = df_full50['Season'].iloc[-1]
 
@@ -111,131 +226,95 @@ df_teams = list(np.sort(df_full50['Batting_Team'].unique()))
 df_season = list(np.sort(df_full50['Season'].unique()))
 
 
-#%% Part 5 : Display filters in sidebar
+# %% Part 5 : Stats Columns
 
+st.header('Stats')
+col1, col2, col3 = st.columns([1,1,1])
+
+col1.subheader('__*ODI Count*__')
+col1.subheader('_{}_'.format(match_count) )
+
+col2.subheader('_*Full Inn. Count*_')
+col2.subheader('_**{}**_'.format(inn50_count) )
+
+col3.subheader('_Avg Halfway Delivery_')
+col3.subheader('_{}_'.format(float(all_avg_ihd)) )
+
+
+# %% Part 6 : Sidebar : Display filters in sidebar
 
 with st.sidebar.form(key='sidebar_form'):
-    st.subheader('Make selection & click Submit')
+    st.subheader(':star: Make selection & click Submit')
 
     # Sidebar - Start/End Slider: Seasons
+    SLIDER_HELP = 'drag the beginning and end points of the slider to '\
+                  'select first and last season'
     start_season, end_season = st.select_slider('Select start & end season:',
-                                                help='drag the beginning and '\
-                                                'end points of the slider to '\
-                                                'select start and end season',
+                                                help=SLIDER_HELP,
                                                 options=df_season,
                                                 value=(min_season, max_season))
 
-    teams_top10 = ['Australia', 'Bangladesh', 'England', 'India',
-                   'New Zealand', 'Pakistan', 'South Africa', 'West Indies']
-
     # Sidebar - Multiselect: Team
-    team = st.multiselect(label='Add/Remove Batting Teams (default: top 8 teams):',
+    team = st.multiselect(label='Add/Remove Batting Teams (default: top 10 teams):',
                           help='open the dropdown menu on the right to add items, '\
                           'click on the "x" to remove an item',
-                          options=df_teams, default=teams_top10)
+                          options=df_teams, default=TEAMS_TOP10)
 
     # Filter dataframe
-    new_df = df_full50[(df_full50['Batting_Team'].isin(team))
+    selection_df = df_full50[(df_full50['Batting_Team'].isin(team))
                   & (df_full50['Season'] >= start_season)
                   & (df_full50['Season'] <= end_season)]
 
     submit_button = st.form_submit_button(label=' Submit ',
-                                          help='Submit selections made for season and team')
+                    help='Submit selections made for season and team')
 
 
-#%% Part 6.1 : Adding a visualisation - Plot 1
+# %% Part 7 : Display selection info & Instructons
 
-latest_match = ':information_source: Latest available match: **' + max_team1 + \
+# Display config info selected in sidebar form above
+latest_match = ':information_source: Latest available match: **' + max_team1 +\
             '** vs **' + max_team2 + '** at **'+ max_venue + '** on '+ max_date
 
-selected_seasons = ':calendar: You selected playing seasons between **' + start_season + \
-            '** and **'+ end_season + '**'
+selected_seasons = ':calendar: You selected playing seasons between **' \
+                    + start_season + '** and **'+ end_season + '**'
 
 st.info(latest_match + '\n\n' + selected_seasons)
 
-st.subheader('Delivery Number at halfway point of a completed 50 over ODI innings (avg=29.2 overs)')
+with st.container():
 
-base = alt.Chart(new_df).properties(
-        width=900,
-        height=650,
-        # title='Delivery Number at halfway point',
-        # background='#aab7b8',
-        ) #.add_selection(selector)
+    # Display df_cs data
+    with st.expander(label='Instructions  &  Definitions', expanded=False):
+        """### :information_source: Instructions:"""
+        st.markdown('- Make selections for seasons and teams on the User Input sidebar to the left')
+        st.markdown('- Your selections update the interactive graph and table')
 
-
-color_scale = alt.Scale(
-    domain=['Afghanistan', 'Africa XI', 'Asia XI', 'Australia', 'Bangladesh', 'Bermuda',
-    'Canada', 'Denmark', 'England','Hong Kong', 'India', 'Ireland', 'Italy', 'Kenya',
-    'Malaysia', 'Namibia', 'Nepal', 'Netherlands', 'New Zealand', 'Oman', 'P.N.G.', 'Pakistan',
-    'Scotland', 'South Africa','Sri Lanka', 'U.A.E.', 'U.S.A.', 'Uganda', 'West Indies', 'Zimbabwe'],
-
-    range=['Blue', 'DarkGreen', ' LightBlue', 'Gold', '#006747', 'Blue',
-    'Red', 'Red', 'Navy', 'Green', 'SkyBlue', '#169b62', 'Blue', 'DarkGreen',
-    'Yellow', 'Blue', 'Blue', 'OrangeRed', 'Black', 'Red', 'Black', 'Lime',
-    'Blue', '#007a4d', 'DarkBlue', 'Grey', 'Blue', 'Yellow', '#7b0041', 'Red'],
-)
-
-scatterplot = base.mark_point(filled=True, size=100, opacity=0.7
-                              ).encode(
-        x=alt.X('Date:T',
-                title = 'Match Date'),
-                # axis=alt.Axis(values=)),
-        y=alt.Y('Half_Del:Q',
-                title = 'Halfway Delivery',
-                scale=alt.Scale(zero=False)),
-                # scale=alt.Scale(domain=[18,42])),
-                # axis=alt.Axis(values=ticks)),
-
-        color=alt.Color('Batting_Team:N', scale=color_scale),
-        tooltip=['Batting_Team', 'Opposition', 'Date', 'Half_Del', 'Venue', 'Winner?']
-).interactive()
-
-rule = base.mark_rule(color='red', opacity=0.8).encode(
-    y='mean(Half_Del):Q',
-    size=alt.value(5),
-    tooltip=['mean(Half_Del)']
-)
-
-st.altair_chart(scatterplot + rule)
+        """### :book: Definitions:"""
+        st.markdown('+ Halfway Delivery:')
+        st.markdown('Delivery at which half of all runs for that 50 over innings \
+            were scored. e.g. If the innings score after 50 overs was 200 runs \
+            and 100 runs were scored after 30.1 overs then 30.1 overs is the \
+            halfway delivery number.')
+        st.markdown('+ Full Innings \ Completed Innings:')
+        st.markdown('A completed 50 over ODI innings where all 300 legal \
+            deliveries were bowled.')
 
 
-#%% Part 6.2 : Adding a visualisation - Plot 2
+# %% Part 8 : Display visualisations - Plot 1 & 2
 
-"""
-### On average 29.2 overs are been bowled when the halfway mark (in terms of final \
-score) is reached in a completed 50 over innings. But this mark has varied over the years. \
-The peak was around the 2014-2015 season and continued to the 2015 World Cup.
-"""
+st.subheader('Delivery Number at halfway point of a completed 50 over ODI innings'\
+             ' (avg=' + all_avg_ihd + ' overs)')
 
-# print(df_ssn.info(),df_ssn)
+display_plot1(selection_df)
 
-base2 = alt.Chart(df_ssn).properties(
-            width=800,
-            height=450)
+st.subheader(all_avg_ihd + ' overs are bowled on average before the halfway '\
+             'mark (in terms of final score) is reached in a completed 50 over '\
+             'innings. But this mark has varied over time. The peak was '\
+             'around the 2014-2015 season and continued to the 2015 World Cup.')
 
-plot2_1 = base2.mark_line(interpolate='monotone', size=8,
-                          opacity=1, color='red').encode(
-            x = alt.X('Season:N'),
-            y = alt.Y('IHD:Q',
-                      title = 'Avg. Halfway Delivery',
-                      # axis=alt.Axis(values=['168', '174', '185', '190']),
-                      axis=alt.Axis(values=[21,22,23,24,25,26,27]),
-                      scale=alt.Scale(domain=[21, 27]),
-                      )
-            ).properties(width=800,
-                         height=450)
-
-plot2_2 = base2.mark_bar(size=15, opacity=0.5).encode(
-            # .transform_filter('datum.Season == ['2005', '2018']')
-            x = alt.X('Season:N'),
-            y = alt.Y('IHD:Q'),
-            tooltip=['Season', 'IHD'],
-            ).interactive()
-
-st.altair_chart(plot2_1 + plot2_2)
+display_plot2(df_ssn)
 
 
-#%% Part 7 : Display df data
+# %% Part 9 : Display df data
 
 with st.container():
 
@@ -247,16 +326,20 @@ with st.container():
         st.write('> Explore the data for every completed 50 over innings on ' \
                  'selected playing seasons between **', start_season, \
                  '**and**', end_season ,'**')
-        st.info(':information_source: This table is interactive. Select options on the sidebar to customise')
+        st.info(':information_source: This table is interactive.'\
+                'Select options on the sidebar to customise')
 
         # Display data table
-        st.write(new_df.style.format({'Final_Del': '{:.1f}', 'Half_Del': '{:.1f}','Date': '{:%Y/%m/%d}'}))
-
-        # download_link
-        st.markdown(get_table_download_link(df), unsafe_allow_html=True)
+        # st.write(selection_df.style.format(Half_Del': '{:.1f}','Date': '{:%Y/%m/%d}'}))
+        st.write(selection_df)
 
 
-#%% Part 8 : Display Acknowledgements
+# %% Part 10 : Table of PowerPlay rule changes over time
+
+# st.title("Powerplay Rule Changes :white_circle::white_circle:")
+
+
+# %% Part 11 : Display Acknowledgements
 
 
 # """### Mapping of halfway delivery number for ODI batting innings"""
@@ -268,6 +351,5 @@ Data downloaded from: *[Cricsheet.org](https://cricsheet.org/)*.
 > Cricsheet is maintained by __*Stephen Rushe*__ and provides freely-available structured
 > ball-by-ball data for international and T20 League cricket matches.
 >
->Find Cricsheet on Twitter: *[@cricsheet](https://twitter.com/cricsheet)*
+>Find Cricsheet on Twitter :bird: : *[@cricsheet](https://twitter.com/cricsheet)*
 """
-
