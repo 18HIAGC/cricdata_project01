@@ -1,6 +1,6 @@
-datetime
 altair
-gsheetsdb
-numpy
+datetime
+gspread
 pandas
+ServiceAccountCredentials
 streamlit
