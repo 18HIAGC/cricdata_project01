@@ -1,6 +1,6 @@
 altair
 datetime
 gspread
+oauth2client
 pandas
-ServiceAccountCredentials
 streamlit
