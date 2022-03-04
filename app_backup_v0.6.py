@@ -1,24 +1,30 @@
 # -*- coding: utf-8 -*-
 # =============================================================================
 # Created on Tue Oct 21, 2020
-# Last Update: 04/03/2022
-# Script Name: streamlit_cricdata_app_v0_7.py
+# Last Update: 24/11/2021
+# Script Name: streamlit_cricdata_app_v0_6.py
 # Description: ODI cricket data analysis using Python and Streamlit
 #
-# Current version: ver0.7 (Streamlit 1.7.0)
+# Current version: ver0.6 (Streamlit 1.00)
 # Docs : https://www.streamlit.io/
 #
 # @author: 18HIAGC
 # Acknowledgements: Stephen Rushe (CricSheet.org - cricket scorecard data)
 # =============================================================================
 
+# Changes in version 0.6 (sipped depyment of ver0.5):
+#DONE 1. Update df formatting: Date field (DONE!)
+#DONE 2. Add form and submit button
+#DONE 3. Update plot1 - new colours
+#DONE 4. Changed default teams list from Top8 to Top10
+
 # %% Part 1: Imports
 
-import altair as alt
 from datetime import datetime
-import gspread
+
+import altair as alt
+import numpy as np
 import pandas as pd
-from oauth2client.service_account import ServiceAccountCredentials as sac
 import streamlit as st
 
 FILE_DIR = './data/'
@@ -27,8 +33,6 @@ CSV_ST_CS = FILE_DIR+'cricsheet_stdata_ODI.csv'
 TEAMS_TOP10 = ['Afghanistan', 'Australia', 'Bangladesh', 'England', 'India',
                'New Zealand', 'Pakistan', 'South Africa', 'Sri Lanka', 'West Indies']
 
-gsheet_name = st.secrets.gsheet_name
-WSHEET_NUM = 0
 
 # %% Part 2.1 : Page Setup (set_page_config)
 
@@ -37,11 +41,11 @@ st.set_page_config(
 	page_icon="🏏",
 	layout="wide",
 	initial_sidebar_state="expanded",
-    menu_items={'About': "streamlit cricdata app (ver 0.7 - 2022-03-04) :panda_face:\
-                \n updated:  \
-                \n updated: \
-                \n added: Google Sheets integration \
-                \n added: Infograhic Image (Avg. Halfway Del.)"
+    menu_items={'About': "streamlit cricdata app (ver 0.6) \
+                \n updated: scatter plot \
+                \n updated: halfway delivery graph \
+                \n added: stats columns \
+                \n added: definitions"
                 }
     )
 
@@ -61,54 +65,27 @@ till the present to answer this question.
 
 # %% Part 3 : Functions
 
-def cred_dict_constructor():
-    """ Function to construct the cred_dict (credentials dictionary)
-    """
-    cred_dict1 = dict(
-        type = st.secrets['gcp_service_account']['type'],
-        project_id = st.secrets['gcp_service_account']['project_id'],
-        private_key_id = st.secrets['gcp_service_account']['private_key_id'],
-        private_key = st.secrets['gcp_service_account']['private_key'],
-        client_email = st.secrets['gcp_service_account']['client_email'],
-        client_id = st.secrets['gcp_service_account']['client_id'],
-        auth_uri = st.secrets['gcp_service_account']['auth_uri'],
-        token_uri = st.secrets['gcp_service_account']['token_uri'],
-        auth_provider_x509_cert_url = st.secrets['gcp_service_account']['auth_provider_x509_cert_url'],
-        client_x509_cert_url = st.secrets['gcp_service_account']['client_x509_cert_url']
-        )
-
-    return cred_dict1
-
-def gsheet2df(cred_dict1, gsheet_name1, wsheet_num1):
-    """ Function to fetch a google sheet and convert it into a df """
-    scope = ['https://spreadsheets.google.com/feeds',
-             'https://www.googleapis.com/auth/drive']
-
-    credentials = sac.from_json_keyfile_dict(cred_dict1, scope)
-    client = gspread.authorize(credentials)
-
-    gsheet1 = client.open(gsheet_name1)
-    worksheet = gsheet1.get_worksheet(wsheet_num1).get_all_records()
-
-    df_cs1 = pd.DataFrame(worksheet)
-    df_cs1['Date'] = pd.to_datetime(df_cs1['Date'])
-
-    return df_cs1
-
 @st.cache
-def read_cric_csv(df_cs1):
-    """ Functon to read cricsheet_stdata_ODI
-        Parameters: df_cs1 (df, cricsheet 50 over file)
+def read_cric_csv(file_in1):
+    """ Functon to read csv_st_cs
+        Parameters: file_in1 (string, cricsheet 50 over file)
         Returns: df_cs, df_full50 (2 DataFrames derived from csv file)
                  match_count1, season_count1, inn50_count1 (int. match stats)
     """
-    # calc df for full 50 over matches
-    df_full50 = df_cs1[df_cs1['Full_50'] == 'Y']
-    df_full50 = df_full50.reset_index(drop=True)
-    df_full50 = df_full50.drop(columns=['Final_Del', 'Full_50'])
-    df_full50['Season'] = df_full50['Season'].astype(str)
+    df_cs1 = pd.read_csv(file_in1, parse_dates=['Date'])
 
-    return df_full50
+    # calc df for full 50 over matches
+    df_full50_1 = df_cs1[df_cs1['Full_50'] == 'Y']
+    df_full50_1 = df_full50_1.reset_index(drop=True)
+    df_full50_1 = df_full50_1.drop(columns=['Final_Del', 'Full_50'])
+
+    # calc match stats
+    match_count1 = df_cs1['Match_ID'].nunique()
+    season_count1 = df_cs1['Season'].nunique()
+    inn50_count1 = df_full50_1['Match_ID'].count()
+
+    return df_cs1, df_full50_1, match_count1, season_count1, inn50_count1
+
 
 @st.cache
 def season_grp_calc(df_in1):
@@ -179,8 +156,7 @@ def display_plot1(df_in2):
                     # axis=alt.Axis(values=ticks)),
 
             color=alt.Color('Batting_Team:N', scale=color_scale),
-            tooltip=['Batting_Team', 'Bowling_Team', 'Date', 'Half_Del',
-                     'Venue', 'Winner']
+            tooltip=['Batting_Team', 'Opposition', 'Date', 'Half_Del', 'Venue', 'Winner']
     ).interactive()
 
     rule = base.mark_rule(color='red', opacity=0.8).encode(
@@ -192,17 +168,42 @@ def display_plot1(df_in2):
     st.altair_chart(scatterplot + rule)
 
 
+def display_plot2(df_in3):
+    """ Function to display Altair llne and bar graph plots.
+        Parameters: df_in3 (DataFrame with ODI innings info grouped by season)
+        Returns: None.
+    """
+    base2 = alt.Chart(df_in3).properties(
+                width=800,
+                height=450)
+
+    plot2_1 = base2.mark_line(interpolate='monotone', size=3,
+                              opacity=0.9, color='red').encode(
+                x = alt.X('Season:N'),
+                y = alt.Y('Half_Del:Q',
+                          title = 'Avg. Halfway Delivery',
+                          # axis=alt.Axis(values=['168', '174', '185', '190']),
+                          axis=alt.Axis(values=[26,27,28,29,30,31,32]),
+                          scale=alt.Scale(domain=[26, 32]),
+                          )
+                ).properties(width=800,
+                             height=450)
+
+    plot2_2 = base2.mark_bar(size=15, opacity=0.6, color='green').encode(
+                x = alt.X('Season:N'),
+                y = alt.Y('Half_Del:Q'),
+                tooltip=['Season', 'Half_Del'],
+                ).interactive()
+
+    st.altair_chart(plot2_1 + plot2_2)
+
+
 # %% Part 4 : Loading Data
 
 # Call functions: Read csv file and calc season group data
 data_load_state = st.text('Loading data...')
 
-# construct cred_dict
-cred_dict = cred_dict_constructor()
-
-df_cs = gsheet2df(cred_dict, gsheet_name, WSHEET_NUM)
-
-df_full50 = read_cric_csv(df_cs)
+df_cs, df_full50, match_count, season_count, inn50_count = read_cric_csv(CSV_ST_CS)
 df_ssn, all_avg_ihd = season_grp_calc(df_full50)
 
 # round to one decimal place(s) in python pandas
@@ -215,21 +216,17 @@ find_max_date = df_cs['Date'].iloc[-1]
 max_date = datetime.strftime(find_max_date, '%b %d, %Y')
 
 max_team1 = df_cs['Batting_Team'].iloc[-1]
-max_team2 = df_cs['Bowling_Team'].iloc[-1]
+max_team2 = df_cs['Opposition'].iloc[-1]
 max_venue = df_cs['Venue'].iloc[-1]
 min_season = df_full50['Season'].iloc[0]
 max_season = df_full50['Season'].iloc[-1]
 
-df_teams = list(df_full50['Batting_Team'].sort_values().unique())
-df_season = list(df_full50['Season'].sort_values().unique())
+# Column Multi Select / SelectBox
+df_teams = list(np.sort(df_full50['Batting_Team'].unique()))
+df_season = list(np.sort(df_full50['Season'].unique()))
 
 
 # %% Part 5 : Stats Columns
-
-# calc match stats
-match_count = df_cs['Match_ID'].nunique()
-season_count = df_cs['Season'].nunique()
-inn50_count = df_cs['Match_ID'].count()
 
 st.header('Stats')
 col1, col2, col3 = st.columns([1,1,1])
@@ -293,7 +290,7 @@ with st.container():
 
         """### :book: Definitions:"""
         st.markdown('+ Halfway Delivery:')
-        st.markdown('Deiivery at which half of all runs for that 50 over innings \
+        st.markdown('Delivery at which half of all runs for that 50 over innings \
             were scored. e.g. If the innings score after 50 overs was 200 runs \
             and 100 runs were scored after 30.1 overs then 30.1 overs is the \
             halfway delivery number.')
@@ -302,24 +299,19 @@ with st.container():
             deliveries were bowled.')
 
 
-# %% Part 8 : Display visualisations - Plot 1 & Infographic Image
+# %% Part 8 : Display visualisations - Plot 1 & 2
 
-st.header('Average Delivery Number')
-st.write('Delivery Number at halfway point of a completed 50 over ODI innings'\
+st.subheader('Delivery Number at halfway point of a completed 50 over ODI innings'\
              ' (avg=' + all_avg_ihd + ' overs)')
 
 display_plot1(selection_df)
 
-
-st.header('New Balll and Powerplay Rule Changes')
 st.subheader(all_avg_ihd + ' overs are bowled on average before the halfway '\
              'mark (in terms of final score) is reached in a completed 50 over '\
              'innings. But this mark has varied over time. The peak was '\
-             'around the 2014-2015 season and continued to the 2015 World Cup. '\
-             'After the dropping of the Batting Powerplay rule the averages declined again.')
-"""> *[wikipedia: Powerplay(cricket)](https://en.wikipedia.org/wiki/Powerplay_(cricket))*"""
+             'around the 2014-2015 season and continued to the 2015 World Cup.')
 
-st.image(FILE_DIR + 'avg_halfway_del+PP+NB.png')
+display_plot2(df_ssn)
 
 
 # %% Part 9 : Display df data
@@ -332,7 +324,8 @@ with st.container():
     # if st.checkbox('Show raw data'):
         st.subheader(':memo: ODI innings raw data')
         st.write('> Explore the data for every completed 50 over innings on ' \
-                 'selected playing seasons between', start_season,'and', end_season)
+                 'selected playing seasons between **', start_season, \
+                 '**and**', end_season ,'**')
         st.info(':information_source: This table is interactive.'\
                 'Select options on the sidebar to customise')
 
@@ -341,15 +334,22 @@ with st.container():
         st.write(selection_df)
 
 
-# %% Part 10 : Display Acknowledgements
+# %% Part 10 : Table of PowerPlay rule changes over time
+
+# st.title("Powerplay Rule Changes :white_circle::white_circle:")
+
+
+# %% Part 11 : Display Acknowledgements
+
 
 # """### Mapping of halfway delivery number for ODI batting innings"""
 # st.write('Mapping of halfway delivery number for innings between', start_season, 'and', end_season)
 
+
 """## **Acknowledgements**
-#### Data downloaded from: *[Cricsheet.org](https://cricsheet.org/)*.
-> Cricsheet is maintained by __*Stephen Rushe*__ and provides freely-available
-> structured ball-by-ball data for international and T20 League cricket matches.
+Data downloaded from: *[Cricsheet.org](https://cricsheet.org/)*.
+> Cricsheet is maintained by __*Stephen Rushe*__ and provides freely-available structured
+> ball-by-ball data for international and T20 League cricket matches.
 >
 >Find Cricsheet on Twitter :bird: : *[@cricsheet](https://twitter.com/cricsheet)*
 """

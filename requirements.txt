@@ -1,3 +1,6 @@
+datetime
+altair
+gsheetsdb
+numpy
 pandas
 streamlit
-plotly
