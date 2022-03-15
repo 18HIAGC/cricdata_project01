@@ -38,8 +38,6 @@ st.set_page_config(
 	layout="wide",
 	initial_sidebar_state="expanded",
     menu_items={'About': "streamlit cricdata app (ver 0.7 - 2022-03-04) :panda_face:\
-                \n updated:  \
-                \n updated: \
                 \n added: Google Sheets integration \
                 \n added: Infograhic Image (Avg. Halfway Del.)"
                 }
