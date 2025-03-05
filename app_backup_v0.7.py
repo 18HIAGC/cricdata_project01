@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 # =============================================================================
 # Created on Tue Oct 21, 2020
-# Last Update: 2025/03/05
-# Script Name: streamlit_cricdata_app_v0_9_5.py
-# Description: ODI cricket data analytics using Python and Streamlit
+# Last Update: 04/03/2022
+# Script Name: streamlit_cricdata_app_v0_7.py
+# Description: ODI cricket data analysis using Python and Streamlit
 #
-# Current version: ver0.9.5 (Streamlit 1.42.0)
+# Current version: ver0.7 (Streamlit 1.7.0)
 # Docs : https://www.streamlit.io/
 #
 # @author: 18HIAGC
@@ -16,17 +16,19 @@
 
 import altair as alt
 from datetime import datetime
+import gspread
 import pandas as pd
+from oauth2client.service_account import ServiceAccountCredentials as sac
 import streamlit as st
-import streamlit.components.v1 as components
 
+FILE_DIR = './data/'
+CSV_ST_CS = FILE_DIR+'cricsheet_stdata_ODI.csv'
 
-DATA_DIR = './data/'
-STREAMLIT_DATA_FILE = DATA_DIR + 'cricsheet_stdata_ODI.csv'
-
-TEAMS_TOP9 = ['Australia', 'Bangladesh', 'England', 'India',
+TEAMS_TOP10 = ['Afghanistan', 'Australia', 'Bangladesh', 'England', 'India',
                'New Zealand', 'Pakistan', 'South Africa', 'Sri Lanka', 'West Indies']
 
+gsheet_name = st.secrets.gsheet_name
+WSHEET_NUM = 0
 
 # %% Part 2.1 : Page Setup (set_page_config)
 
@@ -35,8 +37,8 @@ st.set_page_config(
 	page_icon="🏏",
 	layout="wide",
 	initial_sidebar_state="expanded",
-    menu_items={'About': "streamlit cricdata app (ver 0.9.5 - 2025-03-05) :panda_face:\
-                \n added: Updated source data \
+    menu_items={'About': "streamlit cricdata app (ver 0.7 - 2022-03-04) :panda_face:\
+                \n added: Google Sheets integration \
                 \n added: Infograhic Image (Avg. Halfway Del.)"
                 }
     )
@@ -47,26 +49,51 @@ st.set_page_config(
 # ODI Cricket Data Viewer 🏏
 ### The common assumption when watching an ODI match is that the score at \
 (or around) the 30 over mark can be doubled to predict the final score at the \
-50 over mark. But is this accurate and is it a stable trend?
+50 over mark.
+
+But is this accurate and is it a stable trend?
 
 The following analysis uses match data starting from the 2003-2004 season \
 till the present to answer this question.
-
-N.B. Afghanistan matches are missing from the source data.
-*[Explanation for withholding of Afghanistani matches](https://cricsheet.org/article/explanation-for-withholding-of-afghanistani-matches/)*
 """
 
 # %% Part 3 : Functions
 
-@st.cache_data
-def csv2df(data_file):
-    """ Function to fetch cricdata all summary data from a .csv file """
-    df_cs2 = pd.read_csv(data_file)
-    df_cs2['Date'] = pd.to_datetime(df_cs2['Date'])
+def cred_dict_constructor():
+    """ Function to construct the cred_dict (credentials dictionary)
+    """
+    cred_dict1 = dict(
+        type = st.secrets['gcp_service_account']['type'],
+        project_id = st.secrets['gcp_service_account']['project_id'],
+        private_key_id = st.secrets['gcp_service_account']['private_key_id'],
+        private_key = st.secrets['gcp_service_account']['private_key'],
+        client_email = st.secrets['gcp_service_account']['client_email'],
+        client_id = st.secrets['gcp_service_account']['client_id'],
+        auth_uri = st.secrets['gcp_service_account']['auth_uri'],
+        token_uri = st.secrets['gcp_service_account']['token_uri'],
+        auth_provider_x509_cert_url = st.secrets['gcp_service_account']['auth_provider_x509_cert_url'],
+        client_x509_cert_url = st.secrets['gcp_service_account']['client_x509_cert_url']
+        )
 
-    return df_cs2
+    return cred_dict1
 
-@st.cache_data
+def gsheet2df(cred_dict1, gsheet_name1, wsheet_num1):
+    """ Function to fetch a google sheet and convert it into a df """
+    scope = ['https://spreadsheets.google.com/feeds',
+             'https://www.googleapis.com/auth/drive']
+
+    credentials = sac.from_json_keyfile_dict(cred_dict1, scope)
+    client = gspread.authorize(credentials)
+
+    gsheet1 = client.open(gsheet_name1)
+    worksheet = gsheet1.get_worksheet(wsheet_num1).get_all_records()
+
+    df_cs1 = pd.DataFrame(worksheet)
+    df_cs1['Date'] = pd.to_datetime(df_cs1['Date'])
+
+    return df_cs1
+
+@st.cache
 def read_cric_csv(df_cs1):
     """ Functon to read cricsheet_stdata_ODI
         Parameters: df_cs1 (df, cricsheet 50 over file)
@@ -81,7 +108,7 @@ def read_cric_csv(df_cs1):
 
     return df_full50
 
-@st.cache_data
+@st.cache
 def season_grp_calc(df_in1):
     """ Function to calculate season average delivery number at which half of
         total runs is reached.
@@ -93,7 +120,8 @@ def season_grp_calc(df_in1):
     df_sahd = df_in1.loc[:, ['Season', 'Half_Del', 'Half_Ball']]
     # df_sahd.reset_index(inplace=True, drop=True)
 
-    # df_sahd (season avg half-del df) GROUP BY Season
+    # df_sahd (season avg half-del df) group by Season
+    # .... df_sahd GROUP BY Season
     season_grp = df_sahd.groupby(df_sahd['Season'])
 
     # Season Group Avg Haf-Ball : SELECT Season, mean(Half_Ball) ....
@@ -113,7 +141,6 @@ def season_grp_calc(df_in1):
 
     return season_grp_AHB, all_AHD
 
-@st.cache_data
 def display_plot1(df_in2):
     """ Function to display Altair scatterplot with ruled line.
         Parameters: df_in2 (DataFrame with ODI innings info)
@@ -127,17 +154,15 @@ def display_plot1(df_in2):
             ) #.add_selection(selector)
 
     color_scale = alt.Scale(
-        domain=['Africa XI', 'Asia XI', 'Australia', 'Bangladesh', 'Bermuda',
+        domain=['Afghanistan', 'Africa XI', 'Asia XI', 'Australia', 'Bangladesh', 'Bermuda',
         'Canada', 'Denmark', 'England','Hong Kong', 'India', 'Ireland', 'Italy', 'Kenya',
         'Malaysia', 'Namibia', 'Nepal', 'Netherlands', 'New Zealand', 'Oman', 'P.N.G.', 'Pakistan',
-        'Scotland', 'South Africa','Sri Lanka', 'U.A.E.', 'U.S.A.', 'Uganda', 'West Indies',
-        'Zimbabwe'],
+        'Scotland', 'South Africa','Sri Lanka', 'U.A.E.', 'U.S.A.', 'Uganda', 'West Indies', 'Zimbabwe'],
 
-        range=['DarkGreen', ' LightBlue', 'Gold', '#006747', 'Blue',
+        range=['Blue', 'DarkGreen', ' LightBlue', 'Gold', '#006747', 'Blue',
         'Red', 'Red', 'Navy', 'Green', 'SkyBlue', '#169b62', 'Blue', 'DarkGreen',
         'Yellow', 'Blue', 'Blue', 'OrangeRed', 'Black', 'Red', 'Black', 'Lime',
-        'Blue', '#007a4d', 'DarkBlue', 'Grey', 'Blue', 'Yellow', '#7b0041',
-        'Red'],
+        'Blue', '#007a4d', 'DarkBlue', 'Grey', 'Blue', 'Yellow', '#7b0041', 'Red'],
     )
 
     scatterplot = base.mark_point(filled=True, size=100, opacity=0.7
@@ -146,7 +171,7 @@ def display_plot1(df_in2):
                     title = 'Match Date'),
                     # axis=alt.Axis(values=)),
             y=alt.Y('Half_Del:Q',
-                    title = 'Halfway Delivery Over',
+                    title = 'Halfway Delivery',
                     scale=alt.Scale(zero=False)),
                     # scale=alt.Scale(domain=[18,42])),
                     # axis=alt.Axis(values=ticks)),
@@ -164,105 +189,16 @@ def display_plot1(df_in2):
 
     st.altair_chart(scatterplot + rule)
 
-@st.cache_data
-def display_plot2(df_in3):
-    """ Function to display Altair line and bar graph plots.
-        Parameters: df_in3 (DataFrame with ODI innings info grouped by season)
-        Returns: None.
-    """
-    base2 = alt.Chart(df_in3).properties(
-                width=800,
-                height=450)
-
-    plot1 = base2.mark_bar(size=15, opacity=0.6).encode(
-                x = alt.X('Season:O'),
-                y = alt.Y('Half_Del:Q',
-                          title = 'Avg. Halfway Delivery',
-                          # axis=alt.Axis(values=['168', '174', '185', '190']),
-                          axis=alt.Axis(values=[26,27,28,29,30,31,32]),
-                          scale=alt.Scale(domain=[26, 32]),
-                          ),
-                color=alt.condition(
-                            alt.datum.Season == '2014-2015',
-                            alt.value('orange'),
-                            alt.value('steelblue')
-                ),
-                tooltip=['Season:O', 'Half_Del:Q'],
-                ).interactive()
-
-    plot2 = base2.mark_line(interpolate='monotone', size=5,
-                              opacity=0.5, color='yellow').encode(
-                x = alt.X('Season:O'),
-                y = alt.Y('Half_Del:Q',
-                          title = 'Avg. Halfway Delivery',
-                          )
-                )
-
-    st.altair_chart(plot1 + plot2)
-
-@st.cache_data
-def html_counter(starter, target):
-
-    my_html2 = """
-        <!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <style>
-                div.a {{
-                  /*white-space: nowrap; */
-                  width: 250px;
-                  overflow: hidden;
-                  text-overflow: clip;
-                  border: 1px solid #000000;
-                  font-family:Verdana;
-                  font-size: 30px
-                }}
-
-                div.b {{
-                  /*white-space: nowrap; */
-                  width: 250px;
-                  overflow: hidden;
-                  text-overflow: clip;
-                  border: 1px solid #000000;
-                  font-family:Verdana;
-                  font-size: 50px
-                }}
-            </style>
-        </head>
-
-        <body style="text-align:left; margin: auto; border: 1px solid #000000;">
-            <div class="a">ODI COUNT</div>
-            <div class="b"; id="counter">
-        		<!-- counts -->
-        	</div>
-
-            <script>
-                let counts = setInterval(updated, 50);
-                let starter = {0};
-                const target = {1};
-                let count = document.getElementById("counter");
-
-                function updated() {{
-                    starter += 1;
-                    count.innerHTML = starter;
-
-                    if (starter === target) {{
-                        clearInterval(counts);
-                    }}
-                }}
-            </script>
-        </body>
-        </html>
-        """.format(starter, target)
-
-    return my_html2
 
 # %% Part 4 : Loading Data
 
 # Call functions: Read csv file and calc season group data
 data_load_state = st.text('Loading data...')
 
-df_cs = csv2df(STREAMLIT_DATA_FILE)
+# construct cred_dict
+cred_dict = cred_dict_constructor()
+
+df_cs = gsheet2df(cred_dict, gsheet_name, WSHEET_NUM)
 
 df_full50 = read_cric_csv(df_cs)
 df_ssn, all_avg_ihd = season_grp_calc(df_full50)
@@ -285,6 +221,7 @@ max_season = df_full50['Season'].iloc[-1]
 df_teams = list(df_full50['Batting_Team'].sort_values().unique())
 df_season = list(df_full50['Season'].sort_values().unique())
 
+
 # %% Part 5 : Stats Columns
 
 # calc match stats
@@ -292,9 +229,17 @@ match_count = df_cs['Match_ID'].nunique()
 season_count = df_cs['Season'].nunique()
 inn50_count = df_cs['Match_ID'].count()
 
-st.subheader('Stats')
+st.header('Stats')
+col1, col2, col3 = st.columns([1,1,1])
 
-components.html(html_counter(match_count - 50, match_count), width=250, height=120,)
+col1.subheader('__*ODI Count*__')
+col1.subheader('_{}_'.format(match_count) )
+
+col2.subheader('_*Full Inn. Count*_')
+col2.subheader('_**{}**_'.format(inn50_count) )
+
+col3.subheader('_Avg Halfway Delivery_')
+col3.subheader('_{}_'.format(float(all_avg_ihd)) )
 
 
 # %% Part 6 : Sidebar : Display filters in sidebar
@@ -311,10 +256,10 @@ with st.sidebar.form(key='sidebar_form'):
                                                 value=(min_season, max_season))
 
     # Sidebar - Multiselect: Team
-    team = st.multiselect(label='Add/Remove Batting Teams (default: top 9 teams):',
+    team = st.multiselect(label='Add/Remove Batting Teams (default: top 10 teams):',
                           help='open the dropdown menu on the right to add items, '\
                           'click on the "x" to remove an item',
-                          options=df_teams, default=TEAMS_TOP9)
+                          options=df_teams, default=TEAMS_TOP10)
 
     # Filter dataframe
     selection_df = df_full50[(df_full50['Batting_Team'].isin(team))
@@ -322,8 +267,7 @@ with st.sidebar.form(key='sidebar_form'):
                   & (df_full50['Season'] <= end_season)]
 
     submit_button = st.form_submit_button(label=' Submit ',
-                    help='Submit selections made for season and team',
-                    type= 'primary')
+                    help='Submit selections made for season and team')
 
 
 # %% Part 7 : Display selection info & Instructons
@@ -347,7 +291,7 @@ with st.container():
 
         """### :book: Definitions:"""
         st.markdown('+ Halfway Delivery:')
-        st.markdown('Delivery at which half of all runs for that 50 over innings \
+        st.markdown('Deiivery at which half of all runs for that 50 over innings \
             were scored. e.g. If the innings score after 50 overs was 200 runs \
             and 100 runs were scored after 30.1 overs then 30.1 overs is the \
             halfway delivery number.')
@@ -373,7 +317,7 @@ st.subheader(all_avg_ihd + ' overs are bowled on average before the halfway '\
              'After the dropping of the Batting Powerplay rule the averages declined again.')
 """> *[wikipedia: Powerplay(cricket)](https://en.wikipedia.org/wiki/Powerplay_(cricket))*"""
 
-st.image(DATA_DIR + 'avg_halfway_del+PP+NB.png')
+st.image(FILE_DIR + 'avg_halfway_del+PP+NB.png')
 
 
 # %% Part 9 : Display df data
@@ -391,8 +335,7 @@ with st.container():
                 'Select options on the sidebar to customise')
 
         # Display data table
-        # st.write(selection_df.style.format(
-        #                         {'Half_Del': '{:.1f}','Date': '{:%Y-%m-%d}'}))
+        # st.write(selection_df.style.format(Half_Del': '{:.1f}','Date': '{:%Y/%m/%d}'}))
         st.write(selection_df)
 
 
@@ -406,7 +349,5 @@ with st.container():
 > Cricsheet is maintained by __*Stephen Rushe*__ and provides freely-available
 > structured ball-by-ball data for international and T20 League cricket matches.
 >
-> Find Cricsheet on Mastadon :mammoth: : *[@cricsheet (@cricsheet@deeden.co.uk)*
->
-> *[Explanation for withholding of Afghanistani matches](https://cricsheet.org/article/explanation-for-withholding-of-afghanistani-matches/)*
+>Find Cricsheet on Twitter :bird: : *[@cricsheet](https://twitter.com/cricsheet)*
 """
