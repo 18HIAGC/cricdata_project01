@@ -12,7 +12,7 @@
 # Acknowledgements: Stephen Rushe (CricSheet.org - cricket scorecard data)
 # =============================================================================
 
-%% Part 1: Imports
+# %% Part 1: Imports
 
 import altair as alt
 from datetime import datetime
@@ -20,30 +20,22 @@ import pandas as pd
 import streamlit as st
 import streamlit.components.v1 as components
 
-APP_VERSION = '1.0'
 
-# DATA_DIR = './data/'
-DATA_DIR = 'C:/Users/Nitesh/Documents/Dev/PythonEnvs/python_data/st_cricket_data/data/'
+DATA_DIR = './data/'
 STREAMLIT_DATA_FILE = DATA_DIR + 'cricsheet_stdata_ODI.csv'
 
 TEAMS_TOP9 = ['Australia', 'Bangladesh', 'England', 'India',
                'New Zealand', 'Pakistan', 'South Africa', 'Sri Lanka', 'West Indies']
 
-exec_type = 'TESTING'   # 'TESTING' or 'PRODUCTION'
-
-
-# %% Part 1.2 - Credentials
-
-gsheet_name = 'cricsheet_stdata_ODI'
 
 # %% Part 2.1 : Page Setup (set_page_config)
 
 st.set_page_config(
-    page_title="ODI Cricket Data Explorer",
+    page_title="ODI Cricket Data Viewer",
 	page_icon="🏏",
 	layout="wide",
 	initial_sidebar_state="expanded",
-    menu_items={'About': "streamlit cricdata app (ver " + APP_VERSION + " - 2025-03-20) :panda_face:\
+    menu_items={'About': "streamlit cricdata app (ver 0.9.5 - 2025-03-05) :panda_face:\
                 \n added: Updated source data \
                 \n added: Infograhic Image (Avg. Halfway Del.)"
                 }
@@ -52,7 +44,7 @@ st.set_page_config(
 
 # %% Part 2.2 : Opening Paragraph & Instructions
 """
-# ODI Cricket : The 30 Over Prediction 🏏
+# ODI Cricket Data Viewer 🏏
 ### The common assumption when watching an ODI match is that the score at \
 (or around) the 30 over mark can be doubled to predict the final score at the \
 50 over mark. But is this accurate and is it a stable trend?
@@ -65,23 +57,6 @@ N.B. Afghanistan matches are missing from the source data.
 """
 
 # %% Part 3 : Functions
-
-# @st.cache_data
-# def gsheet2df(cred_dict1, gsheet_name1, wsheet_num1):
-#     """ Function to fetch a google sheet and convert it into a df """
-#     scope = ['https://spreadsheets.google.com/feeds',
-#              'https://www.googleapis.com/auth/drive']
-
-#     credentials = sac.from_json_keyfile_dict(cred_dict1, scope)
-#     client = gspread.authorize(credentials)
-
-#     gsheet1 = client.open(gsheet_name1)
-#     worksheet = gsheet1.get_worksheet(wsheet_num1).get_all_records()
-
-#     df_cs1 = pd.DataFrame(worksheet)
-#     df_cs1['Date'] = pd.to_datetime(df_cs1['Date'])
-
-#     return df_cs1
 
 @st.cache_data
 def csv2df(data_file):
@@ -134,8 +109,7 @@ def season_grp_calc(df_in1):
 
     # calc all AHD (Avg. Haf Delivery for all 50 over innnngs)
     all_AHB = df_sahd['Half_Ball'].agg(['mean']).round(0)
-    # all_AHD = str(int(all_AHB // 6) + (int(all_AHB % 6) / 10))
-    all_AHD = str(int(all_AHB.iloc[0] // 6) + (int(all_AHB.iloc[0] % 6) / 10))
+    all_AHD = str(int(all_AHB // 6) + (int(all_AHB % 6) / 10))
 
     return season_grp_AHB, all_AHD
 
@@ -283,13 +257,12 @@ def html_counter(starter, target):
 
     return my_html2
 
-
 # %% Part 4 : Loading Data
 
 # Call functions: Read csv file and calc season group data
 data_load_state = st.text('Loading data...')
 
-df_cs = csv2df(STREAMLIT_DATA_FILE) # ValueError("DataFrame constructor not properly called!") error fixed by replacing pd.dataframe with pd.read_csv
+df_cs = csv2df(STREAMLIT_DATA_FILE)
 
 df_full50 = read_cric_csv(df_cs)
 df_ssn, all_avg_ihd = season_grp_calc(df_full50)
@@ -310,12 +283,7 @@ min_season = df_full50['Season'].iloc[0]
 max_season = df_full50['Season'].iloc[-1]
 
 df_teams = list(df_full50['Batting_Team'].sort_values().unique())
-
-# df_full50['Season'] = df_full50['Season'].astype(str)
-# df_full50['Season'] = pd.to_datetime(df_full50['Date'])
-
 df_season = list(df_full50['Season'].sort_values().unique())
-# df_season = [x.replace('-20', '-') for x in df_season]
 
 # %% Part 5 : Stats Columns
 
@@ -325,21 +293,8 @@ season_count = df_cs['Season'].nunique()
 inn50_count = df_cs['Match_ID'].count()
 
 st.subheader('Stats')
+
 components.html(html_counter(match_count - 50, match_count), width=250, height=120,)
-# col1, col2, col3 = st.columns([1,1,1])
-
-# col1.subheader('__*ODI Count*__')
-# col1.subheader('_{}_'.format(match_count) )
-
-# col2.subheader('_*Full Inn. Count*_')
-# col2.subheader('_**{}**_'.format(inn50_count) )
-
-st.header('_Avg Halfway Delivery_')
-st.header('_{}_'.format(float(all_avg_ihd)) )
-
-# fig, ax = plt.subplots()
-# ax.hist(df_full50['Half_Del'], bins=25)
-# col2.pyplot(fig)
 
 
 # %% Part 6 : Sidebar : Display filters in sidebar
@@ -404,7 +359,8 @@ with st.container():
 # %% Part 8 : Display visualisations - Plot 1 & Infographic Image
 
 st.header('Average Delivery Number')
-st.write('Delivery Number at halfway point of a completed 50 over ODI innings')
+st.write('Delivery Number at halfway point of a completed 50 over ODI innings'\
+             ' (avg=' + all_avg_ihd + ' overs)')
 
 display_plot1(selection_df)
 
@@ -435,9 +391,9 @@ with st.container():
                 'Select options on the sidebar to customise')
 
         # Display data table
-        st.write(selection_df.style.format(
-                                {'Half_Del': '{:.1f}','Date': '{:%Y-%m-%d}'}))
-        # st.write(selection_df)
+        # st.write(selection_df.style.format(
+        #                         {'Half_Del': '{:.1f}','Date': '{:%Y-%m-%d}'}))
+        st.write(selection_df)
 
 
 # %% Part 10 : Display Acknowledgements
@@ -446,13 +402,11 @@ with st.container():
 # st.write('Mapping of halfway delivery number for innings between', start_season, 'and', end_season)
 
 """## **Acknowledgements**
-##### Data downloaded from: *[Cricsheet.org](https://cricsheet.org/)*.
+#### Data downloaded from: *[Cricsheet.org](https://cricsheet.org/)*.
 > Cricsheet is maintained by __*Stephen Rushe*__ and provides freely-available
 > structured ball-by-ball data for international and T20 League cricket matches.
 >
-> Find Cricsheet on Mastadon :mammoth: : *[@cricsheet@deeden.co.uk](https://social.deeden.co.uk/@cricsheet)*
+> Find Cricsheet on Mastadon :mammoth: : *[@cricsheet (@cricsheet@deeden.co.uk)*
 >
 > *[Explanation for withholding of Afghanistani matches](https://cricsheet.org/article/explanation-for-withholding-of-afghanistani-matches/)*
->
-##### Questions or Comments? Contact the author via email: 18hiagc@gmail.com
 """
