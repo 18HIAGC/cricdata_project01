@@ -2,17 +2,17 @@
 # =============================================================================
 # Created on Tue Oct 21, 2020
 # Last Update: 2025/03/05
-# Script Name: streamlit_cricdata_app_v0_9_5.py
+# Script Name: streamlit_cricdata_app_v1.0.py
 # Description: ODI cricket data analytics using Python and Streamlit
 #
-# Current version: ver0.9.5 (Streamlit 1.42.0)
+# Current version: ver1.0 (Streamlit 1.43.2)
 # Docs : https://www.streamlit.io/
 #
 # @author: 18HIAGC
 # Acknowledgements: Stephen Rushe (CricSheet.org - cricket scorecard data)
 # =============================================================================
 
-%% Part 1: Imports
+# %% Part 1: Imports
 
 import altair as alt
 from datetime import datetime
