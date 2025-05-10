@@ -22,8 +22,7 @@ import streamlit.components.v1 as components
 
 APP_VERSION = '1.0'
 
-# DATA_DIR = './data/'
-DATA_DIR = 'C:/Users/Nitesh/Documents/Dev/PythonEnvs/python_data/st_cricket_data/data/'
+DATA_DIR = './data/'
 STREAMLIT_DATA_FILE = DATA_DIR + 'cricsheet_stdata_ODI.csv'
 
 TEAMS_TOP9 = ['Australia', 'Bangladesh', 'England', 'India',
@@ -65,23 +64,6 @@ N.B. Afghanistan matches are missing from the source data.
 """
 
 # %% Part 3 : Functions
-
-# @st.cache_data
-# def gsheet2df(cred_dict1, gsheet_name1, wsheet_num1):
-#     """ Function to fetch a google sheet and convert it into a df """
-#     scope = ['https://spreadsheets.google.com/feeds',
-#              'https://www.googleapis.com/auth/drive']
-
-#     credentials = sac.from_json_keyfile_dict(cred_dict1, scope)
-#     client = gspread.authorize(credentials)
-
-#     gsheet1 = client.open(gsheet_name1)
-#     worksheet = gsheet1.get_worksheet(wsheet_num1).get_all_records()
-
-#     df_cs1 = pd.DataFrame(worksheet)
-#     df_cs1['Date'] = pd.to_datetime(df_cs1['Date'])
-
-#     return df_cs1
 
 @st.cache_data
 def csv2df(data_file):
@@ -289,7 +271,7 @@ def html_counter(starter, target):
 # Call functions: Read csv file and calc season group data
 data_load_state = st.text('Loading data...')
 
-df_cs = csv2df(STREAMLIT_DATA_FILE) # ValueError("DataFrame constructor not properly called!") error fixed by replacing pd.dataframe with pd.read_csv
+df_cs = csv2df(STREAMLIT_DATA_FILE)
 
 df_full50 = read_cric_csv(df_cs)
 df_ssn, all_avg_ihd = season_grp_calc(df_full50)
@@ -326,20 +308,9 @@ inn50_count = df_cs['Match_ID'].count()
 
 st.subheader('Stats')
 components.html(html_counter(match_count - 50, match_count), width=250, height=120,)
-# col1, col2, col3 = st.columns([1,1,1])
-
-# col1.subheader('__*ODI Count*__')
-# col1.subheader('_{}_'.format(match_count) )
-
-# col2.subheader('_*Full Inn. Count*_')
-# col2.subheader('_**{}**_'.format(inn50_count) )
 
 st.header('_Avg Halfway Delivery_')
 st.header('_{}_'.format(float(all_avg_ihd)) )
-
-# fig, ax = plt.subplots()
-# ax.hist(df_full50['Half_Del'], bins=25)
-# col2.pyplot(fig)
 
 
 # %% Part 6 : Sidebar : Display filters in sidebar
