@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # =============================================================================
 # Created on Tue Oct 21, 2020
-# Last Update: 2025/03/05
+# Last Update: 2025/05/10
 # Script Name: streamlit_cricdata_app_v1.0.py
 # Description: ODI cricket data analytics using Python and Streamlit
 #
@@ -27,8 +27,6 @@ STREAMLIT_DATA_FILE = DATA_DIR + 'cricsheet_stdata_ODI.csv'
 
 TEAMS_TOP9 = ['Australia', 'Bangladesh', 'England', 'India',
                'New Zealand', 'Pakistan', 'South Africa', 'Sri Lanka', 'West Indies']
-
-exec_type = 'TESTING'   # 'TESTING' or 'PRODUCTION'
 
 
 # %% Part 1.2 - Credentials
